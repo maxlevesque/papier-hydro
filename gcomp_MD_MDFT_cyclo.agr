@@ -1,0 +1,3619 @@
+# Grace project file
+#
+@version 50122
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 14 to "MyriadPro-Regular", "MyriadPro-Regular"
+@map font 15 to "MyriadPro-It", "MyriadPro-It"
+@map font 16 to "MyriadPro-Semibold", "MyriadPro-Semibold"
+@map font 17 to "MyriadPro-SemiboldIt", "MyriadPro-SemiboldIt"
+@map font 18 to "MyriadPro-Bold", "MyriadPro-Bold"
+@map font 19 to "MyriadPro-BoldIt", "MyriadPro-BoldIt"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Jul 23 14:21:00 2013"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 15, 2
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 2.0
+@    xaxis  label "r(\cE\C)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.750000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 5
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick major in
+@    xaxis  tick minor in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 2.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.500000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 2.0
+@    yaxis  label "g\sG-O"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.750000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick major in
+@    yaxis  tick minor in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 2.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.500000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend off
+@    legend loctype view
+@    legend 0.785, 0.85
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden true
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s0 legend  ""
+@    s1 hidden true
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 2
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s1 legend  ""
+@    s2 hidden true
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 3
+@    s2 symbol pattern 1
+@    s2 symbol fill color 3
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 3
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 3
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s2 legend  ""
+@    s3 hidden true
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 4
+@    s3 symbol pattern 1
+@    s3 symbol fill color 4
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 4
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 4
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s3 legend  ""
+@    s4 hidden true
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 5
+@    s4 symbol pattern 1
+@    s4 symbol fill color 5
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 1
+@    s4 line linewidth 1.0
+@    s4 line color 5
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 5
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s4 legend  ""
+@    s5 hidden true
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 6
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s5 legend  ""
+@    s6 hidden true
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 7
+@    s6 symbol pattern 1
+@    s6 symbol fill color 7
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 1
+@    s6 line linewidth 1.0
+@    s6 line color 7
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 7
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s6 legend  ""
+@    s7 hidden true
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 8
+@    s7 symbol pattern 1
+@    s7 symbol fill color 8
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 8
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 8
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s7 legend  ""
+@    s8 hidden true
+@    s8 type xy
+@    s8 symbol 0
+@    s8 symbol size 1.000000
+@    s8 symbol color 9
+@    s8 symbol pattern 1
+@    s8 symbol fill color 9
+@    s8 symbol fill pattern 0
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 1
+@    s8 line linewidth 1.0
+@    s8 line color 9
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 9
+@    s8 errorbar pattern 1
+@    s8 errorbar size 1.000000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s8 legend  ""
+@    s9 hidden true
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 10
+@    s9 symbol pattern 1
+@    s9 symbol fill color 10
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 10
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 10
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s9 legend  ""
+@    s10 hidden true
+@    s10 type xy
+@    s10 symbol 0
+@    s10 symbol size 1.000000
+@    s10 symbol color 11
+@    s10 symbol pattern 1
+@    s10 symbol fill color 11
+@    s10 symbol fill pattern 0
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 1
+@    s10 line linewidth 1.0
+@    s10 line color 11
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 11
+@    s10 errorbar pattern 1
+@    s10 errorbar size 1.000000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s10 legend  ""
+@    s11 hidden true
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 12
+@    s11 symbol pattern 1
+@    s11 symbol fill color 12
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 12
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 12
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s11 legend  ""
+@    s12 hidden true
+@    s12 type xy
+@    s12 symbol 0
+@    s12 symbol size 1.000000
+@    s12 symbol color 13
+@    s12 symbol pattern 1
+@    s12 symbol fill color 13
+@    s12 symbol fill pattern 0
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 1
+@    s12 line linewidth 1.0
+@    s12 line color 13
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 13
+@    s12 errorbar pattern 1
+@    s12 errorbar size 1.000000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s12 legend  ""
+@    s13 hidden true
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 14
+@    s13 symbol pattern 1
+@    s13 symbol fill color 14
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 14
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 14
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s13 legend  ""
+@    s14 hidden true
+@    s14 type xy
+@    s14 symbol 0
+@    s14 symbol size 1.000000
+@    s14 symbol color 15
+@    s14 symbol pattern 1
+@    s14 symbol fill color 15
+@    s14 symbol fill pattern 0
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 1
+@    s14 line linewidth 1.0
+@    s14 line color 15
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 15
+@    s14 errorbar pattern 1
+@    s14 errorbar size 1.000000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s14 legend  ""
+@    s15 hidden true
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 1
+@    s15 symbol pattern 1
+@    s15 symbol fill color 1
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 1
+@    s15 line linewidth 1.0
+@    s15 line color 1
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 1
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s15 legend  ""
+@    s16 hidden true
+@    s16 type xy
+@    s16 symbol 0
+@    s16 symbol size 1.000000
+@    s16 symbol color 2
+@    s16 symbol pattern 1
+@    s16 symbol fill color 2
+@    s16 symbol fill pattern 0
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 0
+@    s16 symbol skip 0
+@    s16 line type 1
+@    s16 line linestyle 1
+@    s16 line linewidth 1.0
+@    s16 line color 2
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 1
+@    s16 fill pattern 1
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 0
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 2
+@    s16 errorbar pattern 1
+@    s16 errorbar size 1.000000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s16 legend  ""
+@    s17 hidden true
+@    s17 type xy
+@    s17 symbol 0
+@    s17 symbol size 1.000000
+@    s17 symbol color 3
+@    s17 symbol pattern 1
+@    s17 symbol fill color 3
+@    s17 symbol fill pattern 0
+@    s17 symbol linewidth 1.0
+@    s17 symbol linestyle 1
+@    s17 symbol char 65
+@    s17 symbol char font 0
+@    s17 symbol skip 0
+@    s17 line type 1
+@    s17 line linestyle 1
+@    s17 line linewidth 1.0
+@    s17 line color 3
+@    s17 line pattern 1
+@    s17 baseline type 0
+@    s17 baseline off
+@    s17 dropline off
+@    s17 fill type 0
+@    s17 fill rule 0
+@    s17 fill color 1
+@    s17 fill pattern 1
+@    s17 avalue off
+@    s17 avalue type 2
+@    s17 avalue char size 1.000000
+@    s17 avalue font 0
+@    s17 avalue color 1
+@    s17 avalue rot 0
+@    s17 avalue format general
+@    s17 avalue prec 3
+@    s17 avalue prepend ""
+@    s17 avalue append ""
+@    s17 avalue offset 0.000000 , 0.000000
+@    s17 errorbar on
+@    s17 errorbar place both
+@    s17 errorbar color 3
+@    s17 errorbar pattern 1
+@    s17 errorbar size 1.000000
+@    s17 errorbar linewidth 1.0
+@    s17 errorbar linestyle 1
+@    s17 errorbar riser linewidth 1.0
+@    s17 errorbar riser linestyle 1
+@    s17 errorbar riser clip off
+@    s17 errorbar riser clip length 0.100000
+@    s17 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s17 legend  ""
+@    s18 hidden false
+@    s18 type xy
+@    s18 symbol 0
+@    s18 symbol size 1.000000
+@    s18 symbol color 4
+@    s18 symbol pattern 1
+@    s18 symbol fill color 4
+@    s18 symbol fill pattern 0
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 1
+@    s18 symbol char 65
+@    s18 symbol char font 0
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 1
+@    s18 line linewidth 2.0
+@    s18 line color 1
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 0
+@    s18 fill rule 0
+@    s18 fill color 1
+@    s18 fill pattern 1
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 0
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 4
+@    s18 errorbar pattern 1
+@    s18 errorbar size 1.000000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/output/g.rdf"
+@    s18 legend  ""
+@    s19 hidden true
+@    s19 type xy
+@    s19 symbol 0
+@    s19 symbol size 1.000000
+@    s19 symbol color 5
+@    s19 symbol pattern 1
+@    s19 symbol fill color 5
+@    s19 symbol fill pattern 0
+@    s19 symbol linewidth 1.0
+@    s19 symbol linestyle 1
+@    s19 symbol char 65
+@    s19 symbol char font 0
+@    s19 symbol skip 0
+@    s19 line type 1
+@    s19 line linestyle 1
+@    s19 line linewidth 2.0
+@    s19 line color 4
+@    s19 line pattern 1
+@    s19 baseline type 0
+@    s19 baseline off
+@    s19 dropline off
+@    s19 fill type 0
+@    s19 fill rule 0
+@    s19 fill color 1
+@    s19 fill pattern 1
+@    s19 avalue off
+@    s19 avalue type 2
+@    s19 avalue char size 1.000000
+@    s19 avalue font 0
+@    s19 avalue color 1
+@    s19 avalue rot 0
+@    s19 avalue format general
+@    s19 avalue prec 3
+@    s19 avalue prepend ""
+@    s19 avalue append ""
+@    s19 avalue offset 0.000000 , 0.000000
+@    s19 errorbar on
+@    s19 errorbar place both
+@    s19 errorbar color 5
+@    s19 errorbar pattern 1
+@    s19 errorbar size 1.000000
+@    s19 errorbar linewidth 1.0
+@    s19 errorbar linestyle 1
+@    s19 errorbar riser linewidth 1.0
+@    s19 errorbar riser linestyle 1
+@    s19 errorbar riser clip off
+@    s19 errorbar riser clip length 0.100000
+@    s19 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/HSB/output/g.rdf"
+@    s19 legend  ""
+@    s20 hidden false
+@    s20 type xy
+@    s20 symbol 1
+@    s20 symbol size 0.500000
+@    s20 symbol color 4
+@    s20 symbol pattern 1
+@    s20 symbol fill color 6
+@    s20 symbol fill pattern 0
+@    s20 symbol linewidth 1.5
+@    s20 symbol linestyle 1
+@    s20 symbol char 65
+@    s20 symbol char font 0
+@    s20 symbol skip 0
+@    s20 line type 0
+@    s20 line linestyle 1
+@    s20 line linewidth 1.0
+@    s20 line color 4
+@    s20 line pattern 1
+@    s20 baseline type 0
+@    s20 baseline off
+@    s20 dropline off
+@    s20 fill type 0
+@    s20 fill rule 0
+@    s20 fill color 1
+@    s20 fill pattern 1
+@    s20 avalue off
+@    s20 avalue type 2
+@    s20 avalue char size 1.000000
+@    s20 avalue font 0
+@    s20 avalue color 1
+@    s20 avalue rot 0
+@    s20 avalue format general
+@    s20 avalue prec 3
+@    s20 avalue prepend ""
+@    s20 avalue append ""
+@    s20 avalue offset 0.000000 , 0.000000
+@    s20 errorbar on
+@    s20 errorbar place both
+@    s20 errorbar color 6
+@    s20 errorbar pattern 1
+@    s20 errorbar size 1.000000
+@    s20 errorbar linewidth 1.0
+@    s20 errorbar linestyle 1
+@    s20 errorbar riser linewidth 1.0
+@    s20 errorbar riser linestyle 1
+@    s20 errorbar riser clip off
+@    s20 errorbar riser clip length 0.100000
+@    s20 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s20 legend  ""
+@    s38 hidden false
+@    s38 type xy
+@    s38 symbol 0
+@    s38 symbol size 1.000000
+@    s38 symbol color 2
+@    s38 symbol pattern 1
+@    s38 symbol fill color 2
+@    s38 symbol fill pattern 0
+@    s38 symbol linewidth 1.0
+@    s38 symbol linestyle 1
+@    s38 symbol char 65
+@    s38 symbol char font 0
+@    s38 symbol skip 0
+@    s38 line type 1
+@    s38 line linestyle 1
+@    s38 line linewidth 2.0
+@    s38 line color 2
+@    s38 line pattern 1
+@    s38 baseline type 0
+@    s38 baseline off
+@    s38 dropline off
+@    s38 fill type 0
+@    s38 fill rule 0
+@    s38 fill color 1
+@    s38 fill pattern 1
+@    s38 avalue off
+@    s38 avalue type 2
+@    s38 avalue char size 1.000000
+@    s38 avalue font 0
+@    s38 avalue color 1
+@    s38 avalue rot 0
+@    s38 avalue format general
+@    s38 avalue prec 3
+@    s38 avalue prepend ""
+@    s38 avalue append ""
+@    s38 avalue offset 0.000000 , 0.000000
+@    s38 errorbar on
+@    s38 errorbar place both
+@    s38 errorbar color 2
+@    s38 errorbar pattern 1
+@    s38 errorbar size 1.000000
+@    s38 errorbar linewidth 1.0
+@    s38 errorbar linestyle 1
+@    s38 errorbar riser linewidth 1.0
+@    s38 errorbar riser linestyle 1
+@    s38 errorbar riser clip off
+@    s38 errorbar riser clip length 0.100000
+@    s38 comment "/Volumes/Pandore/hydro/molecule/cyclohexane/SPC/Totalrdfcyclo.dat"
+@    s38 legend  "MD"
+@target G0.S0
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0.00063
+3 0.01726
+3.2 0.16655
+3.4 0.50078
+3.6 0.76511
+3.8 0.96335
+4 0.89647
+4.2 0.87057
+4.4 0.88649
+4.6 0.93436
+4.8 1.02066
+5 0.99908
+5.2 0.97162
+5.4 0.97289
+5.6 0.96981
+5.8 1.01785
+6 1.05629
+6.2 1.06154
+6.4 1.03646
+6.6 1.01067
+6.8 0.98497
+7 0.97316
+7.2 0.97407
+7.4 0.97846
+7.6 0.98208
+7.8 0.9869
+8 0.98945
+8.2 0.99329
+8.4 0.99553
+8.6 0.99633
+8.8 0.99437
+9 0.99131
+9.2 0.98783
+9.4 0.98527
+9.6 0.98499
+9.8 0.98544
+10 0.98637
+10.2 0.98755
+10.4 0.98827
+10.6 0.98888
+10.8 0.98934
+11 0.98945
+11.2 0.98976
+11.4 0.99014
+11.6 0.99062
+11.8 0.99127
+12 0.99189
+12.2 0.99249
+12.4 0.99284
+12.6 0.99318
+12.8 0.99323
+13 0.99327
+13.2 0.99321
+13.4 0.99319
+13.6 0.99328
+13.8 0.99349
+14 0.99375
+14.2 0.99411
+14.4 0.99447
+14.6 0.9948
+14.8 0.99509
+15 0.99532
+15.2 0.99551
+15.4 0.99566
+15.6 0.99581
+15.8 0.99594
+16 0.99607
+16.2 0.99622
+16.4 0.99636
+16.6 0.9965
+16.8 0.99663
+17 0.99675
+17.2 0.99686
+17.4 0.99697
+17.6 0.99706
+17.8 0.99715
+18 0.99723
+18.2 0.99731
+18.4 0.99738
+18.6 0.99746
+18.8 0.99753
+19 0.9976
+19.2 0.99767
+19.4 0.99774
+19.6 0.99781
+19.8 0.99787
+20 0.99792
+&
+@target G0.S1
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0.00045
+3 0.02297
+3.2 0.1472
+3.4 0.49875
+3.6 0.84678
+3.8 0.88122
+4 0.91892
+4.2 0.86168
+4.4 0.88039
+4.6 0.94807
+4.8 0.99663
+5 1.01788
+5.2 0.97218
+5.4 0.96088
+5.6 0.9764
+5.8 1.02211
+6 1.05817
+6.2 1.05761
+6.4 1.03998
+6.6 1.00907
+6.8 0.98409
+7 0.9718
+7.2 0.97582
+7.4 0.97763
+7.6 0.98283
+7.8 0.98598
+8 0.99007
+8.2 0.99263
+8.4 0.99614
+8.6 0.99627
+8.8 0.99448
+9 0.99105
+9.2 0.98779
+9.4 0.98557
+9.6 0.98489
+9.8 0.98541
+10 0.98644
+10.2 0.98748
+10.4 0.98827
+10.6 0.98879
+10.8 0.98922
+11 0.98951
+11.2 0.98981
+11.4 0.99009
+11.6 0.99067
+11.8 0.99126
+12 0.99198
+12.2 0.99244
+12.4 0.99292
+12.6 0.99313
+12.8 0.99327
+13 0.99324
+13.2 0.99319
+13.4 0.99319
+13.6 0.99328
+13.8 0.99347
+14 0.99376
+14.2 0.99411
+14.4 0.99447
+14.6 0.9948
+14.8 0.99508
+15 0.99532
+15.2 0.9955
+15.4 0.99567
+15.6 0.99581
+15.8 0.99595
+16 0.99609
+16.2 0.99622
+16.4 0.99636
+16.6 0.9965
+16.8 0.99663
+17 0.99675
+17.2 0.99686
+17.4 0.99696
+17.6 0.99705
+17.8 0.99714
+18 0.99723
+18.2 0.99731
+18.4 0.99739
+18.6 0.99746
+18.8 0.99754
+19 0.99761
+19.2 0.99767
+19.4 0.99774
+19.6 0.9978
+19.8 0.99787
+20 0.99791
+&
+@target G0.S2
+@type xy
+0 0
+0.2 -0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0.00017
+3 0.02152
+3.2 0.17461
+3.4 0.48576
+3.6 0.78738
+3.8 0.93563
+4 0.91101
+4.2 0.86351
+4.4 0.89428
+4.6 0.92416
+4.8 1.0275
+5 0.99173
+5.2 0.98428
+5.4 0.95978
+5.6 0.97983
+5.8 1.00963
+6 1.06298
+6.2 1.05804
+6.4 1.03779
+6.6 1.00844
+6.8 0.98645
+7 0.97328
+7.2 0.97378
+7.4 0.97976
+7.6 0.98135
+7.8 0.98755
+8 0.9897
+8.2 0.99277
+8.4 0.99506
+8.6 0.99697
+8.8 0.99419
+9 0.99105
+9.2 0.98766
+9.4 0.98548
+9.6 0.98503
+9.8 0.98545
+10 0.98644
+10.2 0.98749
+10.4 0.98816
+10.6 0.98891
+10.8 0.98935
+11 0.98948
+11.2 0.98977
+11.4 0.99023
+11.6 0.99056
+11.8 0.9913
+12 0.9919
+12.2 0.99246
+12.4 0.99284
+12.6 0.99318
+12.8 0.99322
+13 0.99323
+13.2 0.99322
+13.4 0.99321
+13.6 0.99328
+13.8 0.9935
+14 0.99376
+14.2 0.99411
+14.4 0.99447
+14.6 0.99479
+14.8 0.99508
+15 0.99531
+15.2 0.99551
+15.4 0.99566
+15.6 0.99581
+15.8 0.99595
+16 0.99608
+16.2 0.99623
+16.4 0.99636
+16.6 0.9965
+16.8 0.99663
+17 0.99675
+17.2 0.99686
+17.4 0.99696
+17.6 0.99705
+17.8 0.99714
+18 0.99723
+18.2 0.99731
+18.4 0.99738
+18.6 0.99746
+18.8 0.99754
+19 0.99761
+19.2 0.99767
+19.4 0.99774
+19.6 0.9978
+19.8 0.99787
+20 0.99792
+&
+@target G0.S3
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0.00063
+3 0.01727
+3.2 0.16579
+3.4 0.50079
+3.6 0.76546
+3.8 0.96273
+4 0.89732
+4.2 0.87253
+4.4 0.8862
+4.6 0.93542
+4.8 1.01958
+5 0.99815
+5.2 0.97146
+5.4 0.97257
+5.6 0.96962
+5.8 1.01797
+6 1.05604
+6.2 1.06167
+6.4 1.03662
+6.6 1.01084
+6.8 0.98508
+7 0.97323
+7.2 0.97408
+7.4 0.97841
+7.6 0.98204
+7.8 0.98687
+8 0.98942
+8.2 0.99327
+8.4 0.99552
+8.6 0.99632
+8.8 0.99437
+9 0.99131
+9.2 0.98783
+9.4 0.98527
+9.6 0.98499
+9.8 0.98544
+10 0.98637
+10.2 0.98756
+10.4 0.98828
+10.6 0.98889
+10.8 0.98934
+11 0.98945
+11.2 0.98976
+11.4 0.99014
+11.6 0.99062
+11.8 0.99127
+12 0.99189
+12.2 0.99249
+12.4 0.99284
+12.6 0.99318
+12.8 0.99323
+13 0.99328
+13.2 0.99322
+13.4 0.99319
+13.6 0.99328
+13.8 0.99349
+14 0.99375
+14.2 0.99411
+14.4 0.99447
+14.6 0.9948
+14.8 0.99509
+15 0.99532
+15.2 0.99551
+15.4 0.99566
+15.6 0.99581
+15.8 0.99594
+16 0.99607
+16.2 0.99622
+16.4 0.99636
+16.6 0.9965
+16.8 0.99663
+17 0.99675
+17.2 0.99686
+17.4 0.99697
+17.6 0.99706
+17.8 0.99715
+18 0.99723
+18.2 0.99731
+18.4 0.99738
+18.6 0.99746
+18.8 0.99753
+19 0.9976
+19.2 0.99767
+19.4 0.99774
+19.6 0.99781
+19.8 0.99788
+20 0.99792
+&
+@target G0.S4
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0.00045
+3 0.02294
+3.2 0.14714
+3.4 0.49974
+3.6 0.84778
+3.8 0.88073
+4 0.91881
+4.2 0.86174
+4.4 0.8805
+4.6 0.94885
+4.8 0.99637
+5 1.01771
+5.2 0.97193
+5.4 0.95994
+5.6 0.97608
+5.8 1.02152
+6 1.05855
+6.2 1.05791
+6.4 1.04018
+6.6 1.0092
+6.8 0.98424
+7 0.97187
+7.2 0.97585
+7.4 0.97763
+7.6 0.9828
+7.8 0.98591
+8 0.98999
+8.2 0.99258
+8.4 0.9961
+8.6 0.99626
+8.8 0.99449
+9 0.99106
+9.2 0.9878
+9.4 0.98558
+9.6 0.9849
+9.8 0.98542
+10 0.98645
+10.2 0.98749
+10.4 0.98827
+10.6 0.9888
+10.8 0.98922
+11 0.98951
+11.2 0.9898
+11.4 0.99009
+11.6 0.99066
+11.8 0.99125
+12 0.99197
+12.2 0.99243
+12.4 0.99292
+12.6 0.99313
+12.8 0.99328
+13 0.99324
+13.2 0.99319
+13.4 0.99319
+13.6 0.99328
+13.8 0.99347
+14 0.99376
+14.2 0.9941
+14.4 0.99447
+14.6 0.99479
+14.8 0.99508
+15 0.99532
+15.2 0.9955
+15.4 0.99567
+15.6 0.99581
+15.8 0.99595
+16 0.99609
+16.2 0.99622
+16.4 0.99636
+16.6 0.9965
+16.8 0.99663
+17 0.99675
+17.2 0.99686
+17.4 0.99696
+17.6 0.99705
+17.8 0.99714
+18 0.99723
+18.2 0.99731
+18.4 0.99739
+18.6 0.99746
+18.8 0.99754
+19 0.9976
+19.2 0.99767
+19.4 0.99774
+19.6 0.9978
+19.8 0.99787
+20 0.99792
+&
+@target G0.S5
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0.00017
+3 0.02094
+3.2 0.17495
+3.4 0.48327
+3.6 0.78641
+3.8 0.9352
+4 0.9121
+4.2 0.8641
+4.4 0.89465
+4.6 0.92435
+4.8 1.02757
+5 0.99249
+5.2 0.98393
+5.4 0.95961
+5.6 0.97967
+5.8 1.00981
+6 1.06331
+6.2 1.05773
+6.4 1.03815
+6.6 1.00828
+6.8 0.98637
+7 0.9732
+7.2 0.97375
+7.4 0.97973
+7.6 0.98134
+7.8 0.98757
+8 0.98971
+8.2 0.9928
+8.4 0.99511
+8.6 0.997
+8.8 0.99421
+9 0.99105
+9.2 0.98765
+9.4 0.98546
+9.6 0.98501
+9.8 0.98543
+10 0.98643
+10.2 0.98748
+10.4 0.98816
+10.6 0.98892
+10.8 0.98935
+11 0.98948
+11.2 0.98977
+11.4 0.99023
+11.6 0.99056
+11.8 0.9913
+12 0.9919
+12.2 0.99246
+12.4 0.99284
+12.6 0.99318
+12.8 0.99322
+13 0.99323
+13.2 0.99322
+13.4 0.99321
+13.6 0.99328
+13.8 0.9935
+14 0.99375
+14.2 0.99411
+14.4 0.99447
+14.6 0.99479
+14.8 0.99509
+15 0.99531
+15.2 0.99551
+15.4 0.99567
+15.6 0.99581
+15.8 0.99595
+16 0.99608
+16.2 0.99623
+16.4 0.99636
+16.6 0.9965
+16.8 0.99663
+17 0.99675
+17.2 0.99686
+17.4 0.99696
+17.6 0.99705
+17.8 0.99714
+18 0.99723
+18.2 0.99731
+18.4 0.99738
+18.6 0.99746
+18.8 0.99753
+19 0.9976
+19.2 0.99767
+19.4 0.99774
+19.6 0.99781
+19.8 0.99788
+20 0.99793
+&
+@target G0.S6
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00346
+2.4 0.10006
+2.6 0.422
+2.8 0.7049
+3 0.7881
+3.2 0.76409
+3.4 0.74598
+3.6 0.68754
+3.8 0.70419
+4 0.72279
+4.2 0.74477
+4.4 0.80168
+4.6 0.81924
+4.8 0.8891
+5 0.93279
+5.2 0.94634
+5.4 0.94727
+5.6 0.93171
+5.8 0.93014
+6 0.93166
+6.2 0.94827
+6.4 0.97303
+6.6 1.02992
+6.8 1.05333
+7 1.05844
+7.2 1.03669
+7.4 1.02293
+7.6 1.00202
+7.8 0.98768
+8 0.97474
+8.2 0.96857
+8.4 0.97006
+8.6 0.972
+8.8 0.97835
+9 0.98546
+9.2 0.99245
+9.4 0.99579
+9.6 0.997
+9.8 0.99559
+10 0.99346
+10.2 0.99158
+10.4 0.99028
+10.6 0.98934
+10.8 0.98916
+11 0.98928
+11.2 0.98957
+11.4 0.98986
+11.6 0.98984
+11.8 0.99004
+12 0.99029
+12.2 0.9907
+12.4 0.9912
+12.6 0.99197
+12.8 0.99268
+13 0.99345
+13.2 0.99407
+13.4 0.99442
+13.6 0.99461
+13.8 0.99457
+14 0.9945
+14.2 0.99437
+14.4 0.99433
+14.6 0.99435
+14.8 0.99455
+15 0.9948
+15.2 0.99509
+15.4 0.99541
+15.6 0.9957
+15.8 0.99594
+16 0.99613
+16.2 0.99628
+16.4 0.99639
+16.6 0.99648
+16.8 0.99658
+17 0.99667
+17.2 0.99678
+17.4 0.99688
+17.6 0.99697
+17.8 0.99708
+18 0.99717
+18.2 0.99726
+18.4 0.99735
+18.6 0.99743
+18.8 0.99752
+19 0.9976
+19.2 0.99767
+19.4 0.99775
+19.6 0.99781
+19.8 0.99786
+20 0.9979
+&
+@target G0.S7
+@type xy
+0 0
+0.2 -0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00303
+2.4 0.10915
+2.6 0.33971
+2.8 0.70585
+3 0.69237
+3.2 0.68998
+3.4 0.64692
+3.6 0.6129
+3.8 0.64357
+4 0.61779
+4.2 0.68285
+4.4 0.75476
+4.6 0.80151
+4.8 0.84213
+5 0.9037
+5.2 0.95014
+5.4 1.00103
+5.6 1.04857
+5.8 1.04949
+6 1.02919
+6.2 1.03512
+6.4 1.05017
+6.6 1.04697
+6.8 1.02061
+7 1.00248
+7.2 0.97898
+7.4 0.97142
+7.6 0.96729
+7.8 0.96995
+8 0.97409
+8.2 0.98069
+8.4 0.98567
+8.6 0.9905
+8.8 0.99431
+9 0.99797
+9.2 0.99838
+9.4 0.99697
+9.6 0.99414
+9.8 0.99117
+10 0.98877
+10.2 0.98725
+10.4 0.98627
+10.6 0.98616
+10.8 0.98634
+11 0.98717
+11.2 0.98807
+11.4 0.98911
+11.6 0.99021
+11.8 0.99128
+12 0.99208
+12.2 0.99284
+12.4 0.99325
+12.6 0.9936
+12.8 0.9937
+13 0.99372
+13.2 0.99365
+13.4 0.99355
+13.6 0.99347
+13.8 0.99354
+14 0.99364
+14.2 0.99387
+14.4 0.99415
+14.6 0.99449
+14.8 0.99487
+15 0.99518
+15.2 0.99549
+15.4 0.99572
+15.6 0.9959
+15.8 0.99605
+16 0.99615
+16.2 0.99625
+16.4 0.99634
+16.6 0.99643
+16.8 0.99654
+17 0.99665
+17.2 0.99677
+17.4 0.99689
+17.6 0.997
+17.8 0.99711
+18 0.99721
+18.2 0.99731
+18.4 0.99739
+18.6 0.99747
+18.8 0.99755
+19 0.99762
+19.2 0.99769
+19.4 0.99774
+19.6 0.9978
+19.8 0.99786
+20 0.99789
+&
+@target G0.S8
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00362
+2.4 0.09958
+2.6 0.40249
+2.8 0.63761
+3 0.70181
+3.2 0.69773
+3.4 0.65368
+3.6 0.6134
+3.8 0.63558
+4 0.61822
+4.2 0.70646
+4.4 0.74783
+4.6 0.79045
+4.8 0.84208
+5 0.90405
+5.2 0.95929
+5.4 0.99935
+5.6 1.04043
+5.8 1.04224
+6 1.03603
+6.2 1.04
+6.4 1.05165
+6.6 1.04107
+6.8 1.02526
+7 1.00152
+7.2 0.97863
+7.4 0.97075
+7.6 0.96791
+7.8 0.96934
+8 0.97459
+8.2 0.97998
+8.4 0.98567
+8.6 0.99083
+8.8 0.99462
+9 0.99774
+9.2 0.99813
+9.4 0.99722
+9.6 0.99399
+9.8 0.9912
+10 0.98882
+10.2 0.98724
+10.4 0.98643
+10.6 0.98604
+10.8 0.98653
+11 0.98703
+11.2 0.98805
+11.4 0.98905
+11.6 0.99026
+11.8 0.99122
+12 0.99211
+12.2 0.99279
+12.4 0.99328
+12.6 0.9936
+12.8 0.99375
+13 0.9937
+13.2 0.99362
+13.4 0.99358
+13.6 0.99347
+13.8 0.99353
+14 0.99362
+14.2 0.99387
+14.4 0.99415
+14.6 0.9945
+14.8 0.99485
+15 0.99519
+15.2 0.99549
+15.4 0.99572
+15.6 0.99591
+15.8 0.99605
+16 0.99615
+16.2 0.99625
+16.4 0.99634
+16.6 0.99643
+16.8 0.99654
+17 0.99665
+17.2 0.99677
+17.4 0.99689
+17.6 0.997
+17.8 0.99711
+18 0.99721
+18.2 0.99731
+18.4 0.9974
+18.6 0.99748
+18.8 0.99755
+19 0.99762
+19.2 0.99769
+19.4 0.99775
+19.6 0.9978
+19.8 0.99785
+20 0.99789
+&
+@target G0.S9
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00251
+2.4 0.10808
+2.6 0.40978
+2.8 0.70027
+3 0.83129
+3.2 0.76671
+3.4 0.74778
+3.6 0.68694
+3.8 0.69663
+4 0.70354
+4.2 0.77083
+4.4 0.76468
+4.6 0.84164
+4.8 0.87369
+5 0.93869
+5.2 0.94588
+5.4 0.9496
+5.6 0.93991
+5.8 0.92337
+6 0.9353
+6.2 0.93877
+6.4 0.98599
+6.6 1.02782
+6.8 1.05631
+7 1.05095
+7.2 1.0394
+7.4 1.02259
+7.6 1.00181
+7.8 0.9885
+8 0.97388
+8.2 0.96973
+8.4 0.96829
+8.6 0.9723
+8.8 0.97869
+9 0.98622
+9.2 0.99178
+9.4 0.99649
+9.6 0.99673
+9.8 0.9957
+10 0.99345
+10.2 0.99163
+10.4 0.99002
+10.6 0.98931
+10.8 0.9892
+11 0.98926
+11.2 0.98958
+11.4 0.98971
+11.6 0.98998
+11.8 0.99004
+12 0.99029
+12.2 0.99063
+12.4 0.99129
+12.6 0.99195
+12.8 0.99271
+13 0.99347
+13.2 0.99404
+13.4 0.99445
+13.6 0.99459
+13.8 0.9946
+14 0.99448
+14.2 0.99437
+14.4 0.9943
+14.6 0.99436
+14.8 0.99453
+15 0.9948
+15.2 0.9951
+15.4 0.99541
+15.6 0.99571
+15.8 0.99594
+16 0.99615
+16.2 0.99628
+16.4 0.9964
+16.6 0.99649
+16.8 0.99658
+17 0.99667
+17.2 0.99676
+17.4 0.99687
+17.6 0.99697
+17.8 0.99707
+18 0.99717
+18.2 0.99725
+18.4 0.99734
+18.6 0.99743
+18.8 0.99752
+19 0.9976
+19.2 0.99767
+19.4 0.99774
+19.6 0.9978
+19.8 0.99785
+20 0.99789
+&
+@target G0.S10
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00329
+2.4 0.10614
+2.6 0.389
+2.8 0.61463
+3 0.71536
+3.2 0.69076
+3.4 0.66049
+3.6 0.61486
+3.8 0.62639
+4 0.63078
+4.2 0.68819
+4.4 0.74316
+4.6 0.81639
+4.8 0.84079
+5 0.90382
+5.2 0.94337
+5.4 1.02033
+5.6 1.03089
+5.8 1.05221
+6 1.0201
+6.2 1.04426
+6.4 1.05293
+6.6 1.04296
+6.8 1.02136
+7 0.99878
+7.2 0.98273
+7.4 0.97007
+7.6 0.96853
+7.8 0.96901
+8 0.97473
+8.2 0.98056
+8.4 0.98613
+8.6 0.99012
+8.8 0.99453
+9 0.99774
+9.2 0.99832
+9.4 0.99681
+9.6 0.994
+9.8 0.99121
+10 0.98887
+10.2 0.98721
+10.4 0.98636
+10.6 0.98612
+10.8 0.9864
+11 0.98719
+11.2 0.98806
+11.4 0.98915
+11.6 0.99023
+11.8 0.9912
+12 0.99213
+12.2 0.99278
+12.4 0.99333
+12.6 0.99352
+12.8 0.99373
+13 0.99371
+13.2 0.99366
+13.4 0.99353
+13.6 0.9935
+13.8 0.99352
+14 0.99365
+14.2 0.99386
+14.4 0.99415
+14.6 0.99449
+14.8 0.99486
+15 0.9952
+15.2 0.99548
+15.4 0.99572
+15.6 0.99591
+15.8 0.99605
+16 0.99616
+16.2 0.99625
+16.4 0.99634
+16.6 0.99644
+16.8 0.99654
+17 0.99665
+17.2 0.99677
+17.4 0.99688
+17.6 0.99699
+17.8 0.9971
+18 0.99721
+18.2 0.9973
+18.4 0.99739
+18.6 0.99748
+18.8 0.99756
+19 0.99763
+19.2 0.99769
+19.4 0.99775
+19.6 0.9978
+19.8 0.99785
+20 0.9979
+&
+@target G0.S11
+@type xy
+0 0
+0.2 -0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00279
+2.4 0.10252
+2.6 0.42238
+2.8 0.69185
+3 0.83091
+3.2 0.76298
+3.4 0.73013
+3.6 0.68547
+3.8 0.71692
+4 0.70189
+4.2 0.76141
+4.4 0.78913
+4.6 0.84041
+4.8 0.87643
+5 0.92164
+5.2 0.94642
+5.4 0.95955
+5.6 0.92525
+5.8 0.93101
+6 0.92683
+6.2 0.95123
+6.4 0.98092
+6.6 1.02872
+6.8 1.05064
+7 1.05683
+7.2 1.03966
+7.4 1.02096
+7.6 1.00224
+7.8 0.98665
+8 0.9761
+8.2 0.96907
+8.4 0.96948
+8.6 0.97127
+8.8 0.97914
+9 0.98591
+9.2 0.99208
+9.4 0.99568
+9.6 0.99729
+9.8 0.99541
+10 0.99346
+10.2 0.99157
+10.4 0.99005
+10.6 0.98944
+10.8 0.98917
+11 0.98938
+11.2 0.98958
+11.4 0.98969
+11.6 0.98997
+11.8 0.99002
+12 0.99029
+12.2 0.99061
+12.4 0.9913
+12.6 0.99188
+12.8 0.99278
+13 0.99344
+13.2 0.99406
+13.4 0.99438
+13.6 0.99463
+13.8 0.99457
+14 0.99448
+14.2 0.99437
+14.4 0.99432
+14.6 0.99436
+14.8 0.99454
+15 0.99478
+15.2 0.9951
+15.4 0.99542
+15.6 0.99569
+15.8 0.99595
+16 0.99613
+16.2 0.99629
+16.4 0.99639
+16.6 0.99649
+16.8 0.99658
+17 0.99667
+17.2 0.99677
+17.4 0.99688
+17.6 0.99697
+17.8 0.99708
+18 0.99716
+18.2 0.99726
+18.4 0.99735
+18.6 0.99743
+18.8 0.99752
+19 0.99759
+19.2 0.99767
+19.4 0.99774
+19.6 0.9978
+19.8 0.99786
+20 0.99789
+&
+@target G0.S12
+@type xy
+0 0
+0.2 -0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00303
+2.4 0.1092
+2.6 0.33856
+2.8 0.70598
+3 0.69157
+3.2 0.69013
+3.4 0.64692
+3.6 0.61453
+3.8 0.64356
+4 0.61771
+4.2 0.6831
+4.4 0.75489
+4.6 0.8013
+4.8 0.84343
+5 0.90384
+5.2 0.94893
+5.4 1.00071
+5.6 1.04762
+5.8 1.04977
+6 1.02949
+6.2 1.03499
+6.4 1.05033
+6.6 1.04706
+6.8 1.02068
+7 1.00255
+7.2 0.97903
+7.4 0.97147
+7.6 0.96729
+7.8 0.9699
+8 0.97403
+8.2 0.98065
+8.4 0.98565
+8.6 0.9905
+8.8 0.99431
+9 0.99796
+9.2 0.99838
+9.4 0.99697
+9.6 0.99414
+9.8 0.99117
+10 0.98878
+10.2 0.98726
+10.4 0.98628
+10.6 0.98616
+10.8 0.98634
+11 0.98717
+11.2 0.98807
+11.4 0.9891
+11.6 0.9902
+11.8 0.99128
+12 0.99207
+12.2 0.99284
+12.4 0.99325
+12.6 0.9936
+12.8 0.9937
+13 0.99372
+13.2 0.99365
+13.4 0.99356
+13.6 0.99348
+13.8 0.99354
+14 0.99364
+14.2 0.99387
+14.4 0.99415
+14.6 0.99449
+14.8 0.99487
+15 0.99518
+15.2 0.99549
+15.4 0.99572
+15.6 0.9959
+15.8 0.99605
+16 0.99615
+16.2 0.99625
+16.4 0.99634
+16.6 0.99643
+16.8 0.99654
+17 0.99665
+17.2 0.99677
+17.4 0.99689
+17.6 0.997
+17.8 0.99711
+18 0.99721
+18.2 0.99731
+18.4 0.99739
+18.6 0.99748
+18.8 0.99755
+19 0.99762
+19.2 0.99769
+19.4 0.99775
+19.6 0.9978
+19.8 0.99786
+20 0.99789
+&
+@target G0.S13
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00346
+2.4 0.10004
+2.6 0.42199
+2.8 0.70483
+3 0.78797
+3.2 0.76322
+3.4 0.74681
+3.6 0.6878
+3.8 0.70441
+4 0.72354
+4.2 0.74469
+4.4 0.8015
+4.6 0.81952
+4.8 0.88809
+5 0.93415
+5.2 0.94619
+5.4 0.94619
+5.6 0.93167
+5.8 0.93019
+6 0.93204
+6.2 0.9482
+6.4 0.97297
+6.6 1.02984
+6.8 1.05314
+7 1.05855
+7.2 1.03674
+7.4 1.02301
+7.6 1.00206
+7.8 0.98769
+8 0.97472
+8.2 0.96855
+8.4 0.97005
+8.6 0.972
+8.8 0.97834
+9 0.98544
+9.2 0.99242
+9.4 0.99578
+9.6 0.99701
+9.8 0.9956
+10 0.99347
+10.2 0.99159
+10.4 0.99029
+10.6 0.98934
+10.8 0.98917
+11 0.98928
+11.2 0.98957
+11.4 0.98986
+11.6 0.98984
+11.8 0.99004
+12 0.99029
+12.2 0.9907
+12.4 0.99119
+12.6 0.99197
+12.8 0.99268
+13 0.99345
+13.2 0.99407
+13.4 0.99443
+13.6 0.99461
+13.8 0.99457
+14 0.9945
+14.2 0.99437
+14.4 0.99433
+14.6 0.99435
+14.8 0.99455
+15 0.9948
+15.2 0.99509
+15.4 0.99541
+15.6 0.9957
+15.8 0.99594
+16 0.99613
+16.2 0.99628
+16.4 0.99639
+16.6 0.99648
+16.8 0.99658
+17 0.99667
+17.2 0.99678
+17.4 0.99688
+17.6 0.99697
+17.8 0.99708
+18 0.99717
+18.2 0.99726
+18.4 0.99735
+18.6 0.99743
+18.8 0.99752
+19 0.9976
+19.2 0.99767
+19.4 0.99774
+19.6 0.9978
+19.8 0.99786
+20 0.9979
+&
+@target G0.S14
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00358
+2.4 0.09831
+2.6 0.40625
+2.8 0.63621
+3 0.70317
+3.2 0.69249
+3.4 0.65278
+3.6 0.61766
+3.8 0.63551
+4 0.61811
+4.2 0.70459
+4.4 0.74932
+4.6 0.79278
+4.8 0.83855
+5 0.90596
+5.2 0.96054
+5.4 0.99809
+5.6 1.04108
+5.8 1.04205
+6 1.03492
+6.2 1.04037
+6.4 1.05152
+6.6 1.04124
+6.8 1.02498
+7 1.00179
+7.2 0.97875
+7.4 0.97072
+7.6 0.96796
+7.8 0.96939
+8 0.97468
+8.2 0.97986
+8.4 0.98568
+8.6 0.99081
+8.8 0.99465
+9 0.99769
+9.2 0.99818
+9.4 0.9972
+9.6 0.99399
+9.8 0.99117
+10 0.98882
+10.2 0.98722
+10.4 0.98641
+10.6 0.98605
+10.8 0.98654
+11 0.98704
+11.2 0.98806
+11.4 0.98905
+11.6 0.99027
+11.8 0.99123
+12 0.99209
+12.2 0.9928
+12.4 0.99328
+12.6 0.99359
+12.8 0.99375
+13 0.99371
+13.2 0.99362
+13.4 0.99358
+13.6 0.99347
+13.8 0.99353
+14 0.99362
+14.2 0.99387
+14.4 0.99415
+14.6 0.9945
+14.8 0.99485
+15 0.99519
+15.2 0.99549
+15.4 0.99572
+15.6 0.99591
+15.8 0.99605
+16 0.99615
+16.2 0.99625
+16.4 0.99634
+16.6 0.99643
+16.8 0.99654
+17 0.99665
+17.2 0.99677
+17.4 0.99689
+17.6 0.997
+17.8 0.99711
+18 0.99721
+18.2 0.99731
+18.4 0.9974
+18.6 0.99748
+18.8 0.99755
+19 0.99762
+19.2 0.99769
+19.4 0.99775
+19.6 0.9978
+19.8 0.99786
+20 0.99789
+&
+@target G0.S15
+@type xy
+0 0
+0.2 -0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00251
+2.4 0.10811
+2.6 0.40962
+2.8 0.70001
+3 0.83304
+3.2 0.76627
+3.4 0.74745
+3.6 0.68721
+3.8 0.69781
+4 0.70381
+4.2 0.77085
+4.4 0.76427
+4.6 0.84196
+4.8 0.87326
+5 0.93885
+5.2 0.94577
+5.4 0.94919
+5.6 0.94001
+5.8 0.92293
+6 0.93525
+6.2 0.93862
+6.4 0.98603
+6.6 1.02807
+6.8 1.05595
+7 1.05111
+7.2 1.03954
+7.4 1.0227
+7.6 1.00188
+7.8 0.98851
+8 0.97385
+8.2 0.9697
+8.4 0.96825
+8.6 0.97227
+8.8 0.97866
+9 0.9862
+9.2 0.99176
+9.4 0.99648
+9.6 0.99674
+9.8 0.99572
+10 0.99346
+10.2 0.99164
+10.4 0.99003
+10.6 0.98931
+10.8 0.98921
+11 0.98926
+11.2 0.98958
+11.4 0.98971
+11.6 0.98998
+11.8 0.99003
+12 0.99029
+12.2 0.99063
+12.4 0.99128
+12.6 0.99194
+12.8 0.99271
+13 0.99347
+13.2 0.99404
+13.4 0.99445
+13.6 0.99459
+13.8 0.9946
+14 0.99448
+14.2 0.99437
+14.4 0.9943
+14.6 0.99436
+14.8 0.99453
+15 0.9948
+15.2 0.9951
+15.4 0.99541
+15.6 0.99571
+15.8 0.99594
+16 0.99615
+16.2 0.99628
+16.4 0.9964
+16.6 0.99649
+16.8 0.99658
+17 0.99667
+17.2 0.99676
+17.4 0.99687
+17.6 0.99697
+17.8 0.99707
+18 0.99717
+18.2 0.99726
+18.4 0.99735
+18.6 0.99744
+18.8 0.99752
+19 0.99761
+19.2 0.99767
+19.4 0.99775
+19.6 0.9978
+19.8 0.99785
+20 0.99789
+&
+@target G0.S16
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.0033
+2.4 0.10502
+2.6 0.38835
+2.8 0.61323
+3 0.72054
+3.2 0.69203
+3.4 0.65839
+3.6 0.61137
+3.8 0.62725
+4 0.63219
+4.2 0.6888
+4.4 0.7419
+4.6 0.81823
+4.8 0.83986
+5 0.90448
+5.2 0.94214
+5.4 1.02024
+5.6 1.0296
+5.8 1.05267
+6 1.02069
+6.2 1.04393
+6.4 1.05355
+6.6 1.0434
+6.8 1.02151
+7 0.99883
+7.2 0.98249
+7.4 0.97001
+7.6 0.96842
+7.8 0.96901
+8 0.97462
+8.2 0.98054
+8.4 0.98605
+8.6 0.99022
+8.8 0.99451
+9 0.99779
+9.2 0.99837
+9.4 0.99682
+9.6 0.99399
+9.8 0.99121
+10 0.98885
+10.2 0.98723
+10.4 0.98636
+10.6 0.98611
+10.8 0.98642
+11 0.98718
+11.2 0.98806
+11.4 0.98913
+11.6 0.99023
+11.8 0.99119
+12 0.99213
+12.2 0.99278
+12.4 0.99333
+12.6 0.99352
+12.8 0.99373
+13 0.99372
+13.2 0.99366
+13.4 0.99354
+13.6 0.99349
+13.8 0.99352
+14 0.99365
+14.2 0.99386
+14.4 0.99415
+14.6 0.99449
+14.8 0.99486
+15 0.9952
+15.2 0.99548
+15.4 0.99573
+15.6 0.99591
+15.8 0.99605
+16 0.99616
+16.2 0.99625
+16.4 0.99634
+16.6 0.99644
+16.8 0.99654
+17 0.99665
+17.2 0.99677
+17.4 0.99688
+17.6 0.99699
+17.8 0.9971
+18 0.99721
+18.2 0.9973
+18.4 0.99739
+18.6 0.99748
+18.8 0.99755
+19 0.99763
+19.2 0.99769
+19.4 0.99775
+19.6 0.9978
+19.8 0.99786
+20 0.9979
+&
+@target G0.S17
+@type xy
+0 0
+0.2 0
+0.4 -0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0.00285
+2.4 0.10216
+2.6 0.41949
+2.8 0.69033
+3 0.83268
+3.2 0.75915
+3.4 0.73841
+3.6 0.67932
+3.8 0.71596
+4 0.70285
+4.2 0.76411
+4.4 0.79131
+4.6 0.83813
+4.8 0.87618
+5 0.92156
+5.2 0.94691
+5.4 0.95923
+5.6 0.92465
+5.8 0.93219
+6 0.92565
+6.2 0.9522
+6.4 0.98109
+6.6 1.02818
+6.8 1.05099
+7 1.05662
+7.2 1.03979
+7.4 1.02089
+7.6 1.00222
+7.8 0.98653
+8 0.97609
+8.2 0.96898
+8.4 0.96949
+8.6 0.97126
+8.8 0.97912
+9 0.98594
+9.2 0.99206
+9.4 0.99572
+9.6 0.99728
+9.8 0.99543
+10 0.99347
+10.2 0.99159
+10.4 0.99004
+10.6 0.98944
+10.8 0.98918
+11 0.98938
+11.2 0.98957
+11.4 0.98969
+11.6 0.98996
+11.8 0.99003
+12 0.99029
+12.2 0.99062
+12.4 0.9913
+12.6 0.99188
+12.8 0.99278
+13 0.99344
+13.2 0.99406
+13.4 0.99439
+13.6 0.99463
+13.8 0.99457
+14 0.99449
+14.2 0.99437
+14.4 0.99432
+14.6 0.99436
+14.8 0.99454
+15 0.99478
+15.2 0.9951
+15.4 0.99542
+15.6 0.99569
+15.8 0.99595
+16 0.99613
+16.2 0.99629
+16.4 0.99639
+16.6 0.99649
+16.8 0.99658
+17 0.99667
+17.2 0.99677
+17.4 0.99688
+17.6 0.99697
+17.8 0.99708
+18 0.99717
+18.2 0.99726
+18.4 0.99735
+18.6 0.99743
+18.8 0.99752
+19 0.99759
+19.2 0.99768
+19.4 0.99774
+19.6 0.99781
+19.8 0.99787
+20 0.9979
+&
+@target G0.S18
+@type xy
+0 -0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 -0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0
+3 0
+3.2 0.00022
+3.4 0.02091
+3.6 0.04677
+3.8 0.21649
+4 0.425
+4.2 0.72274
+4.4 1.12126
+4.6 1.53966
+4.8 1.71055
+5 1.60406
+5.2 1.37048
+5.4 1.15191
+5.6 0.9855
+5.8 0.88535
+6 0.82875
+6.2 0.81295
+6.4 0.83448
+6.6 0.87328
+6.8 0.92746
+7 0.98143
+7.2 1.02607
+7.4 1.05112
+7.6 1.05208
+7.8 1.03834
+8 1.02233
+8.2 1.00944
+8.4 0.99976
+8.6 0.9937
+8.8 0.98886
+9 0.98391
+9.2 0.97943
+9.4 0.97575
+9.6 0.97307
+9.8 0.97239
+10 0.97393
+10.2 0.97734
+10.4 0.98232
+10.6 0.98807
+10.8 0.99337
+11 0.99713
+11.2 0.9993
+11.4 0.9995
+11.6 0.99793
+11.8 0.99542
+12 0.99283
+12.2 0.99058
+12.4 0.98916
+12.6 0.9888
+12.8 0.98931
+13 0.9903
+13.2 0.99166
+13.4 0.99302
+13.6 0.99403
+13.8 0.99472
+14 0.9952
+14.2 0.99531
+14.4 0.99526
+14.6 0.99523
+14.8 0.99519
+15 0.99514
+15.2 0.99526
+15.4 0.99542
+15.6 0.99556
+15.8 0.99573
+16 0.99595
+16.2 0.9961
+16.4 0.99628
+16.6 0.99651
+16.8 0.99671
+17 0.99686
+17.2 0.99704
+17.4 0.99716
+17.6 0.99722
+17.8 0.99726
+18 0.99732
+18.2 0.99733
+18.4 0.99733
+18.6 0.99739
+18.8 0.99745
+19 0.9975
+19.2 0.99761
+19.4 0.9977
+19.6 0.99779
+19.8 0.99787
+20 0.99796
+&
+@target G0.S19
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 -0
+1.6 -0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0
+3 0
+3.2 0.00023
+3.4 0.02207
+3.6 0.04899
+3.8 0.22543
+4 0.43967
+4.2 0.74472
+4.4 1.15261
+4.6 1.57952
+4.8 1.74796
+5 1.63116
+5.2 1.388
+5.4 1.16304
+5.6 0.99328
+5.8 0.89244
+6 0.83671
+6.2 0.82308
+6.4 0.84787
+6.6 0.89002
+6.8 0.94749
+7 1.00406
+7.2 1.0501
+7.4 1.07467
+7.6 1.07367
+7.8 1.05753
+8 1.03933
+8.2 1.02491
+8.4 1.01424
+8.6 1.00765
+8.8 1.00261
+9 0.99759
+9.2 0.9931
+9.4 0.98939
+9.6 0.98658
+9.8 0.98568
+10 0.9869
+10.2 0.98994
+10.4 0.99457
+10.6 0.99999
+10.8 1.00497
+11 1.0084
+11.2 1.0102
+11.4 1.00995
+11.6 1.00791
+11.8 1.00492
+12 1.00185
+12.2 0.99915
+12.4 0.99731
+12.6 0.99657
+12.8 0.99674
+13 0.99739
+13.2 0.99843
+13.4 0.99948
+13.6 1.00018
+13.8 1.00059
+14 1.00079
+14.2 1.00066
+14.4 1.00041
+14.6 1.00021
+14.8 1.00005
+15 0.9999
+15.2 0.99994
+15.4 1.00001
+15.6 1.00004
+15.8 1.00008
+16 1.00015
+16.2 1.00013
+16.4 1.00012
+16.6 1.00014
+16.8 1.00015
+17 1.00011
+17.2 1.00011
+17.4 1.00009
+17.6 1.00002
+17.8 0.99996
+18 0.99993
+18.2 0.99987
+18.4 0.99982
+18.6 0.99984
+18.8 0.99987
+19 0.99988
+19.2 0.99995
+19.4 1.00002
+19.6 1.00005
+19.8 1.00009
+20 1.00012
+&
+@target G0.S20
+@type xy
+0 0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0
+3 0
+3.2 0.00014
+3.4 0.01798
+3.6 0.0414
+3.8 0.2081
+4 0.41881
+4.2 0.71326
+4.4 1.1149
+4.6 1.53939
+4.8 1.70805
+5 1.60604
+5.2 1.3747
+5.4 1.15386
+5.6 0.98712
+5.8 0.88706
+6 0.82886
+6.2 0.81188
+6.4 0.83371
+6.6 0.87206
+6.8 0.9256
+7 0.98037
+7.2 1.02565
+7.4 1.05037
+7.6 1.0519
+7.8 1.03867
+8 1.0223
+8.2 1.00941
+8.4 1.00003
+8.6 0.9937
+8.8 0.98864
+9 0.9839
+9.2 0.97935
+9.4 0.97542
+9.6 0.97285
+9.8 0.97224
+10 0.97361
+10.2 0.97708
+10.4 0.98224
+10.6 0.98791
+10.8 0.9932
+11 0.99714
+11.2 0.99931
+11.4 0.99944
+11.6 0.99797
+11.8 0.99549
+12 0.99278
+12.2 0.99055
+12.4 0.98915
+12.6 0.9887
+12.8 0.98917
+13 0.99023
+13.2 0.99156
+13.4 0.99289
+13.6 0.99397
+13.8 0.99471
+14 0.99515
+14.2 0.99533
+14.4 0.99533
+14.6 0.99527
+14.8 0.99523
+15 0.99523
+15.2 0.99532
+15.4 0.99545
+15.6 0.99561
+15.8 0.99577
+16 0.99594
+16.2 0.99611
+16.4 0.9963
+16.6 0.9965
+16.8 0.99669
+17 0.99687
+17.2 0.99703
+17.4 0.99715
+17.6 0.99723
+17.8 0.99728
+18 0.99731
+18.2 0.99734
+18.4 0.99735
+18.6 0.9974
+18.8 0.99745
+19 0.99752
+19.2 0.9976
+19.4 0.99768
+19.6 0.99778
+19.8 0.99786
+20 0.99794
+&
+@target G0.S38
+@type xy
+0 0
+0.1 0.00029160827
+0.2 0.00058321654
+0.3 0.00087482481
+0.4 0.0011664331
+0.5 0.0014580413
+0.6 0.0017496496
+0.7 0.0020412579
+0.8 0.0023328662
+0.9 0.0026244744
+1 0.0029160827
+1.1 0.003207691
+1.2 0.0034992992
+1.3 0.0037909075
+1.4 0.0040825158
+1.5 0.004374124
+1.6 0.0046657323
+1.7 0.0049573406
+1.8 0.0052489488
+1.9 0.0055405571
+2 0.0058321654
+2.1 0.0061237737
+2.2 0.0064153819
+2.3 0.0067069902
+2.4 0.0069985985
+2.5 0.0072902067
+2.6 0.007581815
+2.7 0.0078734233
+2.8 0.0081650315
+2.9 0.0084566398
+3 0.0087482481
+3.1 0.0090398563
+3.2 0.010234561
+3.3 0.013759493
+3.4 0.021257261
+3.5 0.03442329
+3.6 0.054070339
+3.7 0.077174035
+3.8 0.15413836
+3.9 0.23510068
+4 0.35112307
+4.1 0.45949935
+4.2 0.57068484
+4.3 0.74010799
+4.4 0.94302711
+4.5 1.1732469
+4.6 1.3802467
+4.7 1.5369324
+4.8 1.6787492
+4.9 1.746247
+5 1.7144512
+5.1 1.6315626
+5.2 1.5384426
+5.3 1.4225963
+5.4 1.2921993
+5.5 1.2091044
+5.6 1.1279986
+5.7 1.0724513
+5.8 1.0173065
+5.9 0.96542072
+6 0.91484047
+6.1 0.86612872
+6.2 0.83073061
+6.3 0.80208721
+6.4 0.78183812
+6.5 0.76566062
+6.6 0.74948313
+6.7 0.7827661
+6.8 0.81706493
+6.9 0.85044234
+7 0.88450912
+7.1 0.91789053
+7.2 0.95133056
+7.3 0.99098402
+7.4 1.0351785
+7.5 1.079021
+7.6 1.1018632
+7.7 1.1004275
+7.8 1.0995968
+7.9 1.0769831
+8 1.0534372
+8.1 1.0298912
+8.2 1.0136377
+8.3 0.99745832
+8.4 0.99086923
+8.5 0.98674675
+8.6 0.98280075
+8.7 0.97771138
+8.8 0.97237743
+8.9 0.97339869
+9 0.978039
+9.1 0.98121218
+9.2 0.98086985
+9.3 0.98052753
+9.4 0.98018521
+9.5 0.97984289
+9.6 0.97950057
+9.7 0.97915825
+9.8 0.97881593
+9.9 0.97847361
+&
