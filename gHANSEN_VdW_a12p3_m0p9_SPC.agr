@@ -60,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Jun 27 17:25:13 2013"
+@timestamp def "Tue Jul 23 17:21:24 2013"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -256,9 +256,9 @@
 @    s0 type xy
 @    s0 symbol 0
 @    s0 symbol size 1.000000
-@    s0 symbol color 1
+@    s0 symbol color 4
 @    s0 symbol pattern 1
-@    s0 symbol fill color 1
+@    s0 symbol fill color 4
 @    s0 symbol fill pattern 0
 @    s0 symbol linewidth 1.0
 @    s0 symbol linestyle 1
@@ -268,7 +268,7 @@
 @    s0 line type 1
 @    s0 line linestyle 3
 @    s0 line linewidth 2.0
-@    s0 line color 1
+@    s0 line color 4
 @    s0 line pattern 1
 @    s0 baseline type 0
 @    s0 baseline off
@@ -290,7 +290,7 @@
 @    s0 avalue offset 0.000000 , 0.000000
 @    s0 errorbar on
 @    s0 errorbar place both
-@    s0 errorbar color 1
+@    s0 errorbar color 4
 @    s0 errorbar pattern 1
 @    s0 errorbar size 1.000000
 @    s0 errorbar linewidth 1.0
@@ -305,9 +305,9 @@
 @    s1 type xy
 @    s1 symbol 0
 @    s1 symbol size 1.000000
-@    s1 symbol color 2
+@    s1 symbol color 4
 @    s1 symbol pattern 1
-@    s1 symbol fill color 2
+@    s1 symbol fill color 4
 @    s1 symbol fill pattern 0
 @    s1 symbol linewidth 1.0
 @    s1 symbol linestyle 1
@@ -317,7 +317,7 @@
 @    s1 line type 1
 @    s1 line linestyle 3
 @    s1 line linewidth 2.0
-@    s1 line color 1
+@    s1 line color 4
 @    s1 line pattern 1
 @    s1 baseline type 0
 @    s1 baseline off
@@ -339,7 +339,7 @@
 @    s1 avalue offset 0.000000 , 0.000000
 @    s1 errorbar on
 @    s1 errorbar place both
-@    s1 errorbar color 2
+@    s1 errorbar color 4
 @    s1 errorbar pattern 1
 @    s1 errorbar size 1.000000
 @    s1 errorbar linewidth 1.0
@@ -354,9 +354,9 @@
 @    s2 type xy
 @    s2 symbol 0
 @    s2 symbol size 1.000000
-@    s2 symbol color 3
+@    s2 symbol color 4
 @    s2 symbol pattern 1
-@    s2 symbol fill color 3
+@    s2 symbol fill color 4
 @    s2 symbol fill pattern 0
 @    s2 symbol linewidth 1.0
 @    s2 symbol linestyle 1
@@ -366,7 +366,7 @@
 @    s2 line type 1
 @    s2 line linestyle 3
 @    s2 line linewidth 2.0
-@    s2 line color 1
+@    s2 line color 4
 @    s2 line pattern 1
 @    s2 baseline type 0
 @    s2 baseline off
@@ -388,7 +388,7 @@
 @    s2 avalue offset 0.000000 , 0.000000
 @    s2 errorbar on
 @    s2 errorbar place both
-@    s2 errorbar color 3
+@    s2 errorbar color 4
 @    s2 errorbar pattern 1
 @    s2 errorbar size 1.000000
 @    s2 errorbar linewidth 1.0
@@ -415,7 +415,7 @@
 @    s3 line type 1
 @    s3 line linestyle 3
 @    s3 line linewidth 2.0
-@    s3 line color 1
+@    s3 line color 4
 @    s3 line pattern 1
 @    s3 baseline type 0
 @    s3 baseline off
@@ -452,9 +452,9 @@
 @    s4 type xy
 @    s4 symbol 0
 @    s4 symbol size 1.000000
-@    s4 symbol color 5
+@    s4 symbol color 4
 @    s4 symbol pattern 1
-@    s4 symbol fill color 5
+@    s4 symbol fill color 4
 @    s4 symbol fill pattern 0
 @    s4 symbol linewidth 1.0
 @    s4 symbol linestyle 1
@@ -464,7 +464,7 @@
 @    s4 line type 1
 @    s4 line linestyle 3
 @    s4 line linewidth 2.0
-@    s4 line color 1
+@    s4 line color 4
 @    s4 line pattern 1
 @    s4 baseline type 0
 @    s4 baseline off
@@ -486,7 +486,7 @@
 @    s4 avalue offset 0.000000 , 0.000000
 @    s4 errorbar on
 @    s4 errorbar place both
-@    s4 errorbar color 5
+@    s4 errorbar color 4
 @    s4 errorbar pattern 1
 @    s4 errorbar size 1.000000
 @    s4 errorbar linewidth 1.0
@@ -501,9 +501,9 @@
 @    s5 type xy
 @    s5 symbol 0
 @    s5 symbol size 1.000000
-@    s5 symbol color 6
+@    s5 symbol color 4
 @    s5 symbol pattern 1
-@    s5 symbol fill color 6
+@    s5 symbol fill color 4
 @    s5 symbol fill pattern 0
 @    s5 symbol linewidth 1.0
 @    s5 symbol linestyle 1
@@ -513,7 +513,7 @@
 @    s5 line type 1
 @    s5 line linestyle 3
 @    s5 line linewidth 2.0
-@    s5 line color 1
+@    s5 line color 4
 @    s5 line pattern 1
 @    s5 baseline type 0
 @    s5 baseline off
@@ -535,7 +535,7 @@
 @    s5 avalue offset 0.000000 , 0.000000
 @    s5 errorbar on
 @    s5 errorbar place both
-@    s5 errorbar color 6
+@    s5 errorbar color 4
 @    s5 errorbar pattern 1
 @    s5 errorbar size 1.000000
 @    s5 errorbar linewidth 1.0
