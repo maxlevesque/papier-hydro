@@ -60,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Jun 27 17:45:43 2013"
+@timestamp def "Tue Jul 23 11:32:02 2013"
 @with line
 @    line on
 @    line loctype world
@@ -120,7 +120,7 @@
 @g0 fixedpoint format general general
 @g0 fixedpoint prec 6, 6
 @with g0
-@    world 0, 0, 20, 0.5
+@    world 0, 0, 15.1, 0.5
 @    stack world 0, 0, 0, 0
 @    znorm 1
 @    view 0.150000, 0.150000, 1.150000, 0.850000
