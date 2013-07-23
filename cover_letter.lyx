@@ -61,7 +61,7 @@
 \begin_body
 
 \begin_layout My Address
-Maximilien Levesque
+Guillaume Jeanmairet
 \begin_inset Newline newline
 \end_inset
 
@@ -81,7 +81,7 @@ Département de Chimie
 \begin_inset Newline newline
 \end_inset
 
-maximilien.levesque@gmail.com
+guillaume.jeanmairet@ens.fr
 \end_layout
 
 \begin_layout Send To Address
@@ -117,13 +117,13 @@ On behalf of the authors,
 \begin_inset Newline newline
 \end_inset
 
-Maximilien Levesque
+Guillaume Jeanmairet
 \begin_inset Newline newline
 \end_inset
 
 
 \begin_inset Graphics
-	filename ../../../../Documents/signature_maximilien.jpg
+	filename signature.jpg
 
 \end_inset
 
@@ -141,15 +141,15 @@ Please find attached a copy of a manuscript called
 
 
 \emph on
-Solvation of Complex Surfaces via Molecular Density Functional Theory
+Molecular Density Functional Theory of Water describing Hydrophobicity at
+ Short and Long Length Scales
 \emph default
 
 \begin_inset Quotes erd
 \end_inset
 
-, written by Virginie Marry, Benjamin Rotenberg, Guillaume Jeanmairet, Rodolphe
- Vuilleumier, Daniel Borgis and myself, that we respectfully ask for your
- consideration for publication in 
+, written by Maximilien Levesque, Daniel Borgis and myself, that we respectfully
+ ask for your consideration for publication in 
 \emph on
 The Journal of Chemical Physics
 \emph default
