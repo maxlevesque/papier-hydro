@@ -68,7 +68,7 @@
 \newcommand{\PP}{\mathbf{P}}
 \newcommand{\EE}{\mathbf{E}}
 \newcommand{\x}{\mathbf{x}}
-\newcommand{\etal}{{\em et }}
+\newcommand{\etal}{{\em et  al. }}
 
 
 \newcommand{\mui}{{\mathbf p}_i}
@@ -116,9 +116,9 @@ Recently, a molecular density functional theory (MDFT) approach to solvation has
 introduced.~\cite{ramirez02,ramirez05-CP,ramirez05,gendre09,zhao11,borgis12,levesque12_1,levesque12_2,jeanmairet13} It relies on the definition of a free-energy functional depending on the full six-dimensional position and orientation solvent density. In the so-called homogeneous reference fluid (HRF) approximation, the (unknown) excess free energy can be inferred from the angular-dependent direct correlation function of the bulk solvent,
 that can be predetermined from molecular simulations of the pure solvent. Compared to reference molecular dynamics calculations, such approximation was shown to be accurate for polar, non-hydrogen bonded fluids \cite{ramirez02,gendre09,zhao11,borgis12,levesque12_2}, and for water \cite{zhao11,jeanmairet13,levesque12_1}, if appropriate many-body corrections are introduced to either strengthen the tetrahedral order around H-bonding sites\cite{zhao11,jeanmairet13}, or improve the solvation free-energies of small hydrophobic solutes\cite{levesque12_1}.
 
-In a recent work\cite{jeanmairet13}, we have introduced a simplified version of MDFT that can be derived rigorously for simple point charge representations of water such as SPC or TIP4P, involving a  single Lennard-Jones interaction site and distributed partial charges. In that case we showed that the functional can be expressed in terms of the particle density $n(\rr)$ and site-distributed polarisation density $\PP(\rr)$, and it requires  as input three simple bulk physical properties of water, namely the density structure factor $\chi(k)$, and the k-dependent longitudinal and transverse dielectric susceptibilities, $\chi_L(k)$ and $\chi_T(k)$ (related to the longitudinal and transverse dielectric constants $\epsilon_L(k)$ and $\epsilon_T(k)$\cite{raineri92,raineri93,bopp98}). Those quantities can be inferred from experiments, or from molecular dynamics simulations of the selected point-charge model in bulk conditions\cite{bopp96,bopp98}. Elaborating on Refs~\cite{levesque12_1,jeanmairet13}, we  show in this paper how the  functional can be corrected on the basis of physical arguments  in order to describe the solvation of hydrophobic solutes of various sizes, going from microscopic to mesoscopic length scales. The approach is largely inspired by the theory of hydrophobic hydration developed by Lum, Chandler and Weeks (LCW)\cite{lum99}, and later Chandler and collaborators
+In a recent work\cite{jeanmairet13}, we have introduced a simplified version of MDFT that can be derived rigorously for simple point charge representations of water such as SPC or TIP4P, involving a  single Lennard-Jones interaction site and distributed partial charges. In that case we showed that the functional can be expressed in terms of the particle density $n(\rr)$ and site-distributed polarisation density $\PP(\rr)$, and it requires  as input three simple bulk physical properties of water, namely the density structure factor $\chi(k)$, and the k-dependent longitudinal and transverse dielectric susceptibilities, $\chi_L(k)$ and $\chi_T(k)$ (related to the longitudinal and transverse dielectric constants $\epsilon_L(k)$ and $\epsilon_T(k)$\cite{raineri92,raineri93,bopp98}). Those quantities can be inferred from experiments, or from molecular dynamics simulations of the selected point-charge model in bulk conditions\cite{bopp96,bopp98}. Elaborating on Refs~\onlinecite{levesque12_1,jeanmairet13}, we  show in this paper how the  functional can be corrected on the basis of physical arguments  in order to describe the solvation of hydrophobic solutes of various sizes, going from microscopic to mesoscopic length scales. The approach is largely inspired by the theory of hydrophobic hydration developed by Lum, Chandler and Weeks (LCW)\cite{lum99}, and later Chandler and collaborators
 \cite{tenwolde01,tenwolde02,huang02,varilly11,chandler-varilly11}, pointing the fact that the solvation of hydrophobic solutes has a different physical nature at those different  scales.  Hughes {\em et al.} have recently proposed a classical DFT approach relying on the hard-sphere fundamental measure theory (FMT) plus attractive interactions based on the
-statistical associating fluid theory  (SAFT)  to address the same problem.\cite{roundy13} In addition,  our theory is also able to account for the self-consistent coupling of the density field to the  polarization field. It will be used to compute the hydration properties of various molecular solutes that can be classified as hydrophobic, and can be described by  Lennard-Jones site parameters and  either a vanishing or small partial charge distribution on the sites.
+statistical associating fluid theory  (SAFT)  to address the same problem\cite{roundy13}. In addition,  our theory is also able to account for the self-consistent coupling of the density field to the  polarization field. It will be used to compute the hydration properties of various molecular solutes that can be classified as hydrophobic, and can be described by  Lennard-Jones site parameters and  either a vanishing or small partial charge distribution on the sites.
 
 This paper is organized as follows. Sec.~2 presents our extension of MDFT that describes  hydrophobic effects at short and long length scales. Sec.~3  gives details on the practical numerical implementation. Sec.~4 shows a few applications to the hydration properties of solutes of varying size. Sec.~5 concludes.
 
@@ -131,7 +131,7 @@ $\Phi_n(\rr)$ and an electric field  $\mathbf{E}_c(\rr)$, can be expressed as a 
 \nr & = &\int d\Omega  \, \rhorom \\
  \Pol   & = & \int d\rr' d\Omega \, \MU(\rr-\rr', \Omega) \rho(\mathbf{r}',\Omega),
  \eea
-where, $\MU(\rr,\Omega)$ is the polarization density of a single water molecule placed at the origin. According to the definition of Raineri \etal\cite{raineri93},  this quantity is better apprehended in
+where, $\MU(\rr,\Omega)$ is the polarization density of a single water molecule placed at the origin. According to the definition of Raineri \etal \cite{raineri93},  this quantity is better apprehended in
 in k-space as 
 \bea
 \MU(\kk,\Omega) &= & -i \, \sum_m q_m \frac{\mathbf{s}_m(\Omega) }{\kk \cdot \mathbf{s}_m(\Omega) } \left( e^{i \, \kk \cdot \mathbf{s}_m(\Omega) } -1 \right) \\
@@ -140,9 +140,9 @@ in k-space as
 \eea
 $q_k$ and $s_k(\Omega)$ stand for the site partial charges and their positions in space for a fixed molecule orientation.
  In the second equality, the first term $\MU(\Omega) = \sum_m q_m \, \mathbf{s}_j(\Omega) =  \mu \, \Om$  is the orientation-dependent molecular dipole (with $\mu$  dipole magnitude; for water,
- $\Om$  is the unit vector along the $C_{2v}$ axis). The following terms account for the multipolar expansion of the water charge density, starting from the quadrupole. 
+ $\Om$  is the unit vector along the $C_{2}$ axis). The following terms account for the multipolar expansion of the water charge density, starting from the quadrupole. 
 
-We thus start from the functional  $\F[n(\rr),\Pol]$ introduced in Ref.~\cite{jeanmairet13} for liquid water in an external field.  Expressing the ideal term as a functional of the whole position and orientation density, $\rho(\rr,\Omega)$, instead of the unknown expression in terms of just $n(\rr)$ and  $\PP(\rr)$ (an approximation reminiscent of the Kohn-Sham approximation for the kinetic energy in electronic DFT),  one is lead to the following total functional 
+We thus start from the functional  $\F[n(\rr),\Pol]$ introduced in Ref.~\onlinecite{jeanmairet13} for liquid water in an external field.  Expressing the ideal term as a functional of the whole position and orientation density, $\rho(\rr,\Omega)$, instead of the unknown expression in terms of just $n(\rr)$ and  $\PP(\rr)$ (an approximation reminiscent of the Kohn-Sham approximation for the kinetic energy in electronic DFT),  one is lead to the following total functional 
 \bea
 \label{eq:Ftot}
 \F[n(\rr),\PP(\rr)] &=& k_BT \int d\rr d\Omega \left[ \rhorom \ln \left(\frac{8\pi^2 \rhorom}{n_0} \right) - \rhorom)+\frac{n_0}{8\pi^2} \right] \nn \\
@@ -166,7 +166,7 @@ and
 \eea
 where we have used  the conditional orientational probability $\alpharom = \rhorom/\rhon$. In this last equation, the excess free energy is expressed at quadratic order around the homogeneous fluid state
 \bea
-\F_P^{exc}[\Pol] &- & -  \frac{3k_BT}{2\mu^2 n_0}  \int d\rr \, \Pol^2\nn \\
+\F_P^{exc}[\Pol] &= & -  \frac{3k_BT}{2\mu^2 n_0}  \int d\rr \, \Pol^2\nn \\
 &+&      \frac{1}{8\pi \epsilon_0} \int d\rr_1 d\rr_2 \, \chi_T^{-1}(r_{12};n_0) \, \PP_T(\rr_1) \cdot \PP_T(\rr_2)  \nn \\
 &+&    \frac{1}{8\pi \epsilon_0} \int d\rr_1 d\rr_2 \, \chi_L^{-1}(r_{12};n_0) \, \PP_L(\rr_1) \cdot \PP_L(\rr_2).  
 \label{eq:FP_exc}
