@@ -1,0 +1,2724 @@
+@string{jcp = "J. Chem. Phys."}
+@string{bio = "Biochemistry"}
+@string{jpc = "J. Phys. Chem."}
+@string{jacs = "J. Am. Chem. Soc."}
+@string{prl = "Phys. Rev. Lett."}
+@string{pre = "Phys. Rev. E"}
+@string{molphys = "Mol. Phys."}
+@string{pccp = "Phys. Chem. Chem. Phys."}
+@string{jctc = "J. Chem. Theor. Comp."}
+
+@STRING{jcip = "J. Chim. Phys."}
+@STRING{prb = "Phys. Rev. B"}
+@STRING{pre = "Phys. Rev. E"}
+@STRING{pra = "Phys. Rev. A"}
+@STRING{pr = "Phys. Rev."}
+@STRING{zpb = "Z. Phys. B. Condensed Matter"}
+@STRING{jpsjap = "J. Phys. Soc. Jpn."}
+@STRING{prl = "Phys. Rev. Lett."}
+@STRING{jpa = "J. Phys. A. Math. Gen."}
+@STRING{jstat = "J. Stat. Phys."}
+@STRING{nucl = "Nucl. Phys. B"}
+@STRING{prog = "Prog. Theor. Phys."}
+@STRING{can = "Can. J. Phys."}
+@STRING{ams = "Ann. Math. Statist."}
+@STRING{jmp = "J. of Math. Phys."}
+@STRING{revmod = "Rev. Mod. Phys."}
+@STRING{surf = "Surface Science "}
+@STRING{japp = "J. Appl. Phys."}
+@STRING{intmodb = " Int. J. Mod. Phys. B"}
+@STRING{ann="Ann. Phys."}
+@STRING{jpb = "J. Phys. B. Cond. Matt."}
+@STRING{jpfr = "J. Phys. Fr."}
+@STRING{physb = " Physica B "}
+@STRING{jltp = "J. of Low Temp. Phys."}
+@STRING{physa = " Physica A "}
+@STRING{epl="Europhys. Lett"}
+@STRING{pams="Proc. Am. Math. Soc."}
+@STRING{ajp="Aust. J. Phys."}
+@STRING{cpc="Comput. Phys. Commun."}
+@STRING{jacs="J. Am. Chem. Soc."}
+@STRING{jpcA="J. Phys. Chem. A"}
+@STRING{jpcB="J. Phys. Chem. B"}
+@STRING{cpl="Chem. Phys. Lett."}
+@STRING{cp="Chem. Phys."}
+@STRING{ChemRew="Chem. Rev."}
+
+@article{hoover85, author = "W.G. Hoover ", 
+	title = " ", 
+	journal = " Phys. Rev. A", 
+	volume = "31",  
+	pages = "1695", 
+	year = "1985"}
+
+@article{nose86, author = "S. Nos\'e ", 
+	title = " ", 
+	journal = " Mol. Phys.", 
+	volume = "57",  
+	pages = "187", 
+	year = "1986"}
+
+@article{ferrario85, author = "M. Ferrario and J.-P. Ryckaert ", 
+	title = " ", 
+	journal = " Mol. Phys.", 
+	volume = "54",  
+	pages = "587", 
+	year = "1985"}
+
+@article{nose83, author = "S. Nos\'e and M.L. Klein ", 
+	title = " ", 
+	journal = " Mol. Phys.", 
+	volume = "50",  
+	pages = "1055",
+	year = "1983"}
+
+@article{ryckaert83, author = " J.-P. Ryckaert and G. Ciccotti ", 
+	title = " ", 
+	journal = " J. Chem. Phys.",
+	volume = "78",  
+	pages = "7368", 
+	year = "1983"}
+
+@article{andersen83,
+  author = 	 {H. C. Andersen},
+  journal = 	 {J. Comp. Phys.},
+  year = 	 1983,
+  volume =	 52,
+  pages =	 24
+}
+
+@article{nose91b, author = "S. Nos\'e ", 
+	title = " ", 
+	journal = " Prog. Theor. Phys. Supp.", 
+	volume = "103",  
+	pages = "1", 
+	year = "1991"}
+
+@article{ryckaert77, 
+	author = "J.-P. Ryckaert and G. Ciccotti and H.J.C. Berendsen", 
+	title = " ", 
+	journal = " J. Comp. Phys.", 
+	volume = "23",  
+	pages = "327", 
+	year = "1977"}
+
+@article{essmann95,
+  author = 	 "U. Essmann and L. Perera and M. L. Berkowitz and T. Darden and H. Lee and L. G. Pedersen"
+ , title = 	 " "
+ , journal =	 "J. Chem. Phys."
+ , year =	 1995
+ , volume =	 101
+ , pages =	 8577
+}
+
+@article{charmm,  author  = "B. R. Brooks and R. E. Bruccoeri and B. D. Olafson and D.J. States and 
+		S. Swaminanthan and M. Karplus" 
+		,journal = "J. Comput. Chem."
+		,year = "1983"
+		,volume = "4"
+		,pages = "187"}
+@article{nose84,
+  author = 	 {S. Nos\'e},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1984,
+  volume =	 81,
+  pages =	 511
+}
+
+@article{felderhof77,
+  author = 	 {B. U. Felderhof},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1977,
+  volume =	 67,
+  pages =	 493
+}
+
+@article{huenenberger99,
+  author = 	 {P. H. H\"unenberger and J. A. McCammon},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1999,
+  volume =	 110,
+  pages =	 1856
+}
+
+@article{martyna99,
+  author = 	 {G. J. Martyna and M. E. Tuckerman},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1999,
+  volume =	 110,
+  pages =	 2810
+}
+
+@article{hummer96,
+  author = 	 {G. Hummer and L. R. Pratt and A. E. Garcia},
+  title = 	 { },
+  journal = 	 {J. Phys. Chem.},
+  year = 	 1996,
+  volume =	 100,
+  pages =	 1206
+}
+
+@article{hockney70,
+  author = 	 {R. W. Hockney},
+  title = 	 { },
+  journal = 	 {Methods Comput. Phys.},
+  year = 	 1970,
+  volume =	 9,
+  pages =	 136
+}
+
+@article{york99,
+  author = 	 {D. M. York and M. Karplus},
+  title = 	 { },
+  journal = 	 {J. Phys. Chem.},
+  year = 	 1999,
+  volume =	 103,
+  pages =	 11060
+}
+
+@article{car85,
+  author = 	 {R. Car and M. Parrinello},
+  title = 	 { },
+  journal = 	 {Phys. Rev. Lett.},
+  year = 	 1985,
+  volume =	 55,
+  pages =	 478
+}
+
+@article{tuckerman92,
+  author = 	 {M. Tuckerman and B. J. Berne and G. J. Martyna},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1992,
+  volume =	 97,
+  pages =	 1990
+}
+@article{marchi98,
+  author = 	 {M. Marchi and P. Procacci},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1998,
+  volume =	 109,
+  pages =	 5194
+}
+
+@article{im98,
+  author = 	 {W. Im and D. Beglov and B. Roux},
+  title = 	 { },
+  journal = 	 {Comp. Phys. Comm.},
+  year = 	 1998,
+  volume =	 111,
+  pages =	 59
+}
+
+@article{marcus56a,
+  author = 	 {R. A. Marcus},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1956,
+  volume =	 24,
+  pages =	 966
+}
+
+@article{marcus56b,
+  author = 	 {R. A. Marcus},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1956,
+  volume =	 24,
+  pages =	 979
+}
+@article{mackerell98,
+  author = 	 "A. D. MacKerell and D. Bashford and M. Bellott and
+		  R. L. Dunbrack and J. D. Evanseck and M. J. Field
+		  and S. Fischer and J. Gao and H. Gao and S. Ha and
+		  D. Joseph--McCarty and L. Kuchnir and K. Kuczera and
+		  F. T. K. Lao and C. Mattos and S. Michnick and
+		  T. Ngo and D. T. Nguyen and B. Prodhom and
+		  W. E. Reiber III and B. Roux and M. Schlenkrich and
+		  R. Stote and J. Straub and M. Watanabe and
+		  J. Wiorkiewicz-Kuczera and D. Yin and M. Karplus",
+  title = 	 " ",
+  journal =	 "J. Phys. Chem.",
+  year =	 1998,
+  volume =	 "B102",
+  pages =	 3586
+}
+
+@article{procacci96,
+  author = 	 {P. Procacci and M. Marchi},
+  title = 	 { },
+  journal = 	 {J. Chem. Phys.},
+  year = 	 1996,
+  volume =	 104,
+  pages =	 3003
+}
+
+@article{wlodawer87,
+  author = 	 {A. Wlodawer and J. Deisenhofer and R. Huber},
+  title = 	 { },
+  journal = 	 {J. Mol. Biol.},
+  year = 	 1987,
+  volume =	 193,
+  pages =	 145
+}
+
+@Book{jackson,
+  author =	 {W. D. Jackson},
+  title = 	 {Classical Electrodynamics},
+  publisher = 	 {Wiley},
+  year = 	 1999,
+  edition =	 {Third},
+  address = {New York}
+}
+
+@article{nina97,
+  author = 	 {M. Nina and D. Beglov and B. Roux},
+  title = 	 { },
+  journal = 	 {J. Phys. Chem. B},
+  year = 	 1997,
+  volume =	 101,
+  pages =	 5239
+}
+
+@article{honig95,
+  author = 	 {B. Honig and A. Nichols},
+  title = 	 { },
+  journal = 	 {Science},
+  year = 	 1995,
+  volume =	 268,
+  pages =	 1144
+}
+
+@article{born20,
+  author = 	 {M. Born},
+  title = 	 { },
+  journal = 	 {Z. Phys.},
+  year = 	 1920,
+  volume =	 1,
+  pages =	 45
+}
+
+@article{warwicker82,
+  author = 	 {J. Warwicker and H. C. Watson},
+  title = 	 { },
+  journal = 	 {J. Mol. Biol.},
+  year = 	 1982,
+  volume =	 157,
+  pages =	 671
+}
+
+@article{nichols91,
+  author = 	 {A. Nichols and B. Honig},
+  title = 	 { },
+  journal = 	 {J. Comp. Chem.},
+  year = 	 1991,
+  volume =	 12,
+  pages =	 435
+}
+
+@article{davis89,
+  author = 	 {M. E. Davis and J. A. McCammon},
+  title = 	 { },
+  journal = 	 {J. Comp. Chem.},
+  year = 	 1989,
+  volume =	 10,
+  pages =	 386
+}
+
+@article{you93,
+  author = 	 {T. J. You and S. C. Harvey},
+  title = 	 { },
+  journal = 	 {J. Comp. Chem.},
+  year = 	 1993,
+  volume =	 14,
+  pages =	 484
+}
+@article{zauhar85,
+  author = 	 {R. Zauhar and R. J. Morgan},
+  title = 	 { },
+  journal = 	 {J. Mol. Biol.},
+  year = 	 1985,
+  volume =	 186,
+  pages =	 815
+}
+
+@article{rashin90,
+  author = 	 {A. A. Rashin},
+  title = 	 { },
+  journal = 	 {J. Phys. Chem.},
+  year = 	 1990,
+  volume =	 94,
+  pages =	 725
+}
+
+@article{warshel76,
+  author = 	 {A. Warshel and M. Levitt},
+  title = 	 { },
+  journal =  {J. Mol. Biol.},
+  year = 	 1976,
+  volume =	 103,
+  pages =	 227
+}
+
+@article{warshel84,
+  author = 	 {A. Warshel and S. Russell},
+  title = 	 { },
+  journal = 	 {Q. rev. Biophys.},
+  year = 	 1984,
+  volume =	 17,
+  pages =	 283
+}
+
+@article{sitkoff94,
+  author = 	 {D. Sitkoff and K. A. Sharp and B. Honig},
+  title = 	 { },
+  journal = 	 {J. Phys. Chem.},
+  year = 	 1994,
+  volume =	 98,
+  pages =	 1978
+}
+
+@article{wesson92,
+  author = 	 {L. Wesson and D. Eisenberg},
+  title = 	 { },
+  journal = 	 {Protein Science},
+  year = 	 1992,
+  volume =	 1,
+  pages =	 227
+}
+
+@InProceedings{evans92,
+  author = 	 {R. Evans},
+  booktitle = 	 {Fundamental of Inhomogeneous Fluids},
+  editor =	 {D. Henderson},
+  year =	 1992,
+  publisher = {Marcel Dekker},
+  address =	 {New York}
+}
+  %title = 	 { },
+
+@article{procacci97,
+  author = 	 {P. Procacci and T. Darden and E. Paci and M. Marchi},
+  title = 	 { },
+  journal = 	 {J. Comp. Chem.},
+  year = 	 1997,
+  volume =	 18,
+  pages =	 1827
+}
+@Misc{frigo,
+  author =	 {M. Frigo and S. G. Johnson},
+  title =	 {FFTW a free collection of fast Fourier transforms routines in C},
+  note =	 {Available at the
+FFTW home page:  {\tt http://theory.lcs.mit.edu/~fftw}}
+}
+
+
+
+%%%%%%%%%%%%%  Molecular dynamics: General %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Book{allen,
+  author =   {M. P. Allen and D. J. Tildesley},
+  title =    {Computer simulation of liquids},
+  publisher =    {Oxford Science Publications},
+  year =     {1989}
+} 
+
+@article{TIP3P,
+  author = 	 "W. L. Jorgensen  and J. Chandrasekhar and J. D. Madura and M. L.
+Klein ",
+  journal = jcp,
+  year = 	"1983",
+  volume =	"79",
+  pages =	"926-935",
+}
+  pages =	"926-935",
+  title =  "Comparison of simple potential functions for simulating
+            liquid water"
+
+@article{TIP4P,
+  author = 	 "W.L. Jorgensen and J. Chandrasekhar and J.D. Madura and R.W. Impey and M.L.  Klein",
+  journal = jcp,
+  year = 	"1983",
+  volume =	"79",
+  pages =	"926",
+  title =        ""
+}
+
+@article{SPC,
+  author = 	 "H.J. Berendsen and J.R. Grigera and T.P. Straatma",
+  journal = 	jpc,
+  year = 	"1987",
+  volume =	"91",
+  pages =	"6269",
+  title =        ""
+}
+
+@article{Sprik-Klein88,
+  author = 	 "M. Sprik  and M. L. Klein",
+  journal = 	jcp,
+  year = 	"89",
+  volume =	"89",
+  pages =	"7556",
+  title =        ""
+}
+% pages = ""
+% title = ""
+
+@article{sprik91a,
+  author = 	 "M. Sprik",
+  journal = 	jcp,
+  year = 	"1991",
+  volume =	"95",
+  pages =	"6762",
+}
+% pages = ""
+% title = ""
+
+@article{sprik91b,
+  author = 	 "M. Sprik",
+  journal = 	jpc,
+  year = 	"1991",
+  volume =	"95",
+  pages =	"2283",
+}
+% pages = ""
+% title = ""
+
+@article{rick94,
+  author = 	 "S.W. Rick and S.J. Stuart and B.J. Berne",
+  journal = 	jcp,
+  year = 	"1994",
+  volume =	"101",
+  pages =	"6141"
+}
+% pages = ""
+% title = ""
+
+@article{toukmaji01,
+  author =   "A. Toukmaji and C. Sagui and J. Board and T. Darden",
+  journal =     jcp,
+  year =    "2000",
+  volume =  "113",
+  pages =   "10913"
+}
+
+@article{jorgensen-nma,
+  author =   "W. Jorgensen and Gao",
+  journal =     jacs,
+  year =    "1988",
+  volume =  "110",
+  pages =   "4212"
+}
+%%%%%%%%%%%%%%%% Electrostatic theory %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{simonson03,
+    author =       "T. Simonson",
+    journal =     "Reports Prog. Phys.",
+    year =        "2003",
+    volume =      "66",
+    pages =       "737",
+    title =        ""
+}
+% pages = "1-20"
+% title = ""
+
+
+@article{ramshaw71,
+  author = 	 "J. D. Ramshaw",
+  journal = 	jcp,
+  year = 	"1971",
+  volume =	"55",
+  pages =	"1763"
+}
+% pages = "1763-1774"
+% title = "On the molecular theory of dielectric polarization in rigid-dipole
+% fluids"
+
+@article{ramshaw77,
+  author = 	 "J. D. Ramshaw",
+  journal = 	jcp,
+  year = 	"1977",
+  volume =	"66",
+  pages =	"3134"
+}
+% pages = "3134-3139"
+% title = "Existence of the dielectric constant in rigid-dipole fluids:
+%The functional derivative approach"
+
+@article{schaefer90,
+  author = 	 "M. Schaefer  and C. Froemmel",
+  journal = 	"J. Mol. Biol.",
+  year = 	"1990",
+  volume =	"216",
+  pages =	"1045",
+}
+% pages = "1045-1066"
+% title = "A precise analytical method for calculating the electrostatic 
+energy of macromolecules in aqueous solutions"
+
+@article{schaefer96,
+  author = 	 "M. Schaefer  and M. Karplus",
+  journal = 	jpc,
+  year = 	"1996",
+  volume =	"100",
+  pages =	"yyyy"
+}
+% pages = ""
+% title = ""
+
+@article{madden-kivelson,
+  author = "P. A. Madden and D. Kivelson",
+  journal = 	"Adv. Chem. Phys.",
+  year = 	"1984",
+  volume =	"56",
+  pages =	"141",
+}
+% pages = ""
+% title = ""
+
+@article{stell81,
+  author = 	 "G. Stell  and G. Patey and J. S. Hoye",
+  journal = 	"Adv. Chem. Phys.",
+  year = 	"1981",
+  volume =	"48",
+  pages =	"183",
+}
+% pages = ""
+% title = ""
+
+@article{calef83,
+  author = 	 "D. F. Calef  and P. G. Wolynes",
+  journal = 	jpc,
+  year = 	"1983",
+  volume =	"87",
+  pages =	"3387",
+}
+% pages = "3387-3399"
+% title = "Classical solvent dynamics and electron transfer. 1. Continuum
+% theory"
+ 
+%%%%%%%%%%%%% Generalized Born %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{still90,
+  author = 	 "W. C. Still  and A. Tempczyk and R. C. Hawley and T. Hendrickson ",
+  journal = 	jacs,
+  year = 	"1990",
+  volume =	"112",
+  pages =	"6127",
+}
+% pages = "6127-6129"
+% title = "Semianalytical treatment of solvation for molecular mechanics and
+% dynamics"
+
+@article{edinger97,
+  author = 	 "S. R. Edinger  and C. Cortis and P. S. Shenkin and R. A. Friessner",
+  journal = 	jpcB,
+  year = 	"1997",
+  volume =	"101",
+  pages =	"1190",
+  title =        ""
+}
+% pages = "1190-1197"
+% title = "Solvation free energies of peptides: Comparison of approximate
+% continuum solvation models with accurate solution of the Poisson-Boltzmann
+% equation"
+
+@article{hawkins96,
+  author = 	 "G. D. Hawkins  and C. J. Cramer and D.G. Truhlar",
+  journal = 	jpcB,
+  year = 	"1996",
+  volume =	"100",
+  pages =	"19824",
+  title =        ""
+}
+% pages = "19824-19839"
+% title = "Parametrized models of aqueous free energies of solvation based 
+% on pairwise descreening of solute atomic charges from a dielectric medium"
+
+@article{brooksIII02,
+  author = 	 "  M. S. Lee and F. R. Salsbury and C. L. Brooks III",
+  journal = 	jcp,
+  year = 	"2002",
+  volume =	"116",
+  pages =	"10606",
+}
+% pages = "10606-10614"
+%  title ="Novel generalized Born methods"
+
+@article{scarsi97,
+  author = 	 "M. Scarsi  and J. Apostokalis and A. Caflish",
+  journal = 	jpcA,
+  year = 	"1997",
+  volume =	"101",
+  pages =	"8098",
+  title =        ""
+}
+% pages = ""
+% title = ""
+
+@article{qiu97,
+  author = " D. Qiu and P. S. Shenkin and F. P. Hollinger and W. C. Still",
+  journal = 	jpcA,
+  year = 	"1997",
+  volume =	"101",
+  pages =	"3005",
+  title =        ""
+}
+% pages = ""
+% title = ""     
+
+@article{ghosh98,
+  author = 	 "A. Ghosh  and C. S. Rapp and R. A. Friesner",
+  journal = 	jpcB,
+  year = 	"1998",
+  volume =	"102",
+  pages =	"10983",
+  title =        ""
+}
+% pages = ""
+% title = ""     
+
+@article{bashford00,
+  author = 	 "D. Bashford and D. A. Case",
+  journal = 	"Annu. Rev. Phys. Chem.",
+  year = 	"2000",
+  volume =	"51",
+  pages =	"129",
+  title =        ""
+}
+% pages = ""
+% title = ""     
+
+
+%%%%%%%%%%%%%% Distance Dependent Dielectric %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{hassan00,
+author =       "S. A. Hassan and F. Guarnieri and E. L. Mehler",
+journal =     jpcB,
+year =        "2000",
+volume =      "104",
+pages =       "6478"
+}
+% pages = ""
+% title = ""
+
+@article{hassan01,
+author =       "S. A. Hassan and E. L. Mehler",
+journal =     "Int. J. Quant. Chem.",
+year =        "2001",
+volume =      "83",
+pages =       "193"
+}
+% pages = ""
+% title = ""
+
+@article{hassan02,
+author =       "S. A. Hassan and E. L. Mehler",
+journal =     "Proteins",
+year =        "2002",
+volume =      "47",
+pages =       "45"
+}
+% pages = ""
+% title = ""
+
+
+@article{,
+  author = 	 "  and ",
+  journal = 	"",
+  year = 	"",
+  volume =	"",
+  pages =	"",
+  title =        ""
+}
+% pages = ""
+% title = ""
+
+%%%%%%%%%%%%%% Polarisation density functionnal %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+@article{vanderzwan85,
+  author = 	 "G. van der Zwan  and J. T. Hynes",
+  journal = 	jpc,
+  year = 	"1985",
+  volume =	"89",
+  pages =	"4181",
+  title =        ""
+}
+% pages = ""
+% title = ""
+
+@article{Lee-Hynes88,
+  author = 	 "S. Lee  and J. T. Hynes",
+  journal = 	jcp,
+  year = 	"1988",
+  volume =	"88",
+  pages =	"6853"
+}
+% pages = "6853-6862"
+% title = "Solution reaction path Hamiltonian for reactions in polar solvents"
+
+@article{kharkats76,
+  author = 	 "Y. I. Kharkats  and A. A. Kornyshev and M. A. Vorotyntsev",
+  journal = 	"J. Chem. Soc. Faraday Trans. 2",
+  year = 	"1976",
+  volume =	"72",
+  pages =	"361"
+}
+% pages = ""
+% title = ""
+
+@article{Borgis-Hynes93,
+  author = 	 "Daniel Borgis  and James T. Hynes",
+  journal = 	"Chem. Phys.",
+  year =        "1993",
+  volume =	"170",
+  pages =	"315",
+}
+  pages =	"315-346",
+  title =        "Dynamical theory of Proton Tunnelling Transfer Rates in
+                  Solution: General Formulation"
+
+@article{Marchi-Borgis01,
+  author = 	 "M. Marchi  and D. Borgis and N. L\'evy and P. Ballone",
+  journal = 	jcp,
+  year = 	"2001",
+  volume =	"114",
+  pages =	"4377",
+}
+  pages =	"4377-4385",
+  title =        "A dielectric continuum molecular dynamics method"
+
+ 
+%%%%%%%%%%%%%% Langevin Dipoles %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+@Book{warshel,
+  author =   {A. Warshel},
+  title =    {Computer Modeling of Chemical Reactions in Enzymes and
+Solutions},
+  publisher =    {Wiley},
+  year =     {1991},
+  address =      {New York},
+} 
+
+@article{Warshel-Russell84,
+  author = 	 { A. Warshel and S. T. Russell},
+  journal = 	 {Quat. Rev. Biophys.},
+  year = 	 {1984},
+  volume =	 {17},
+  pages =	 {283},
+}
+  pages =	 {283-422},
+  title =        {Calculations of Electrostatic interactions in Biological
+  systems and in Solutions}
+
+@article{Warshel-Aqvist91,
+  author = 	 { A. Warshel and J. $\AA$qvist},
+  journal = 	 {Annu. Rev. Biophys. Biophys. Chem.},
+  year = 	 {1991},
+  volume =	 {20},
+  pages =	 {267},
+}
+  pages =	 {267-298},
+  title =        {Electrostatic Energy and Macromolecular Function}
+
+@article{Papazian-Warshel98,
+  author = 	 { A. Papazian and A. Warshel},
+  journal = 	 jacs,
+  year = 	 {1998},
+  volume =	 {102},
+  pages =	 {5348},
+}
+  pages =	 {5348-5357},
+  title =       {Effect of Solvent Discreteness on Solvation} 
+
+@article{Papazian-Warshel97,
+  author = 	 { A. Papazian and A. Warshel},
+  journal = 	 jpcB,
+  year = 	 {1997},
+  volume =	 {101},
+  pages =	 {11254},
+}
+  pages =	 {11254-11264},
+  title =       {Continuum and Dipole-lattice Models of Solvation} 
+
+@article{Florian-Warshel97,
+  author = 	 {J. Florian and A. Warshel},
+  journal = 	 jpcB,
+  year = 	 {1997},
+  volume =	 {101},
+  pages =	 {5583},
+}
+  pages =	 {5583-5595},
+  title =        {Langevin Dipoles Model for ab Initio Calculations of Chemical
+  Processes in Solution: Parametrization and Application to Hydration Free
+  Energies of Neutral and Ionic Solutes and Conformational Analysis in aqueous
+  Solution}
+
+%%%%%%%%%%%%%% Multipolar Lattices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+@article{coalson96,
+  author = 	 { R. D. Coalson and A. Duncan},
+  journal = 	 jpcB,
+    title =        "Statistical Mechanics of a Multipolar Gas: A Lattice Field
+  Theory Approach",
+  year = 	 "1996",
+  volume =	 "100",
+  pages =	 "2612",
+}
+  pages =	 "2612-2620",
+
+
+@article{coalson95,
+  author = 	 { R. D. Coalson and A. M. Walsh and A. Duncan and N. Ben-Tal},
+  journal = 	 jcp,
+  year = 	 "1995",
+  volume =	 "102",
+  pages =	 "4584",
+}
+  pages =	 "4584-4594",
+  title =        "Statistical Mechanics of a Coulomb Gas with Finite Size
+  Particles: A Lattice Field Theory Approach"
+
+@InBook{coalson-beck99,
+  author =	 {R. Coalson   and T. Beck},
+  title = 	 {Encyclopedia of Computational Chemistry},
+  publisher = 	 {Wiley},
+  year = 	 "1998",
+  volume = "3",
+  address =	 "New York",
+}
+
+@article{Steinhauser99,
+  author = 	 "S. Boresh  and O. Steinhauser",
+  journal = 	jcp,
+  year = 	"1999",
+  volume =	"111",
+  pages =	"8271",
+}
+  pages =	"8271-8274",
+  title =  "Rationalizing the effect of modified electrostatic
+interactions in computer simulations: The dielectric self-consistent field
+method"
+%%%%%%%%%%%%%% DFT of Molecular Liquids %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Chandler-Singer86-I,
+  author = 	 {D. Chandler and J. D. McCoy and S. J. Singer},
+  journal = 	 jcp,
+  year = 	 "1986",
+  volume =	 "85",
+  pages =	 "5971",
+}
+  pages =	 "5971-5982",
+  title =        "Density Functionnal Theory of Nonuniform Polyatomic Systems.I
+  General Formulation"
+
+@article{Lowen-n93,
+  author = 	 "H. Lowen  and J. P. Hansen and P. A. Madden",
+  journal = 	jcp,
+  year = 	"1993",
+  volume =	"98",
+  title="NONLINEAR COUNTERION SCREENING IN COLLOIDAL SUSPENSIONS",
+  pages =	"3275",
+}
+%  pages =	"3275-3289",
+%  title =        "Nonlinear Counterion Screening in Colloidal Suspensions"
+
+@article{kierlik-rosinberg90,
+  author = 	 "E. Kierlik  and M. L. Rosinberg",
+  journal = 	"Phys. Rev. A",
+  year = 	"1990",
+  volume =	"42",
+  pages =	"3382",
+}
+
+@article{kierlik-rosinberg91,
+  author = 	 "E. Kierlik  and M. L. Rosinberg",
+  journal = 	"Phys. Rev. A",
+  year = 	"1991",
+  volume =	"44",
+  pages =	"5025",
+}
+%  pages =	"5025-5037",
+%  title =        "Density-functional theory for inhomogeneous fluids:
+% Adsorption of binary mixtures"
+
+@article{dietrich92,
+  author = 	 "P. Frodl  and S. Dietrich",
+  journal = 	"Phys. Rev. A",
+  year = 	"1992",
+  volume =	"45",
+  pages =	"7330",
+  title =        ""
+}
+%  pages =	"7330-7354",
+  title =        "Bulk and interfacial properties of polar and molecular fluids"
+
+@article{telodagama91,
+  author = 	 "P. I. Texeira  and M. M. Telo da Gama",
+  journal = 	"J. Phys.: Condens. Matter",
+  year = 	"1991",
+  volume =	"3",
+  pages =	"111",
+  title =        ""
+}
+% pages = {111-125}
+% title = {Density-functional theory for the interfacial properties of a
+% dipolar fluid}
+
+@article{allen03,
+  author = 	 "R. Allen and J. P. Hansen",
+  journal = 	"J. Phys.: Condens. Matter",
+  year = 	"2003",
+  volume =	"14",
+  pages =	"11981",
+  title =        ""
+}
+% pages = {111-125}
+% title = {Density-functional theory for the interfacial properties of a
+% dipolar fluid
+
+@article{ramirez02,
+  author =       "R. Ramirez and R. Gebauer and M. Mareschal and D. Borgis",
+  journal =     pre,
+  year =        "2002",
+  volume =      "66",
+  pages =       "306",
+  title =        " Density functional theory of solvation in a polar solvent: Extracting the functional from homogeneous solvent simulations"
+}
+% pages = {}
+% title = {}
+
+@article{ramirez05-CP,
+  author =       "R. Ramirez and M. Mareschal and D. Borgis",
+  journal =     cp,
+  year =        "2005",
+  volume =      "319",
+  pages =       "261",
+  title =        "Direct correlation functions and the density functional theory of polar solvents"
+}
+% pages = {261-272}
+% title = {}
+
+@article{ramirez05,
+  author =       "R. Ramirez and D. Borgis",
+  journal =     jpcB,
+  year =        "2005",
+  volume =      "109",
+  pages =       "6754",
+  title =        "Density functional theory of solvation and its relation to implicit solvent models"
+}
+% pages = {6754-6763}
+% title = {}
+
+@article{klapp98,
+  author =       "S. Klapp and S. Forstman",
+  journal =     jcp,
+  year =        "1998",
+  volume =      "109",
+  pages =       "1062",
+  title =        ""
+}
+% pages = {}
+% title = {}
+
+@article{pratt-chandler77,
+  author =       "L. R. Pratt and D. Chandler",
+  journal =     jcp,
+  year =        "1977",
+  volume =      "67",
+  pages =       "3683",
+  title =        ""
+}
+% pages = {}
+% title = {}
+
+
+%%%%%%%%%%%%%% Integral Equations  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@Book{hansen,
+  author =   {J. P. Hansen and I. R. McDonald},
+  title =    "Theory of Simple Liquids",
+  publisher =    "Academic Press",
+  year =     "1989",
+  address = "London"
+}
+
+@Book{gray-gubbins-vol1,
+  author =   {C. G. Gray and K. E. Gubbins},
+  title =    "Theory of Molecular Fluids, Volume 1: Fundamentals",
+  publisher =    "Clarendon Press",
+  year =     "1984",
+  address = "Oxford"
+}
+
+@Book{gray-gubbins-vol2,
+  author =   {C. G. Gray and K. E. Gubbins and C. J. Joslin},
+  title =    "Theory of Molecular Fluids, Volume2: Applications",
+  publisher =    "Clarendon Press",
+  year =     "2011",
+  address = "Oxford"
+}
+
+@article{Chandler-RISM,
+  author = 	 {D. Chandler  and H.C. Hendersen},
+  journal = 	 jcp,
+  year = 	 "1972",
+  volume =	 "57",
+  title="Optimized Cluster Expansions for Classical FLUIDS - THEORY OF MOLECULAR LIQUIDS",
+  pages =	 "1930",
+}
+  pages =	 "1930-1937",
+
+
+@article{chandler73,
+  author = 	 "D. Chandler",
+  journal = 	jcp,
+  year = 	"1973",
+  volume =	"59",
+  pages =	"2742"
+}
+% pages = "2742-2746"
+% title = "Derivation of an Integral Equation for Pair Correlation Functions in Molecular Fluids"
+
+@article{lowden-chandler73,
+  author = 	 "L.J. Lowden  and D. Chandler",
+  journal = 	jcp,
+  year = 	"1973",
+  volume =	"59",
+  pages =	"6587"
+}
+% pages = "6587-6595"
+% title = "Solution of a New Integral Equation for Pair Correlation Functions in Molecular Liquid"
+
+@article{Lowden-chandler74,
+  author = 	 "L. J. Lowden   and D. Chandler",
+  journal = 	jcp,
+  year = 	"1974",
+  volume =	"61",
+  pages =	"5228"
+}
+% pages = "5228-5241"
+% title = "Theory of Intermolecular Pair Correlations for Molecular Liquids. Applications to the Liquids Carbon Tetrachloride, Carbon Disulfide, Carbon Diselenide, and Benzen"
+
+@article{chandler76,
+  author = 	 "D. Chandler",
+  journal = 	"Mol. Phys.",
+  year = 	"1976",
+  volume =	"31",
+  pages =	"1213"
+}
+% pages = "1213-1223"
+% title = "Cluster Diagrammatic Analysis of the RISM Equation"
+
+@article{ladanyi-chandler75,
+  author = 	 "B. M. Ladanyi  and D. Chandler",
+  journal = 	jcp,
+  year = 	"1975",
+  volume =	"62",
+  pages =	"4308"
+}
+% pages = "4308-4324"
+% title = "New Type of Cluster Theory for Molecular Fluids: Interaction Site Cluster Expansion"
+
+
+@article{hsu-chandler76,
+  author = 	 "C. S. Hsu  and D. Chandler and L. J. Lowden",
+  journal = 	"Chem. Phys.",
+  year = 	"1976",
+  volume =	"14",
+  pages =	"213"
+}
+% pages = "213-228"
+% title = "Application of the RISM Equation to Diatomic Fluids: The Liquids Nitrogen, Oxygen and Bromine"
+
+@article{pratt-chandler77-1,
+  author = 	 "L. R. Pratt  and D. Chandler",
+  journal = 	jcp,
+  year = 	"1977",
+  volume =	"66",
+  pages =	"147"
+}
+% pages = "147-151"
+% title = "Interaction Site Cluster Series for the Helmholz Free Energy and Variational Principle for Chemical Equilibria and Intramolecular Structures"
+
+@article{pratt-chandler77-2,
+  author = 	 "L. R. Pratt  and D. Chandler",
+  journal = 	jcp,
+  year = 	"1977",
+  volume =	"67",
+  pages =	"3683"
+}
+% pages = "3683"
+% title = "Theory of the Hydrophobic Effect"
+
+@article{Pettit-Rossky86,
+  author = 	 {B. M. Pettit  and P. Rossky},
+  journal = 	 jcp,
+  year = 	 "1986",
+  volume =	 "84",
+  pages =	 "5836",
+}
+  pages =	 "5836-5844",
+  title =       ""
+
+@article{Pettit-Karplus86,
+  author = 	 {B.M. Pettit  and Martin Karplus and P. Rossky},
+  journal = 	 jpc,
+  year = 	 "1986",
+  volume =	 "90",
+  pages =	 "6335",
+}
+  pages =	 "6335-6345",
+  title =        "Integral Equation Model for Aqueous Solvation of Polyatomic
+  Solutes: Application to the Determination of the Free Energy Surface for the
+  Internal Motion in Biomolecules"
+
+@article{Beglov-Roux96,
+  author = 	 {D. Beglov  and B. Roux},
+  journal = 	 jcp,
+  year = 	 "1996",
+  volume =	 "104",
+  pages =	 "8678",
+}
+  pages =	 "8678-8689",
+  title =        "Solvation of Complex Molecules in a Polar Liquid: An Integral
+  Equation Theory"
+
+@article{Beglov-Roux97,
+  author = 	 {D. Beglov  and B. Roux},
+    title =        "An Integral Equation to Describe the Solvation of Polar  Molecules in Liquid Water",
+  journal = 	 jpcB,
+  year = 	 "1997",
+  volume =	 "101",
+  pages =	 "7821",
+}
+  pages =	 "7821-7826",
+
+
+@article{Roux-Simonson99,
+  author = 	 {B. Roux  and T. Simonson},
+  journal = 	 "Biophys. Chem.",
+  year = 	 "1999",
+  volume =	 "78",
+  pages =	 "1",
+}
+  pages =	 "1-20",
+  title =        "Implicit Solvent Models"
+
+@article{blum72a,
+  author = 	 "L. Blum  and A. J. Torruella",
+  title=" INVARIANT EXPANSION FOR 2-BODY CORRELATIONS - THERMODYNAMIC FUNCTIONS, SCATTERING, AND ORNSTEIN-ZERNIKE EQUATION",
+  journal = 	jcp,
+  year = 	"1972",
+  volume =	"56",
+  pages =	"303",
+}
+% pages = ""
+% title = ""
+
+@article{blum72b,
+  author = 	 "L. Blum",
+  title="INVARIANT EXPANSION - ORNSTEIN-ZERNIKE EQUATION FOR NONSPHERICAL MOLECULES AND AN EXTENDED SOLUTION TO MEAN SPHERICAL MODEL
+",
+  journal = 	jcp,
+  year = 	"1972",
+  volume =	"57",
+  pages =	"1862"
+}
+% pages = ""
+% title = ""
+
+@article{allen95,
+  author = 	 "M. P. Allen  and C. P. Mason and E. de Miguel and J. Stelzer",
+  journal =  pre,
+  year = 	"1995",
+  volume =	"52",
+  pages =	"R25"
+}
+% pages = ""
+% title = ""
+
+@article{evans79,
+  author = 	 "R. Evans",
+  title = " NATURE OF THE LIQUID-VAPOR INTERFACE AND OTHER TOPICS IN THE STATISTICAL-MECHANICS OF NONUNIFORM, CLASSICAL FLUIDS",
+  journal = 	"Adv. Phys.",
+  year = 	"1979",
+  volume =	"28",
+  pages =	"143"
+}
+% pages = ""
+% 
+
+@article{wertheim71,
+  author = 	 "M. S. Wertheim",
+  journal = 	jcp,
+  year = 	"1971",
+  volume =	"55",
+  pages =	"4291"
+}
+% pages = ""
+% title = ""
+
+@article{patey77,
+  author = 	 "G. N. Patey",
+  title="INTEGRAL-EQUATION THEORY FOR DENSE DIPOLAR HARD-SPHERE FLUID",
+  journal = 	molphys,
+  year = 	"1977",
+  volume =	"34",
+  pages =	"427"
+}
+% pages = ""
+% title = ""
+
+@article{patey78,
+  author = 	 "G. N. Patey",
+  journal = 	molphys,
+  year = 	"1978",
+  volume =	"35",
+  pages =	"1413"
+}
+% pages = ""
+% title = ""
+
+@article{baxter70,
+  author = 	 "R. J. Baxter",
+  journal = 	jcp,
+  year = 	"1970",
+  volume =	"52",
+  pages =	"4559"
+}
+% pages = ""
+% title = ""
+
+@article{dixon77,
+  author = 	 "M. Dixon  and P. Hutchinson",
+  journal =  molphys,
+  year = 	"1977",
+  volume =	"33",
+  pages =	"1663"
+}
+% pages = ""
+% title = ""
+
+%%%%%%%%%%%%%% Gaussian field  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{song96,
+  author = 	 "X. Song and D. Chandler and R. A. Marcus",
+  journal =  jpc,
+  volume =	"100",
+  pages =	"11954"
+}
+% pages = "11954-11959"
+% title = "Gaussian field model of dielectric solvation dynamics"
+
+@article{tenwolde01,
+  author = 	 "P. Rein ten Wolde and S. X. Sun and D. Chandler",
+  title=" Model of a fluid at small and large length scales and the hydrophobic effect",
+  journal = 	pre,
+  year = 	"2002",
+  volume =	"65",
+  pages =	"011201"
+}
+% pages = "011201"
+% title = "Model of a fluid at small and large length scales and the hydrophobic effect"
+
+@article{lum99,
+  author = "K. Lum and D. Chandler and J. D. Weeks",
+  title = "Hydrophobicity at small and large length scales",
+  journal = 	jpcB,
+  year = 	"1999",
+  volume =	"103",
+  pages =	"4570"
+}
+% pages = "4570-4577"
+% title = "Hydrophobicity at small and large length scales"
+
+@article{chandler02,
+  author = 	 "D. Chandler ",
+  journal = 	"Nature",
+  year = 	"2002",
+  volume =	"417",
+  pages =	"491"
+}
+% pages = "491"
+% title = "Two faces of water"
+
+
+@article{tenwolde02,
+  author = 	 "P. Rein ten Wolde and D. Chandler",
+  journal = 	"PNAS",
+  year = 	"2002",
+  volume =	"99",
+  pages =	"6539"
+}
+% pages = "6539-6543"
+% title = "Drying-induced hydrophobic polymer collapse"
+
+@article{chandler93,
+  author = 	 "D. Chandler",
+  title=" GAUSSIAN FIELD MODEL OF FLUIDS WITH AN APPLICATION TO POLYMERIC FLUIDS",
+  journal = 	pre,
+  year = 	"1993",
+  volume =	"48",
+  pages =	"2898"
+}
+% pages = ""
+% title = ""
+
+
+
+%%%%%%%%%%%%%% polar and polarizable fluids %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{pollock80,
+  author = 	 "E. L. Pollock and B. Alder",
+  journal = 	"Physica",
+  year = 	"1980",
+  volume =	"102A",
+  pages =	"1",
+}
+% pages = "1-21"
+% title = "Static dielectric properties of Stockmayer fluids"
+
+@article{Pollock-Alder81,
+  author = 	 "E. L. Pollock and B. Alder",
+  journal = 	"Physica",
+  year = 	"1981",
+  volume =	"108A",
+  pages =	"14",
+}
+% pages = "14-26"
+% title = "Static dielectric properties of polarizable Stockmayer fluids"
+
+@article{alder81,
+  author = 	 "B. J.  Alder  and E. L. Pollock",
+  journal = 	"Ann. Rev. Phys. Chem.",
+  year = 	"1981",
+  volume =	"32",
+  pages =	"311",
+}
+% pages = "311-329"
+% title = ""
+
+@article{Pollock-Alder77,
+  author = 	 "E. L. Pollock  and B. J. Alder",
+  journal = 	prl,
+  year = 	"1977",
+  volume =	"39",
+  pages =	"299",
+}
+% pages = "299-302"
+% title = ""
+
+@article{weiss75,
+  author = 	 "B. J. Alder and  H. L. Strauss and J.J. Weis",
+  journal = 	jcp,
+  year = 	"1975",
+  volume =	"62",
+  pages =	"2328"
+}
+% pages = "2328-34"
+% title = "Dielectric properties of fluids composed of spheres of constant
+%polarizability"
+
+@article{ballenegger03,
+  author = 	 "R. Finken and V. Ballenegger and J. P. Hansen",
+  journal = 	"Molec. Phys.",
+  year = 	"2003",
+  volume =	"101",
+  pages =	"1575"
+}
+% pages = ""
+
+%%%%%%%%%%%%%%% Free-energy calculations %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{valleau77,
+  author = 	 "G. M. Torrie and J. Valleau",
+  journal = 	"J. Comp. Phys.",
+  year = 	"1977",
+  volume =	"23",
+  pages =	"187"
+}
+% pages = ""
+% title = ""
+
+@InProceedings{valleau98,
+  author = 	 "J. Valleau",
+  booktitle  = "Classical and Quantum Dynamics in Condensed Phase
+  Simulations",
+  editor = 	"B. J. Berne and G. Ciccotti and D.F. Cocker",
+  year = 	"1998",
+  publisher =	"World Scientific Co.",
+  pages =	"97"
+}
+% pages = "97-126"
+% title = "Monte-Carlo: Changing the rules for fun and profit"
+
+
+@InProceedings{blue-moon,
+  author = 	 "G. Ciccotti",
+  booktitle  = "Classical and Quantum Dynamics in Condensed Phase
+  Simulations",
+  editor = 	"B. J. Berne and G. Ciccotti and D.F. Cocker",
+  year = 	"1998",
+  publisher =	"World Scientific Co.",
+  pages =	"159"
+}
+% pages = "159-177"
+% title = "Constrained and nonequilibrium molecular dynamics"
+
+
+@article{carter89,
+  author = 	 "E. A. Carter and G. Ciccotti and J. T. Hynes and R. Kapral",
+  editor = 	cpl,
+  year = 	"1989",
+  volume =	"156",
+  pages =	"472"
+}
+% pages = "159-177"
+% title = "Constrained and nonequilibrium molecular dynamics"
+
+@article{kollman,
+  author = 	 "P. Kollman",
+  journal = 	"Chem. Rev.",
+  year = 	"1993",
+  volume =	"93",
+  pages =	"2395"
+}
+% pages = "2395-2417"
+% title = "Free-energy calculations: Application to chemical and biochemical
+% phenomena"
+
+@article{carnie82,
+  author = 	 "S. L. Carnie and G. N. Patey",
+  title=" FLUIDS OF POLARIZABLE HARD-SPHERES WITH DIPOLES AND TETRAHEDRAL QUADRUPOLES - INTEGRAL-EQUATION RESULTS WITH APPLICATION TO LIQUID WATER",
+  journal = 	molphys,
+  year = 	"1982",
+  volume =	"47",
+  pages =	"1129"
+}
+% pages = ""
+% title = ""
+
+@InProceedings{hansen86,
+  author =	 {J. P. Hansen},
+  booktitle = "The Physics and Chemistry of Aqueous Ionic Solutions",
+  editor =  {M. C. Bellissent-Funel and G. W. Neilson},
+  publisher = 	 {Kluwer Academic Publishers},
+  year = 	 "1987",
+  address =	 "Dortrecht, Holland",
+}
+%title = {Basic statistical theory of liquids},
+
+@article{biben98,
+  author = 	 "T. Biben and J. P. Hansen and Y. Rosenfeld",
+  journal = 	pre,
+  year = 	"1998",
+  volume =	"57",
+  pages =	"R3727"
+}
+% pages = "R3727-3730"
+% title = "Generic density functional for electric double layers in molecular
+% solvent"
+
+@article{allen01,
+  author = 	 "R. Allen and J. P. Hansen and S. Melchionna",
+  journal = 	pccp,
+  year = 	"2001",
+  volume =	"3",
+  pages =	"4177"
+}
+% pages = "4177-4186"
+% title = "Electrostatic potential inside ionic solutions confined by
+% dielectrics: a variational approach"
+
+@article{mdmulp,
+  author = 	 "W. Smith",
+  journal = 	"CCP5 Information Quarterly",
+  year = 	"1982",
+  volume =	"4",
+  pages =	"13"
+}
+% pages = ""
+% title = ""
+
+@article{lesveque84,
+  author = 	 "D. Lesveque and J. J. Weiss and G. N. Patey",
+  journal = 	molphys,
+  year = 	"1984",
+  volume =	"51",
+  pages =	"333"
+}
+% pages = ""
+% title = ""
+
+@article{blum95,
+  author = 	 "L. Blum and F. Vericat and D. Bratko",
+  journal = 	jcp,
+  year = 	"1995",
+  volume =	"102",
+  pages =	"1461"
+}
+% pages = "1461-1462"
+% title = "Towards an analytical model of water: The octupolar model"
+
+@article{ichiye96,
+  author = 	 "Y. Liu and T. Ichiye",
+  journal = 	jpc,
+  year = 	"1996",
+  volume =	"100",
+  pages =	"2723"
+}
+% pages = "2723-2730"
+% title = "Soft sticky dipole potential for liquid water"
+
+@article{haduong02,
+  author = 	 "T. Haduong  and S. Phan and M. Marchi and D. Borgis",
+  journal = 	jcp,
+  year = 	"2002",
+  volume =	"117",
+  pages =	"541"
+}
+% pages = ""
+% title = ""
+
+@article{basdevant04,
+  author = 	 "N. Basdevant  and D. Borgis and T. Haduong",
+  journal = 	"J. Comp. Chem.",
+  year = 	"2004",
+  volume =	"25",
+  pages =	"1015"
+}
+% pages = "1015-1029"
+% title = ""
+
+@article{basdevant-molphys,
+  author = 	 "N. Basdevant  and  T. Haduong and D. Borgis",
+  journal = 	"Molec. Phys.",
+  year = 	"2004",
+  volume =	"102",
+  pages =	"783"
+}
+% pages = "783-788"
+% title = "Dielectric constant of a highly polarizable atomic fluid: the clausius-mossotti versus the onsager relation"
+
+
+@article{kovalenko-hirata98,
+  author = 	 "A.  Kovalenko and F. Hirata",
+  title = "Three-dimensional density profiles of water in contact with a solute of
+arbitrary shape; a RISM approach",
+  journal = 	cpl,
+  year = 	"1998",
+  volume =	"290",
+  pages =	"237"
+}
+% pages = "237-244"
+% 
+
+@Book{red-book,
+  author =   {F. Hirata, Ed.},
+  title =    {Molecular Theory of Solvation},
+  publisher =    {Kluwer Academic Publishers, Dordrecht},
+  year =     {2003}
+}
+
+@article{pettitt07,
+  author = 	 "K. M. Dyer and J. S. Perkyns and B. M. Pettitt",
+  title=" A site-renormalized molecular fluid theory",
+  journal = 	jcp,
+  year = 	"2007",
+  volume =	"127",
+  pages =	"194506"
+}
+% pages = ""
+% title = "A site-renormalized molecular fluid theory"
+
+@article{pettitt08,
+  author = 	 "K. M. Dyer and J. S. Perkyns and G. Stell and B. M. Pettitt",
+  title="A molecular site-site integral equation that yields the dielectric constant",
+  journal = 	jcp,
+  year = 	"2008",
+  volume =	"129",
+  pages =	"104512"
+}
+% pages = ""
+% title = "A molecular site-site integral equation that yields the dielectric constant"
+
+@article{hirata-rossky81,
+  author = 	 "F. Hirata and P. J. Rossky",
+  title="  AN EXTENDED RISM EQUATION FOR MOLECULAR POLAR FLUIDS",
+  journal = 	cpl,
+  year = 	"1981",
+  volume =	"83",
+  pages =	"329"
+}
+% pages = "329-334"
+% title = "An extended RISM equation for molecular polar fluids"
+
+@article{hirata-pettitt-rossky82,
+  author = 	 "F. Hirata and B. M. Pettitt and P. J. Rossky",
+  title=" APPLICATION OF AN EXTENDED RISM EQUATION TO DIPOLAR AND QUADRUPOLAR FLUIDS",
+  journal = 	jcp,
+  year = 	"1982",
+  volume =	"77",
+  pages =	"509"
+}
+% pages = "509-520"
+% title = "Application of an extended RISM equation to polar and quadrupolar fluids"
+
+@article{fries-patey85,
+  author = 	 "P. H. Fries and G. N. Patey",
+  title="THE SOLUTION OF THE HYPERNETTED-CHAIN APPROXIMATION FOR FLUIDS OF NONSPHERICAL PARTICLES - A GENERAL-METHOD WITH APPLICATION TO DIPOLAR HARD-SPHERES",
+  journal = 	jcp,
+  year = 	"1985",
+  volume =	"82",
+  pages =	"429"
+}
+% pages = "429-440"
+% title = "The solution of the hypernetted chain approximation for fluids of
+nonspherical particles. A general method with application to dipolar hard spheres"
+
+@article{richardi98,
+  author = 	 "J. Richardi and P. H. Fries and H. Krienke",
+  title="The solvation of ions in acetonitrile and acetone: A molecular Ornstein-Zernike study",
+  journal = 	jcp,
+  year = 	"1998",
+  volume =	"108",
+  pages =	"4079"
+}
+% pages = "40794089"
+% title = "The solvation of ions in acetonitrile and acetone: A molecular Ornstein-Zernike study"
+
+@article{richardi99,
+  author = 	 "J. Richardi and C. Millot and P. H. Fries",
+  title=" A molecular Ornstein-Zernike study of popular models for water and methanol",
+  journal = 	jcp,
+  year = 	"1999",
+  volume =	"110",
+  pages =	"1138"
+}
+% pages = "1138-1147"
+% title = "A molecular Ornstein Zernike study of popular models of water and methanol"
+
+@article{mcdonald98,
+  author = 	 "N. A. McDonald and E. M. Duffy and W. L. Jorgensen",
+  journal = 	jacs,
+  year = 	"1998",
+  volume =	"120",
+  pages =	"5104"
+}
+% pages = "5104-5111"
+% title = "Monte-Carlo investigations of selective anion complexation by a bis(phenylurea) p-tertbutylcalix[4]arene"
+
+@article{joung08,
+  author = 	 "I. S. Joung and T. E. Cheetham III",
+  journal = 	jcp,
+  year = 	"2008",
+  volume =	"112",
+  pages =	"9020"
+}
+% pages = "9020-9041"
+% title = "determination of alkali and halide monovalent ion parameters for use in explicitly solvated biomolecular simulations"
+
+@article{edwards84,
+  author = 	 "D. M. Edwards and P. A. Madden and I. R. McDonald",
+  journal = 	molphys,
+  year = 	"1984",
+  volume =	"51",
+  pages =	"1141"
+}
+% pages = "1141-1161"
+% title = "A computer simulation study of the dielectric properties of a model of 
+methyl cyanide: I The rigid dipole case"
+
+@article{BFGS,
+  author = 	 "R. H. Byrd and P. Lu and J. Nocedal",
+  title = "A limited memory algorithm for bound constrained optimization",
+  journal = 	"SIAM J. Scient. Stat. Comp.",
+  year = 	"1995",
+  volume =	"16",
+  pages =	"1190"
+}
+% pages = "1190-1208"
+% 
+
+@article{kastenholtz06,
+  author = 	 "M. A. Kastenholtz and P. H. Hunenberger",
+  journal = 	jcp,
+  year = 	"2006",
+  volume =	"124",
+  pages =	"224501"
+}
+% pages = "224501"
+% title = "Computation of methodology-independent ionic solvation free energies from
+molecular simulations: II The hydration free energy of the sodium cation"
+
+
+@article{PHH-mccammon99,
+  author = 	 "P. H. Hunenberger and A. McCammon",
+  journal = 	jcp,
+  year = 	"1998",
+  volume =	"110",
+  pages =	"1856"
+}
+% pages = "1856-1872"
+% title = "Ewald artefacts in computer simulations of ionic solvation and ion-ion interaction:
+A continuum electrostatics study"
+
+@article{boes06,
+  author = 	 "E. S. Boes and P. R. Livotto and H. Stassen",
+  journal = 	"Chem. Phys.",
+  year = 	"2006",
+  volume =	"331",
+  pages =	"142"
+}
+% pages = "142-158"
+% title = "Solvation of monovalent anions in acetonitrile and N-dimethylformamide: Parametrizationof the IEF-PCM model"
+
+
+@article{horinek09,
+  author = 	 "D. Horinek and S. I. Matmatkulov and R. R. Netz",
+  journal = 	jcp,
+  year = 	"2009",
+  volume =	"130",
+  pages =	"124507"
+}
+% pages = "124507"
+% title = "Rational design of ion force fields based on thermodynamic solvation properties"
+
+@article{lamoureux06,
+  author = 	 "G. Lamoureux and B. Roux",
+  journal = 	jpcb,
+  year = 	"2006",
+  volume =	"110",
+  pages =	"3308"
+}
+% pages = ""
+% title = ""
+
+
+ @article{baker01,
+  author = 	 "N. A. Baker and D. Sept and S. Joseph and M. J.  Holst and J. A.   McCammon",
+  journal = 	"Proc. Nat. Acad. Sci.",
+  year = 	"2001",
+  volume =	"98",
+  pages =	"10037"
+}
+% pages = "10037-10041"
+% title = "Electrostatics of nanosystems: Application to microtubules and the ribosome"
+
+@article{cheng09,
+  author = 	 "L. T. Ti Cheng and  Y. Xie and J. Dzubiella and  J. A. McCammon and  J. Che and Bo Li",
+  journal = 	"J. Chem. Theor. Comp.",
+  year = 	"2009",
+  volume =	"5",
+  pages =	"257"
+}
+% pages = "257-266"
+% title = "Coupling the level-set method with molecular mechanics for variational implicit solvation of nonpolar molecules"
+
+@article{cheng07,
+  author = 	 "L. T. Cheng and J. Dzubiella and J. A. McCammon",
+  journal = 	jcp,
+  year = 	"2007",
+  volume =	"127",
+  pages =	"084503"
+}
+% pages = ""
+% title = "Application of the level-set method to the implicit solvation of nonpolar molecules"
+
+
+@article{azuara08,
+  author = 	 "C. Azuara and H. Orland and M. Bon and P. Koehl and M. Delarue",
+  title = "Incorporating dipolar solvents with variable density in Poisson-Boltzmann electrostatics",
+  journal = 	"Biophys. J.",
+  year = 	"2008",
+  volume =	"95",
+  pages =	"5587"
+}
+% pages = "2043-"
+% title = "Incorporating dipolar solvents with variable density in Poisson-Boltzmann electrostatics"
+
+
+@article{azuara06,
+  author = 	 "C. Azuara and E. Lindahl and P. Koehl",
+  title = "PDB\_Hydro: incorporating dipolar solvents with variable density in the Poisson-Boltzmann treatment of macromolecule electrostatics ",
+  journal = 	"Nucleic Ac. Res.",
+  year = 	"2006",
+  volume =	"34",
+  pages =	"38"
+}
+% pages = "38-42"
+% 
+
+@article{roth02,
+  author = 	 "R. Roth and R. Evans and A. Lang and G. Kahl",
+  journal = 	"J. Phys. : Condens. Matter",
+  year = 	"2002",
+  volume =	"14",
+  pages =	"12063"
+}
+% pages = ""
+% title = "Fundamental measure theory for hard sphere mixtures revisited: The white bear version"
+
+@article{rosenfeld89,
+  author = 	 "Y. Rosenfeld",
+  journal = 	prl,
+  year = 	"1989",
+  volume =	"63",
+  pages =	"980"
+}
+% pages = ""
+% title = ""
+
+@article{kierlik90,
+  author = 	 "E. Kielik and M. Rosinberg",
+  journal = 	pra,
+  year = 	"1990",
+  volume =	"42",
+  pages =	"3382"
+}
+% pages = ""
+% title = ""
+
+@article{yu02,
+  author = 	 "Y. X. Yu and J. Wu",
+  journal = 	jcp,
+  year = 	"2002",
+  volume =	"117",
+  pages =	"10156"
+}
+% pages = "10156-10164"
+% title = "Structures of hard-sphere fluids from a modified fundamental-measure theory."
+
+@article{jin10,
+  author =  "Z. Jin and S.L. Zhao and J. Wu",
+  journal = 	pre,
+  year = 	"2010",
+  volume =	"82",
+  pages =	"041805"
+}
+% pages = ""
+% title = "Entropic forces of single-chain confinement in spherical cavities."
+
+
+@article{wu02,
+  author = 	 "Y. Yu and J. Wu",
+  journal = 	jcp,
+  year = 	"2002",
+  volume =	"117",
+  pages =	"2368"
+}
+% pages = "2368-2376"
+% title = "Density functional theory of inhomogeneous mixtures of polymeric fluids."
+
+@InProceedings{wu09,
+  author =	 {J. Wu},
+  booktitle = "Molecular Thermodynamics of Complex Systems",
+  editor =  {X. Lu and Y. Hu},
+  publisher = {Springer},
+  year = 	 "2009",
+  address =	 "",
+}
+%title = {Density functional theory for liquid structure and thermodynamics},
+
+@article{wu07,
+  author = 	 "J. Wu and Z. Li",
+  title = "Density functional theory for complex fluids",
+  journal = 	"Ann. Rev. Phys. Chem.",
+  year = 	"2007",
+  volume =	"58",
+  pages =	"85"
+}
+% pages = "85-112"
+% 
+
+@article{wu06,
+  author = 	 "J. Wu",
+  title = "Density functional theory for chemical engineering: from capillarity to soft materials",
+  journal = 	"AIChE Journal",
+  year = 	"2006",
+  volume =	"52",
+  pages =	"1169"
+}
+% pages = "1169-1193"
+% 
+
+@article{oleksy10,
+  author = 	 "A. Oleksy and J. P. Hansen",
+  journal = 	jcp,
+  year = 	"2010",
+  volume =	"132",
+  pages =	"204702"
+}
+% pages = ""
+% title = "Wetting a solid substrate by a "civilized" model of ionic solution"
+
+@article{roth-review10,
+  author = 	 "R. Roth",
+  journal = 	"J. Phys.: Condens. Matter",
+  year = 	"2010",
+  volume =	"22",
+  pages =	"063102"
+}
+% pages = ""
+% title = ""
+
+@article{yoshida09,
+  author = 	 "N.~Yoshida and T.~Imai and S.~Phongphanphanee and A.~Kovalenko and F.~Hirata.",
+  title = "Molecular Recognition in Biomolecules Studied by Statistical-Mechanical Integral-Equation Theory of Liquids",
+  journal = 	jpcb,
+  year = 	"2009",
+  volume =	"113",
+  pages =	"873-886"
+}
+% pages = ""
+% 
+
+
+@article{reddy03,
+  author = 	 "G. Reddy and C. P. Lawrence and J. L. Skinner and A. Yethiraj",
+  title="Liquid state theories for the structure of water",
+  journal = 	jcp,
+  year = 	"2003",
+  volume =	"119",
+  pages =	"13012"
+}
+% pages = "13012"
+% title = "Liquid state theories for the structure of water"
+
+
+@phdthesis{gendre-these,
+  author =	 "L. Gendre",
+  title =	 "Density functional theory of molecular liquids: Application to solvation in polar solvents",
+  school =	 "Universit\'e d'Evry-Val-d'Essonne",
+  address =	 "Evry, France",
+  year =	 2008
+}
+
+@article{gendre09,
+  author = 	 "L. Gendre and R. Ramirez and D. Borgis",
+   title = "Classical density functional theory of solvation in molecular solvents: Angular grid implementation",
+  journal = 	cpl,
+  year = 	"2009",
+  volume =	"474",
+  pages =	"366"
+}
+% pages = "366-370"
+%
+
+@article{zhao11,
+  author = 	 "S. Zhao and R. Ramirez and R. Vuilleumier and D. Borgis",
+   title = "Molecular density functional theory of solvation: From polar solvents to water",
+  journal = 	jcp,
+  year = 	"2011",
+  volume =	"134",
+  pages =	"194102"
+}
+% pages = ""
+%
+
+@article{borgis12,
+  author = 	 "D. Borgis and D. Gendre and R. Ramirez",
+   title = "Molecular Density Functional Theory: Application to Solvation and Electron-Transfer Thermodynamics in Polar Solvents",
+  journal = 	jpcb,
+  year = 	"2012",
+  volume =	"116",
+  pages =	""
+}
+% pages = ""
+%DOI: 10.1021/jp210817s
+
+
+@article{jensen06,
+  author = 	 "K. P. Jensen and W. L. Jorgensen",
+  journal = 	jctc,
+  year = 	"2006",
+  volume =	"2",
+  pages =	"1499"
+}
+% pages = "1499-1509"
+% title = "Halide, Ammonium, and Alkali Metal Ion Parameters for Modeling Aqueous Solutions"
+
+@article{tissandier98,
+  author = 	 "M. D. Tissandier and K. A. Cowen and W. Y. Feng and E. Gundlach and M.H. Cohen and A. D. Earhart and J. V. Coe",
+  journal = 	jpcA,
+  year = 	"1998",
+  volume =	"102",
+  pages =	"7787"
+}
+% pages = "7787-7794"
+% title = "The Protonï¿œs Absolute Aqueous Enthalpy and Gibbs Free Energy of Solvation from Cluster-Ion Solvation Data"
+
+@Book{marcus-solvation-book,
+  author =   {Y. Marcus},
+  title =    "Ion Solvation",
+  publisher =    "wiley",
+  year =     "1985",
+  address = "Chichester"
+ }
+ 
+@article{molinero09,
+  author = 	 "V. Molinero and E. B. Moore",
+  title = "Water Modeled As an Intermediate Element between Carbon and Silicon",
+  journal = 	jpcB,
+  year = 	"2009",
+  volume =	"113",
+  pages =	"4008"
+}
+% pages = "4008-4016"
+% 
+@article{molinero_ions09,
+  author = 	 "R. C. DeMille and V. Molinero",
+   title = "Coarse-grained ions without charges: reproducing the solvation structure of NaCl in water",
+  journal = 	jcp,
+  year = 	"2009",
+  volume =	"131",
+  pages =	"034107"
+}
+% pages = "034107 1-15"
+%% using short-ranged potentials"
+
+@article{stillinger85,
+  author = 	 "F. H. Stillinger",
+  journal = 	prb,
+  year = 	"1985",
+  volume =	"31",
+  pages =	"5262"
+}
+% pages = "5262-5271"
+% title = "Computer simulation of local order in condensed phases of silicon"
+
+
+@article{luo1995,
+  author = 	 "L. Luo and D. Blankschtein",
+  journal = 	jcp,
+  year = 	"1995",
+  volume =	"102",
+  pages =	"5427"
+}
+% pages = ""
+% title = ""
+
+@article{Kollman93,
+  author = 	 "P. Kollman",
+  journal = 	jcp,
+  year = 	"1995",
+  volume =	"102",
+  pages =	"5427"
+}
+% pages = "5262-5271"
+% title = "Computer simulation of local order in condensed phases of silicon"
+
+@article{moldy,
+  author = 	 "K. Refson",
+  journal = 	"Comp. Phys. Comm.",
+  year = 	"2000",
+  volume =	"126",
+  pages =	"309"
+}
+% pages = "309--328"
+% title = "Moldy: a portable molecular dynamics simulation program for serial and parallel computers"
+
+@article{varilly11,
+  author = 	 "P. Varilly and  A. J. Patel and D. Chandler",
+  title = "An improved coarse-grained model of solvation and the hydrophobic effect",
+  journal = 	jcp,
+  year = 	"2010",
+  volume =	"134",
+  pages =	"074109"
+}
+% pages = ""
+% 
+
+@article{vanderlick89,
+  author = 	 "T. K. Vanderlick and H. T. Davis and J. K. Percus",
+  journal = 	jcp,
+  year = 	"1989",
+  volume =	"91",
+  pages =	"7136"
+}
+% pages = ""
+% title = ""
+
+@article{tarazona-evans84,
+  author = 	 "P. Tarazona and R. Evans",
+  journal = 	"Mol. Phys.",
+  year = 	"1984",
+  volume =	"52",
+  pages =	"847"
+}
+% pages = ""
+% title = "A Simple Density Functional Theory for Inhomogeneous Liquids. Wetting by Gas at a Solid-Liquid Interface"
+
+@article{percus76,
+  author = 	 "J. K. Percus",
+  journal = 	"J. Stat. Phys.",
+  year = 	"1976",
+  volume =	"15",
+  pages =	"505"
+}
+% pages = ""
+% title = ""
+
+@article{jiang-cpl11,
+  author = 	 "J. Jiang and D. Meng and J. Wu",
+  journal = 	cpl,
+  year = 	"2011",
+  volume =	"504",
+  pages =	"153"
+}
+% pages = "153-158"
+% title = "Differential capacitance of planar electric double layers in ionic liquids from density functional theory"
+
+@article{jiang11,
+  author = 	 "T. Jiang and  D. Jiang and  Z. Jin and  D. Henderson",
+  journal = 	"Soft Matt.",
+  year = 	"2011",
+  volume =	"7",
+  pages =	"11222"
+}
+% pages = "11222-11231"
+% title = "A classical density functional theory for interfacial layering of ionic liquids"
+
+@article{gillespie10,
+  author = 	 "M. G. Knepley and D. A. Karpeev and Seth Davidovits and R. S. Eisenberg and D. Gillespie",
+  journal = 	jcp,
+  year = 	"2010",
+  volume =	"132",
+  pages =	"124101"
+}
+% pages = ""
+% title = " An efficient algorithm for classical density functional theory in three dimensions: Ionic solutions"
+
+@ARTICLE{sears03,
+   author = "M. P. Sears and L. J. D. Frink",
+   year = "2003",
+   journal = "J. of Comp. Phys.",
+   volume = "190",
+   pages = "184-200"
+   }
+% title = "A new efficient method for density functional theory calculations of inhomogeneous fluids",
+   
+   @ARTICLE{phan93,
+   author = "S. Phan and E. Kierlik and M. L. Rosinberg and B. Bildstein and G. Kahl",
+   year = "1993",
+   journal = "Phys. Rev. E",
+   volume = "48",
+   pages = "618-620"}
+
+@ARTICLE{reiss59,
+   author = "H. Reiss and H. Frisch and J. L. Lebowitz",
+   year = "1959",
+   journal = "J. Chem. Phys.",
+   volume = "31",
+   pages = "369-380"}  
+   
+   @ARTICLE{mansoori71,
+   author = "G. A. Mansoori and N. F. Carnahan and K. E. Starling and T. W. Leland",
+   year = "1971",
+   journal = "J. Chem. Phys.",
+   volume = "54",
+   pages = "1523-1525"}
+
+@ARTICLE{carnahan-starling69,
+   author = "N. F. Carnahan and K. E. Starling",
+   year = "1969",
+   journal = "J. Chem. Phys.",
+   volume = "51",
+   pages = "635-636"
+   }
+
+@ARTICLE{fletcher1970,
+   author = "R. Fletcher",
+   year = "1970",
+   journal = "Comput. J.",
+   volume = "13",
+   pages = "317-322"}
+
+@ARTICLE{frink00,
+   author = "L. J. D. Frink and A. G. Salinger",
+   year = "2000",
+   journal = "J. Comput. Phys.",
+   volume = "159",
+   pages = "407-424"}
+
+
+
+
+
+%%%%%%%%%%%%%% MAX
+
+
+@article{phan_equivalence_1993,
+	volume = {48},
+	url = {http://link.aps.org/doi/10.1103/PhysRevE.48.618},
+	doi = {10.1103/PhysRevE.48.618},
+	number = {1},
+	journal = {Physical Review E},
+	author = {Phan, S. and Kierlik, E. and Rosinberg, M. L. and Bildstein, B. and Kahl, G.},
+	year = {1993},
+	pages = {618}
+}
+%title = {Equivalence of two free-energy models for the inhomogeneous hard-sphere fluid},
+
+@article{rosenfeld93,
+	volume = {98},
+	url = {http://link.aip.org/link/JCPSA6/v98/i10/p8126/s1&Agg=doi},
+	doi = {10.1063/1.464569},
+	number = {10},
+	journal = {J. Chem. Phys.},
+	author = {Rosenfeld, Yaakov},
+	year = {1993},
+	pages = {8126}
+}
+%title = {Free energy model for inhomogeneous fluid mixtures: Yukawa-charged hard spheres, general interactions, and plasmas},
+
+@article{tan_hardsphere_1989,
+	volume = {90},
+	url = {http://jcp.aip.org/resource/1/jcpsa6/v90/i7/p3704_s1},
+	doi = {doi:10.1063/1.455828},
+	number = {7},
+	journal = {J. Chem. Phys.},
+	author = {Tan, Ziming and Marconi, Umberto Marini Bettolo and van Swol, Frank and Gubbins, Keith E},
+	year = {1989},
+	pages = {3704--3712}
+}
+%title = {Hydration and Conformational Equilibria of Simple Hydrophobic and Amphiphilic Solutes}
+
+@article{ashbaugh_hydration_1998,
+	volume = {75},
+	url = {http://www.cell.com/biophysj/abstract/S0006-3495(98)77565-4},
+	doi = {10.1016/S0006-3495(98)77565-4},
+	number = {2},
+	journal = {Biophysical Journal},
+	author = {Ashbaugh, Henry S. and Kaler, Eric W. and Paulaitis, Michael E.},
+	year = {1998},
+	pages = {755--768}
+}
+%title = {Hydration and Conformational Equilibria of Simple Hydrophobic and Amphiphilic Solutes}
+
+
+@article{guillot_guissani_1993,
+	volume = {99},
+	issn = {00219606},
+	lccn = {0226},
+	url = {http://link.aip.org/link/JCPSA6/v99/i10/p8075/s1&Agg=doi},
+	doi = {10.1063/1.465634},
+	journal = {The Journal of Chemical Physics},
+	author = {Guillot, B. and Guissani, Y.},
+	year = {1993},
+	pages = {8075}
+}
+%title = {A computer simulation study of the temperature dependence of the hydrophobic hydration},
+
+@ARTICLE{zhao-wu11,
+   author = "S. Zhao and Z. Jin and  J. Wu",
+   title = "New Theoretical Method for Rapid Prediction of Solvation Free Energy in Water",
+   year = "2011",
+   journal = jpcb,
+   volume = "115",
+   pages = "6971"
+}
+
+@ARTICLE{liu13,
+   author = "Y. Liu S. Zhao  and  J. Wu",
+   title = "A Site Density Functional Theory for Water: Application to Solvation of Amino Acid Side Chains",
+   year = "2013",
+   journal = jctc,
+   volume = "9",
+   pages = "1896"
+}
+
+
+@ARTICLE{zhao-wu11-correction,
+   author = "S. Zhao and Z. Jin and  J. Wu",
+   title = "Corrections to New Theoretical Method for Rapid Prediction of Solvation Free Energy in Water",
+   year = "2011",
+   journal = jpcb,
+   volume = "115",
+   pages = "15445"
+}
+
+@InProceedings{chandler-varilly11,
+  author =	 {D. Chandler and P. Varilly},
+  title = {Lectures on molecular- and nano-scale fluctuations in water},
+  booktitle = {Complex materials in physics and biology, arXiv: 1101:2235},
+   year = 	 "2010",
+}
+% editor =  {X. Lu and Y. Hu},
+% publisher = {Springer}
+%  address =	 ""
+
+
+@ARTICLE{kloss08-jpcb,
+   author = "T. Kloss and J.  Heil and S. M. Kast",
+   title = "Quantum chemistry in solution by combining 3D integral equation theory with a cluster embedding approach ",
+   year = "2008",
+   journal = jpcb,
+   volume = "112",
+   pages = "4337"
+}
+%pages = "4337-4343"
+%title = "Quantum chemistry in solution by combining 3D integral equation theory with a cluster embedding approach "
+
+@ARTICLE{kloss08-jcp,
+   author = "T. Kloss  and S. M. Kast",
+   title = "Treatment of charged solutes in three-dimensional integral equation theory",
+   year = "2008",
+   journal = jcp,
+   volume = "128",
+   pages = "134505"
+}
+%pages = "article Number: 134505   DOI: 10.1063/1.2841967 "
+%title = "Treatment of charged solutes in three-dimensional integral equation theory"
+
+
+@ARTICLE{giovambattista08,
+   author = "N. Giovambattista and F.  Lopez Carlos and P. J.  Rossky and P. G. Debenedetti",
+   year = "2008",
+   journal = pnas,
+   volume = "105",
+   pages = "2274"
+}
+%pages = "Pages: 2274-2279   DOI: 10.1073/pnas.0708088105"
+%title = "Hydrophobicity of protein surfaces: Separating geometry from chemistry "
+
+@ARTICLE{matysiak11,
+   author = "S. Matysiak and P. G. Debenedetti and P. J. Rossky",
+   year = "2011",
+   journal = jpcb,
+   volume = "115",
+   pages = "14859"
+}
+%pages = "Pages: 14859-14865   DOI: 10.1021/jp2079633"
+%title = "Dissecting the Energetics of Hydrophobic Hydration of Polypeptides "
+
+@ARTICLE{giovambattista09,
+   author = "N. Giovambattista and P. G.  Debenedetti and P. J. Rossky",
+   year = "2009",
+   journal = pnas,
+   volume = "106",
+   pages = "15181"
+}
+%pages = "Pages: 15181-15185   DOI: 10.1073/pnas.0905468106"
+%title = "Enhanced surface hydrophobicity by coupling of surface polarity and topography "
+
+@ARTICLE{lombardero99,
+   author = "M. Lombardero and C. martin and S. Jorge and F. Lado and E. Lomba",
+   year = "1999",
+   journal = jcp,
+   volume = "110",
+   pages = "1148"
+}
+%pages = ""
+%title = ""
+
+@ARTICLE{lado73,
+   author = "F. Lado",
+   year = "1976",
+   journal = pra,
+   volume = "8",
+   pages = "2548"
+}
+%pages = ""
+%title = ""
+
+
+@ARTICLE{laaksonen98,
+   author = "A. Laaksonen and P. Stilbs and R. E. Wasylishen",
+   year = "1998",
+   journal = jcp,
+   volume = "108",
+   pages = "455"
+}
+%pages = "doi: 10.1063/1.475408"
+%title = "Molecular motion and solvation of benzene in water, carbon tetrachloride,
+%carbon disulfide and benzene: A combined molecular dynamics simulation
+%and nuclear magnetic resonance study"
+
+@ARTICLE{saad86,
+   author = "Y. Saad and M.H. Schultz",
+   year = "1986",
+   journal = "SIAM J. Sci. Stat. Comp.",
+   volume = "7",
+   pages = "856"
+}
+%pages = "856-869"
+%title = "Gmres: a generalized minimal residual algorithm for solving nonlinear linear systems"
+
+@ARTICLE{rosenfeld96,
+   author = "Y. Rosenfeld and M. Schmidt and H. Lowen  and P. Tarazona",
+   year = "1996",
+   journal = "J. Phys.: Condens. Matter",
+   volume = "8",
+   pages = "L577"
+}
+%pages = "L577-L581"
+%title = "Dimensional crossover and the freezing transition in density functional theory"
+
+@ARTICLE{cuesta02,
+   author = "J. A. Cuesta and  Y. Martinez-Raton and P. Tarazona",
+   year = "2002",
+   journal = "J. Phys.: Condens. Matter 14 (2002) ",
+   volume = "14",
+   pages = "11965"
+}
+%title = "Close to the edge of fundamental measure theory: a density functional for hard-sphere mixtures"
+
+@ARTICLE{rosenfeld97,
+   author = "Y. Rosenfeld and M. Schmidt and H. Lowen  and P. Tarazona",
+   year = "1997",
+   journal = "Phys. Rev. E",
+   volume = "55",
+   pages = "4245"
+}
+%pages = "4245-4262"
+%title = "Fundamental-measure free-energy density functional for hard spheres: Dimensional crossover and freezing"
+
+@ARTICLE{tarazona00,
+   author = "P. Tarazona",
+   year = "2000",
+   journal = prl,
+   volume = "84",
+   pages = "694"
+}
+%pages = "694-697"
+%title = "Density Functional for Hard Sphere Crystals: A Fundamental Measure Approach"
+
+
+@ARTICLE{tarazona02,
+   author = "P. Tarazona",
+   year = "2002",
+   journal = "Physica A",
+   volume = "306",
+   pages = "243"
+}
+%title = "Fundamental measure theory and dimensional interpolation for the hardspheres fluid"
+
+
+@ARTICLE{tarazona84,
+   author = "P. Tarazona",
+   year = "1984",
+   journal = "Mol. Phys.",
+   volume = "52",
+   pages = "81"
+}
+%pages = "81-96"
+%title = "A density functional theory of melting"
+
+@ARTICLE{groh-mulder00,
+   author = "B. Groh and B. Mulder",
+   year = "2000",
+   journal = pre,
+   volume = "61",
+   pages = "3811"
+}
+%pages = "3811-3822"
+%title = "Hard-sphere solids near close packing: Testing theories for crystallization"
+
+@ARTICLE{groh00,
+   author = "B. Groh",
+   year = "2000",
+   journal = pre,
+   volume = "61",
+   pages = "5218"
+}
+%pages = "5218-5222"
+%title = "Density-functional theory for vacancies in hard-sphere crystals"
+
+
+@ARTICLE{ohnesorge93,
+   author = "R. Ohnesorge and  H. Lowen and H. Wagner",
+   year = "1993",
+   journal = "Europhys. Lett.",
+   volume = "22",
+   pages = "245"
+}
+%pages = "245-249"
+%title = "Density Distribution in a Hard-Sphere Crystal"
+
+@ARTICLE{lutsko06,
+   author = "J. F. Lutsko",
+   year = "2006",
+   journal = pre,
+   volume = "74",
+   pages = "021121"
+}
+%pages = ""
+%title = "Properties of non-fcc hard-sphere solids predicted by density functional theory"
+
+
+@article{raineri92,
+  author = 	 "F. O. Raineri and H. Resat and H. L. Friedman",
+  title = "Static longitudinal dielectric function of model molecular fluids",
+  journal = 	jcp,
+  year = 	"1992",
+  volume =	"96",
+  pages =	"3068"
+}
+% pages = "2684-2690"
+% 
+
+@article{raineri93,
+  author = 	 "F. O. Raineri and H. L. Friedman",
+  title = "Static transverse dielectric function of model molecular fluids",
+  journal = 	jcp,
+  year = 	"1993",
+  volume =	"98",
+  pages =	"8910"
+}
+% pages = "8910-8918"
+% 
+
+@article{bopp96,
+  author = 	 "P. A. Bopp and A. A. Kornyshev and G. Sutmann",
+   title = "Static Nonlocal Dielectric Function of Liquid Water",
+  journal = 	prl,
+  year = 	"1996",
+  volume =	"76",
+  pages =	"1281"
+}
+% pages = "1281-1283"
+%
+
+@article{bopp98,
+  author = 	 "P. A. Bopp and A. A. Kornyshev and G. Sutmann",
+   title = "Frequency and wave-vector dependent dielectric function of water:
+ Collective modes and relaxation spectra",
+  journal = 	jcp,
+  year = 	"1998",
+  volume =	"109",
+  pages =	"1939"
+}
+% pages = "1939-1958"
+%
+
+@ARTICLE{neimark06,
+   author = "P.I. Ravikovitchand and A. Neimark",
+   title ="Density Functional Theory Model of Adsorption on Amorphous and Microporous Silica Materials",
+   year = "2006",
+   journal = "Langmuir",
+   volume = "22",
+   pages = "11171"
+}
+%pages = "11171-11179"
+%title = ""
+
+
+@ARTICLE{neimark11,
+   author = "G.~Yu.~ Gor and A.~Neimark",
+   title = "Adsorption-Induced Deformation of Mesoporous Solids: Macroscopic Approach and Density Functional Theory",
+   year = "2011",
+   journal = "Langmuir",
+   volume = "27",
+   pages = "6926"
+}
+%pages = "6926-6931"
+%title = ""
+
+
+
+
+@article{levesque12_2,
+	title = {Solvation of complex surfaces via molecular density functional theory},
+	volume = {137},
+	issn = {00219606},
+	lccn = {0000},
+	url = {http://jcp.aip.org/resource/1/jcpsa6/v137/i22/p224107_s1?isAuthorized=no},
+	doi = {doi:10.1063/1.4769729},
+	abstract = {We show that classical molecular density functional theory, here in the homogeneous reference fluid approximation in which the functional is inferred from the properties of the bulk solvent, is a powerful new tool to study, at a fully molecular level, the solvation of complex surfaces and interfaces by polar solvents. This implicit solvent method allows for the determination of structural, orientational, and energetic solvation properties that are on a par with all-atom molecular simulations performed for the same system, while reducing the computer time by two orders of magnitude. This is illustrated by the study of an atomistically-resolved clay surface composed of over a thousand atoms wetted by a molecular dipolar solvent. The high numerical efficiency of the method is exploited to carry a systematic analysis of the electrostatic and non-electrostatic components of the surface-solvent interaction within the popular Clay Force Field ({CLAYFF).} Solvent energetics and structure are found to depend weakly upon the atomic charges distribution of the clay surface, even for a rather polar solvent. We conclude on the consequences of such findings for force-field development.},
+	number = {22},
+	urldate = {2012-12-13},
+	journal = {J. Chem. Phys.},
+	author = {Levesque, Maximilien and Marry, Virginie and Rotenberg, Benjamin and Jeanmairet, Guillaume and Vuilleumier, Rodolphe and Borgis, Daniel},
+	month = dec,
+	year = {2012},
+	pages = {224107--224107-8},
+}
+
+
+
+
+@ARTICLE{levesque12_1,
+   author = "M. Levesque and R. Vuilleumier and D. Borgis",
+   title = "Scalar fundamental measure theory for hard spheres in three dimensions. Application to hydrophobic solvation",
+   year = "2012",
+   journal = jcp,
+   volume = "137",
+   pages = "034115"
+}
+%pages = "6926-6931"
+%title = ""
+
+@Misc{fftw3,
+  author =	 {M. Frigo and S. G. Johnson},
+  title =	 {FFTW: a free collection of fast Fourier transforms routines in C},
+  note =	 {Available at the
+FFTW home page:  {\tt http://theory.lcs.mit.edu/~fftw}}
+}
+
+@ARTICLE{huang02,
+   author = "D. M. Huang and D. Chandler",
+   title ="The Hydrophobic Effect and the Influence of Solute-Solvent Attractions",
+   year = "2002",
+   journal = jpcb,
+   volume = "106",
+   pages = "2047"
+}
+
+@ARTICLE{dzubiella04,
+   author = "J. Dzubiella and J. P. Hansen",
+   title ="Competition of hydrophobic and Coulombic interactions between nanosized solutes",
+  year = "2004",
+   journal = jcp,
+   volume = "121",
+   pages = "5514"
+}
+
+@article{jeanmairet13,
+  author = 	 "  G. Jeanmairet and  M. Levesque and R. Vuilleumier and D. Borgis",
+  title = "Molecular Density Functional Theory of Water",
+  journal = 	"J. Phys. Chem. Lett.",
+  year = 	"2013",
+  volume =	"",
+  pages =	""
+}
+
+@article{lebedev99,
+  author = 	 " V. I.  Lebedev and D. N.  Laikov",
+  title = "A quadrature formula for the sphere of the 131st algebraic order of accuracy",
+  journal = 	"Dokl. Math.",
+  year = 	"1999",
+  volume =	"59",
+  pages =	"477"
+}
+
+@article{zhao13,
+  author = 	 "S. Zhao and H. Liu and R. Ramirez and D. Borgis",
+  title = "Accurate evaluation of the angular-dependent direct correlation function of water", 
+  journal = 	jcp,
+  year = 	"2013",
+  volume =	"139",
+  pages =	"034503"
+}
+
+@article{roundy13,
+  author = 	 "J. Hughes and E. J. Krebs and D. Roundy",
+  title = "A classical density-functional theory for describing water interfaces",
+  journal = 	jcp,
+  year = 	"2013",
+  volume =	"138",
+  pages =	"024509"
+}
+
+@article{sun01,
+  author = 	 "S. X. Sun",
+  title = "Weighted density functional theory of the solvophobic effect",
+  journal = 	pre,
+  year = 	"2001",
+  volume =	"64",
+  pages =	"021512"
+}
+
