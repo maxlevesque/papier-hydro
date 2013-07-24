@@ -60,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Tue Jul 23 14:21:00 2013"
+@timestamp def "Wed Jul 24 12:15:23 2013"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -130,7 +130,7 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 2.0
-@    xaxis  label "r(\cE\C)"
+@    xaxis  label "\1r\0 (\cE\C)"
 @    xaxis  label layout para
 @    xaxis  label place auto
 @    xaxis  label char size 1.750000
@@ -226,12 +226,27 @@
 @    yaxis  ticklabel font 0
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
-@    yaxis  tick spec type none
+@    yaxis  tick spec type both
+@    yaxis  tick spec 9
+@    yaxis  tick major 0, 0
+@    yaxis  ticklabel 0, "0"
+@    yaxis  tick minor 1, 0.25
+@    yaxis  tick major 2, 0.5
+@    yaxis  ticklabel 2, "0.5"
+@    yaxis  tick minor 3, 0.75
+@    yaxis  tick major 4, 1
+@    yaxis  ticklabel 4, "1"
+@    yaxis  tick minor 5, 1.25
+@    yaxis  tick major 6, 1.5
+@    yaxis  ticklabel 6, "1.5"
+@    yaxis  tick minor 7, 1.75
+@    yaxis  tick major 8, 2
+@    yaxis  ticklabel 8, "2"
 @    altxaxis  off
 @    altyaxis  off
-@    legend off
+@    legend on
 @    legend loctype view
-@    legend 0.785, 0.85
+@    legend 0.78, 0.83
 @    legend box color 1
 @    legend box pattern 1
 @    legend box linewidth 1.0
@@ -1138,9 +1153,9 @@
 @    s18 type xy
 @    s18 symbol 0
 @    s18 symbol size 1.000000
-@    s18 symbol color 4
+@    s18 symbol color 2
 @    s18 symbol pattern 1
-@    s18 symbol fill color 4
+@    s18 symbol fill color 2
 @    s18 symbol fill pattern 0
 @    s18 symbol linewidth 1.0
 @    s18 symbol linestyle 1
@@ -1150,7 +1165,7 @@
 @    s18 line type 1
 @    s18 line linestyle 1
 @    s18 line linewidth 2.0
-@    s18 line color 1
+@    s18 line color 2
 @    s18 line pattern 1
 @    s18 baseline type 0
 @    s18 baseline off
@@ -1172,7 +1187,7 @@
 @    s18 avalue offset 0.000000 , 0.000000
 @    s18 errorbar on
 @    s18 errorbar place both
-@    s18 errorbar color 4
+@    s18 errorbar color 2
 @    s18 errorbar pattern 1
 @    s18 errorbar size 1.000000
 @    s18 errorbar linewidth 1.0
@@ -1181,8 +1196,8 @@
 @    s18 errorbar riser linestyle 1
 @    s18 errorbar riser clip off
 @    s18 errorbar riser clip length 0.100000
-@    s18 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/output/g.rdf"
-@    s18 legend  ""
+@    s18 comment "/Volumes/Pandore/hydro/molecule/cyclohexane/SPC/Totalrdfcyclo.dat"
+@    s18 legend  "MD"
 @    s19 hidden true
 @    s19 type xy
 @    s19 symbol 0
@@ -1234,21 +1249,21 @@
 @    s19 legend  ""
 @    s20 hidden false
 @    s20 type xy
-@    s20 symbol 1
-@    s20 symbol size 0.500000
+@    s20 symbol 0
+@    s20 symbol size 1.000000
 @    s20 symbol color 4
 @    s20 symbol pattern 1
-@    s20 symbol fill color 6
+@    s20 symbol fill color 4
 @    s20 symbol fill pattern 0
-@    s20 symbol linewidth 1.5
+@    s20 symbol linewidth 1.0
 @    s20 symbol linestyle 1
 @    s20 symbol char 65
 @    s20 symbol char font 0
 @    s20 symbol skip 0
-@    s20 line type 0
+@    s20 line type 1
 @    s20 line linestyle 1
-@    s20 line linewidth 1.0
-@    s20 line color 4
+@    s20 line linewidth 2.0
+@    s20 line color 1
 @    s20 line pattern 1
 @    s20 baseline type 0
 @    s20 baseline off
@@ -1270,7 +1285,7 @@
 @    s20 avalue offset 0.000000 , 0.000000
 @    s20 errorbar on
 @    s20 errorbar place both
-@    s20 errorbar color 6
+@    s20 errorbar color 4
 @    s20 errorbar pattern 1
 @    s20 errorbar size 1.000000
 @    s20 errorbar linewidth 1.0
@@ -1279,25 +1294,25 @@
 @    s20 errorbar riser linestyle 1
 @    s20 errorbar riser clip off
 @    s20 errorbar riser clip length 0.100000
-@    s20 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
-@    s20 legend  ""
+@    s20 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/output/g.rdf"
+@    s20 legend  "MDFT with charges"
 @    s38 hidden false
 @    s38 type xy
-@    s38 symbol 0
-@    s38 symbol size 1.000000
-@    s38 symbol color 2
+@    s38 symbol 1
+@    s38 symbol size 0.750000
+@    s38 symbol color 4
 @    s38 symbol pattern 1
-@    s38 symbol fill color 2
+@    s38 symbol fill color 6
 @    s38 symbol fill pattern 0
-@    s38 symbol linewidth 1.0
+@    s38 symbol linewidth 1.5
 @    s38 symbol linestyle 1
 @    s38 symbol char 65
 @    s38 symbol char font 0
 @    s38 symbol skip 0
-@    s38 line type 1
+@    s38 line type 0
 @    s38 line linestyle 1
-@    s38 line linewidth 2.0
-@    s38 line color 2
+@    s38 line linewidth 1.0
+@    s38 line color 4
 @    s38 line pattern 1
 @    s38 baseline type 0
 @    s38 baseline off
@@ -1319,7 +1334,7 @@
 @    s38 avalue offset 0.000000 , 0.000000
 @    s38 errorbar on
 @    s38 errorbar place both
-@    s38 errorbar color 2
+@    s38 errorbar color 6
 @    s38 errorbar pattern 1
 @    s38 errorbar size 1.000000
 @    s38 errorbar linewidth 1.0
@@ -1328,8 +1343,8 @@
 @    s38 errorbar riser linestyle 1
 @    s38 errorbar riser clip off
 @    s38 errorbar riser clip length 0.100000
-@    s38 comment "/Volumes/Pandore/hydro/molecule/cyclohexane/SPC/Totalrdfcyclo.dat"
-@    s38 legend  "MD"
+@    s38 comment "/Volumes/Pandore/hydro/Hydro_for_publy/molecule/cyclohexane/hydro_VDW/nocharge/output/g.rdf"
+@    s38 legend  "MDFT without charges"
 @target G0.S0
 @type xy
 0 0
@@ -3204,107 +3219,106 @@
 &
 @target G0.S18
 @type xy
-0 -0
-0.2 0
-0.4 0
-0.6 0
-0.8 0
-1 0
-1.2 0
-1.4 0
-1.6 -0
-1.8 0
-2 0
-2.2 0
-2.4 0
-2.6 0
-2.8 0
-3 0
-3.2 0.00022
-3.4 0.02091
-3.6 0.04677
-3.8 0.21649
-4 0.425
-4.2 0.72274
-4.4 1.12126
-4.6 1.53966
-4.8 1.71055
-5 1.60406
-5.2 1.37048
-5.4 1.15191
-5.6 0.9855
-5.8 0.88535
-6 0.82875
-6.2 0.81295
-6.4 0.83448
-6.6 0.87328
-6.8 0.92746
-7 0.98143
-7.2 1.02607
-7.4 1.05112
-7.6 1.05208
-7.8 1.03834
-8 1.02233
-8.2 1.00944
-8.4 0.99976
-8.6 0.9937
-8.8 0.98886
-9 0.98391
-9.2 0.97943
-9.4 0.97575
-9.6 0.97307
-9.8 0.97239
-10 0.97393
-10.2 0.97734
-10.4 0.98232
-10.6 0.98807
-10.8 0.99337
-11 0.99713
-11.2 0.9993
-11.4 0.9995
-11.6 0.99793
-11.8 0.99542
-12 0.99283
-12.2 0.99058
-12.4 0.98916
-12.6 0.9888
-12.8 0.98931
-13 0.9903
-13.2 0.99166
-13.4 0.99302
-13.6 0.99403
-13.8 0.99472
-14 0.9952
-14.2 0.99531
-14.4 0.99526
-14.6 0.99523
-14.8 0.99519
-15 0.99514
-15.2 0.99526
-15.4 0.99542
-15.6 0.99556
-15.8 0.99573
-16 0.99595
-16.2 0.9961
-16.4 0.99628
-16.6 0.99651
-16.8 0.99671
-17 0.99686
-17.2 0.99704
-17.4 0.99716
-17.6 0.99722
-17.8 0.99726
-18 0.99732
-18.2 0.99733
-18.4 0.99733
-18.6 0.99739
-18.8 0.99745
-19 0.9975
-19.2 0.99761
-19.4 0.9977
-19.6 0.99779
-19.8 0.99787
-20 0.99796
+0 0
+0.1 0.00029160827
+0.2 0.00058321654
+0.3 0.00087482481
+0.4 0.0011664331
+0.5 0.0014580413
+0.6 0.0017496496
+0.7 0.0020412579
+0.8 0.0023328662
+0.9 0.0026244744
+1 0.0029160827
+1.1 0.003207691
+1.2 0.0034992992
+1.3 0.0037909075
+1.4 0.0040825158
+1.5 0.004374124
+1.6 0.0046657323
+1.7 0.0049573406
+1.8 0.0052489488
+1.9 0.0055405571
+2 0.0058321654
+2.1 0.0061237737
+2.2 0.0064153819
+2.3 0.0067069902
+2.4 0.0069985985
+2.5 0.0072902067
+2.6 0.007581815
+2.7 0.0078734233
+2.8 0.0081650315
+2.9 0.0084566398
+3 0.0087482481
+3.1 0.0090398563
+3.2 0.010234561
+3.3 0.013759493
+3.4 0.021257261
+3.5 0.03442329
+3.6 0.054070339
+3.7 0.077174035
+3.8 0.15413836
+3.9 0.23510068
+4 0.35112307
+4.1 0.45949935
+4.2 0.57068484
+4.3 0.74010799
+4.4 0.94302711
+4.5 1.1732469
+4.6 1.3802467
+4.7 1.5369324
+4.8 1.6787492
+4.9 1.746247
+5 1.7144512
+5.1 1.6315626
+5.2 1.5384426
+5.3 1.4225963
+5.4 1.2921993
+5.5 1.2091044
+5.6 1.1279986
+5.7 1.0724513
+5.8 1.0173065
+5.9 0.96542072
+6 0.91484047
+6.1 0.86612872
+6.2 0.83073061
+6.3 0.80208721
+6.4 0.78183812
+6.5 0.76566062
+6.6 0.74948313
+6.7 0.7827661
+6.8 0.81706493
+6.9 0.85044234
+7 0.88450912
+7.1 0.91789053
+7.2 0.95133056
+7.3 0.99098402
+7.4 1.0351785
+7.5 1.079021
+7.6 1.1018632
+7.7 1.1004275
+7.8 1.0995968
+7.9 1.0769831
+8 1.0534372
+8.1 1.0298912
+8.2 1.0136377
+8.3 0.99745832
+8.4 0.99086923
+8.5 0.98674675
+8.6 0.98280075
+8.7 0.97771138
+8.8 0.97237743
+8.9 0.97339869
+9 0.978039
+9.1 0.98121218
+9.2 0.98086985
+9.3 0.98052753
+9.4 0.98018521
+9.5 0.97984289
+9.6 0.97950057
+9.7 0.97915825
+9.8 0.97881593
+9.9 0.97847361
 &
 @target G0.S19
 @type xy
@@ -3412,6 +3426,110 @@
 &
 @target G0.S20
 @type xy
+0 -0
+0.2 0
+0.4 0
+0.6 0
+0.8 0
+1 0
+1.2 0
+1.4 0
+1.6 -0
+1.8 0
+2 0
+2.2 0
+2.4 0
+2.6 0
+2.8 0
+3 0
+3.2 0.00022
+3.4 0.02091
+3.6 0.04677
+3.8 0.21649
+4 0.425
+4.2 0.72274
+4.4 1.12126
+4.6 1.53966
+4.8 1.71055
+5 1.60406
+5.2 1.37048
+5.4 1.15191
+5.6 0.9855
+5.8 0.88535
+6 0.82875
+6.2 0.81295
+6.4 0.83448
+6.6 0.87328
+6.8 0.92746
+7 0.98143
+7.2 1.02607
+7.4 1.05112
+7.6 1.05208
+7.8 1.03834
+8 1.02233
+8.2 1.00944
+8.4 0.99976
+8.6 0.9937
+8.8 0.98886
+9 0.98391
+9.2 0.97943
+9.4 0.97575
+9.6 0.97307
+9.8 0.97239
+10 0.97393
+10.2 0.97734
+10.4 0.98232
+10.6 0.98807
+10.8 0.99337
+11 0.99713
+11.2 0.9993
+11.4 0.9995
+11.6 0.99793
+11.8 0.99542
+12 0.99283
+12.2 0.99058
+12.4 0.98916
+12.6 0.9888
+12.8 0.98931
+13 0.9903
+13.2 0.99166
+13.4 0.99302
+13.6 0.99403
+13.8 0.99472
+14 0.9952
+14.2 0.99531
+14.4 0.99526
+14.6 0.99523
+14.8 0.99519
+15 0.99514
+15.2 0.99526
+15.4 0.99542
+15.6 0.99556
+15.8 0.99573
+16 0.99595
+16.2 0.9961
+16.4 0.99628
+16.6 0.99651
+16.8 0.99671
+17 0.99686
+17.2 0.99704
+17.4 0.99716
+17.6 0.99722
+17.8 0.99726
+18 0.99732
+18.2 0.99733
+18.4 0.99733
+18.6 0.99739
+18.8 0.99745
+19 0.9975
+19.2 0.99761
+19.4 0.9977
+19.6 0.99779
+19.8 0.99787
+20 0.99796
+&
+@target G0.S38
+@type xy
 0 0
 0.2 0
 0.4 0
@@ -3513,107 +3631,4 @@
 19.6 0.99778
 19.8 0.99786
 20 0.99794
-&
-@target G0.S38
-@type xy
-0 0
-0.1 0.00029160827
-0.2 0.00058321654
-0.3 0.00087482481
-0.4 0.0011664331
-0.5 0.0014580413
-0.6 0.0017496496
-0.7 0.0020412579
-0.8 0.0023328662
-0.9 0.0026244744
-1 0.0029160827
-1.1 0.003207691
-1.2 0.0034992992
-1.3 0.0037909075
-1.4 0.0040825158
-1.5 0.004374124
-1.6 0.0046657323
-1.7 0.0049573406
-1.8 0.0052489488
-1.9 0.0055405571
-2 0.0058321654
-2.1 0.0061237737
-2.2 0.0064153819
-2.3 0.0067069902
-2.4 0.0069985985
-2.5 0.0072902067
-2.6 0.007581815
-2.7 0.0078734233
-2.8 0.0081650315
-2.9 0.0084566398
-3 0.0087482481
-3.1 0.0090398563
-3.2 0.010234561
-3.3 0.013759493
-3.4 0.021257261
-3.5 0.03442329
-3.6 0.054070339
-3.7 0.077174035
-3.8 0.15413836
-3.9 0.23510068
-4 0.35112307
-4.1 0.45949935
-4.2 0.57068484
-4.3 0.74010799
-4.4 0.94302711
-4.5 1.1732469
-4.6 1.3802467
-4.7 1.5369324
-4.8 1.6787492
-4.9 1.746247
-5 1.7144512
-5.1 1.6315626
-5.2 1.5384426
-5.3 1.4225963
-5.4 1.2921993
-5.5 1.2091044
-5.6 1.1279986
-5.7 1.0724513
-5.8 1.0173065
-5.9 0.96542072
-6 0.91484047
-6.1 0.86612872
-6.2 0.83073061
-6.3 0.80208721
-6.4 0.78183812
-6.5 0.76566062
-6.6 0.74948313
-6.7 0.7827661
-6.8 0.81706493
-6.9 0.85044234
-7 0.88450912
-7.1 0.91789053
-7.2 0.95133056
-7.3 0.99098402
-7.4 1.0351785
-7.5 1.079021
-7.6 1.1018632
-7.7 1.1004275
-7.8 1.0995968
-7.9 1.0769831
-8 1.0534372
-8.1 1.0298912
-8.2 1.0136377
-8.3 0.99745832
-8.4 0.99086923
-8.5 0.98674675
-8.6 0.98280075
-8.7 0.97771138
-8.8 0.97237743
-8.9 0.97339869
-9 0.978039
-9.1 0.98121218
-9.2 0.98086985
-9.3 0.98052753
-9.4 0.98018521
-9.5 0.97984289
-9.6 0.97950057
-9.7 0.97915825
-9.8 0.97881593
-9.9 0.97847361
 &

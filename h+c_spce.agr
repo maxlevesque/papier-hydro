@@ -19,6 +19,12 @@
 @map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
 @map font 12 to "Symbol", "Symbol"
 @map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 14 to "MyriadPro-Regular", "MyriadPro-Regular"
+@map font 15 to "MyriadPro-It", "MyriadPro-It"
+@map font 16 to "MyriadPro-Semibold", "MyriadPro-Semibold"
+@map font 17 to "MyriadPro-SemiboldIt", "MyriadPro-SemiboldIt"
+@map font 18 to "MyriadPro-Bold", "MyriadPro-Bold"
+@map font 19 to "MyriadPro-BoldIt", "MyriadPro-BoldIt"
 @map color 0 to (255, 255, 255), "white"
 @map color 1 to (0, 0, 0), "black"
 @map color 2 to (255, 0, 0), "red"
@@ -54,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Jul 11 18:11:10 2013"
+@timestamp def "Wed Jul 24 11:50:37 2013"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -124,10 +130,10 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 1.0
-@    xaxis  label "\1r  (A)"
+@    xaxis  label "\1r \0(\cE\C)"
 @    xaxis  label layout para
 @    xaxis  label place auto
-@    xaxis  label char size 1.390000
+@    xaxis  label char size 1.750000
 @    xaxis  label font 0
 @    xaxis  label color 1
 @    xaxis  label place normal
@@ -136,7 +142,8 @@
 @    xaxis  tick minor ticks 1
 @    xaxis  tick default 6
 @    xaxis  tick place rounded true
-@    xaxis  tick in
+@    xaxis  tick major in
+@    xaxis  tick minor in
 @    xaxis  tick major size 1.000000
 @    xaxis  tick major color 1
 @    xaxis  tick major linewidth 1.5
@@ -178,7 +185,7 @@
 @    yaxis  label "\1h\sS\N(r; n\s0\N)"
 @    yaxis  label layout para
 @    yaxis  label place auto
-@    yaxis  label char size 1.480000
+@    yaxis  label char size 1.750000
 @    yaxis  label font 0
 @    yaxis  label color 1
 @    yaxis  label place normal
@@ -187,7 +194,8 @@
 @    yaxis  tick minor ticks 1
 @    yaxis  tick default 6
 @    yaxis  tick place rounded true
-@    yaxis  tick in
+@    yaxis  tick major in
+@    yaxis  tick minor in
 @    yaxis  tick major size 1.000000
 @    yaxis  tick major color 1
 @    yaxis  tick major linewidth 2.0
@@ -218,7 +226,28 @@
 @    yaxis  ticklabel font 0
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
-@    yaxis  tick spec type none
+@    yaxis  tick spec type both
+@    yaxis  tick spec 13
+@    yaxis  tick major 0, -1
+@    yaxis  ticklabel 0, "-1"
+@    yaxis  tick minor 1, -0.75
+@    yaxis  tick major 2, -0.5
+@    yaxis  ticklabel 2, "-0.5"
+@    yaxis  tick minor 3, -0.25
+@    yaxis  tick major 4, 0
+@    yaxis  ticklabel 4, "0"
+@    yaxis  tick minor 5, 0.25
+@    yaxis  tick major 6, 0.5
+@    yaxis  ticklabel 6, "0.5"
+@    yaxis  tick minor 7, 0.75
+@    yaxis  tick major 8, 1
+@    yaxis  ticklabel 8, "1"
+@    yaxis  tick minor 9, 1.25
+@    yaxis  tick major 10, 1.5
+@    yaxis  ticklabel 10, "1.5"
+@    yaxis  tick minor 11, 1.75
+@    yaxis  tick major 12, 2
+@    yaxis  ticklabel 12, "2"
 @    altxaxis  off
 @    altyaxis  off
 @    legend on
@@ -327,10 +356,10 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 1.0
-@    xaxis  label "\1r  (A)"
+@    xaxis  label "\1r\0 (\cE\C)"
 @    xaxis  label layout para
 @    xaxis  label place auto
-@    xaxis  label char size 1.390000
+@    xaxis  label char size 1.750000
 @    xaxis  label font 0
 @    xaxis  label color 1
 @    xaxis  label place normal
@@ -339,7 +368,8 @@
 @    xaxis  tick minor ticks 1
 @    xaxis  tick default 6
 @    xaxis  tick place rounded true
-@    xaxis  tick in
+@    xaxis  tick major in
+@    xaxis  tick minor in
 @    xaxis  tick major size 1.000000
 @    xaxis  tick major color 1
 @    xaxis  tick major linewidth 2.0
@@ -381,7 +411,7 @@
 @    yaxis  label "\1c\sS\N(r; n\s0\N)"
 @    yaxis  label layout para
 @    yaxis  label place auto
-@    yaxis  label char size 1.480000
+@    yaxis  label char size 1.750000
 @    yaxis  label font 0
 @    yaxis  label color 1
 @    yaxis  label place opposite
@@ -390,7 +420,8 @@
 @    yaxis  tick minor ticks 1
 @    yaxis  tick default 6
 @    yaxis  tick place rounded true
-@    yaxis  tick in
+@    yaxis  tick major in
+@    yaxis  tick minor in
 @    yaxis  tick major size 1.000000
 @    yaxis  tick major color 1
 @    yaxis  tick major linewidth 2.0
@@ -496,7 +527,7 @@
 @    s0 errorbar riser clip length 0.100000
 @    s0 comment "Cols 1:2"
 @    s0 legend  ""
-@    s1 hidden false
+@    s1 hidden true
 @    s1 type xy
 @    s1 symbol 0
 @    s1 symbol size 1.000000

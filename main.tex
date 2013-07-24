@@ -264,7 +264,7 @@ The phenomenological parameters $a$ and $m$ being prescribed, the final function
 
 \section{Functional minimization}
 
-In the general case, the total functional  is minimized with respect to $\rhorom$, that is discretized  on a  position and orientation grid.  The minimization is performed in fact with respect to a ''fictitious wave function'', $\Psi(\rr,\Omega)=\rho(\rr,\Omega)^{1/2}$,  in order to prevent the density from becoming negative in the logarithm. The position are represented on a 3D-grid with typically 3-4  points per \angstrom whereas the orientations are discretized using a Lebedev grid (yielding the most efficient angular quadrature for the unit sphere\cite{lebedev99}) for $\theta, \phi$, the orientation of the molecule $C_{2}$ axis, and a regular grid for the remaining angle $\psi$ (from $0$ to $\pi$). We use typically $N_\Omega = 12 \times 3$ angles. The calculation begins with the tabulation of the external Lennard-Jones potential $\phi_n(\rr)$, and external electric field $\EE_c(\rr)$. The latter is computed by extrapolating the solute charges on the grid and solving the Poisson equation. Concerning the polarization part, the molecular dipole function $\MU(\kk,\Omega)$ is also precomputed in k-space.   At each minimization cycle, $\rhorom$ is Fourier transformed to get 
+In the general case, the total functional  is minimized with respect to $\rhorom$, that is discretized  on a  position and orientation grid.  The minimization is performed in fact with respect to a ''fictitious wave function'', $\Psi(\rr,\Omega)=\rho(\rr,\Omega)^{1/2}$,  in order to prevent the density from becoming negative in the logarithm. The position are represented on a 3D-grid with typically 3-4  points per \angstrom \ whereas the orientations are discretized using a Lebedev grid (yielding the most efficient angular quadrature for the unit sphere\cite{lebedev99}) for $\theta, \phi$, the orientation of the molecule $C_{2}$ axis, and a regular grid for the remaining angle $\psi$ (from $0$ to $\pi$). We use typically $N_\Omega = 12 \times 3$ angles. The calculation begins with the tabulation of the external Lennard-Jones potential $\phi_n(\rr)$, and external electric field $\EE_c(\rr)$. The latter is computed by extrapolating the solute charges on the grid and solving the Poisson equation. Concerning the polarization part, the molecular dipole function $\MU(\kk,\Omega)$ is also precomputed in k-space.   At each minimization cycle, $\rhorom$ is Fourier transformed to get 
 $\rho(\kk,\Omega)$,  which is integrated over angles to get $n(\kk)~=~\int d\Omega \, \rho(\kk,\Omega)$ and $\PP(\kk) = \int d\Omega \, \MU(\kk,\Omega) \rho(\kk,\Omega)$,  as well as  its longitudinal and transverse components defined by eq.~\ref{eq:P_L_T}.
 The non-local excess terms in eq.\ref{eq:FP_exc} are computed in k-space and so are the gradients with respect to $\rho(\kk,\Omega)$; those are then back-transformed to r-space. 
 
@@ -336,7 +336,7 @@ Finally, in the present functional approach, the coupling between the density an
 %fig3
 \begin{figure}
     \includegraphics[width=8.5cm]{F_VdW_R=125_R=14.pdf}
-    \caption{Van-der-Waals function of eq.~\ref{eq:F_VdW} describing  the (near) coexistence of liquid and vapor for the coarse-grained densities. The blue and black lines correspond to two different values of the reference hard-sphere fluid radius:  $R_0 = 1.25 \AA$ and $R_0 = 1.4 \AA$, respectively.
+    \caption{Van-der-Waals function of eq.~\ref{eq:F_VdW} describing  the (near) coexistence of liquid and vapor for the coarse-grained densities. The blue dashed line and black line correspond to two different values of the reference hard-sphere fluid radius:  $R_0 = 1.25 \AA$ and $R_0 = 1.4 \AA$, respectively.
         \label{fig:fn}
         }
 \end{figure}
@@ -354,12 +354,11 @@ Finally, in the present functional approach, the coupling between the density an
 
 %fig5
 \begin{figure}
-    \includegraphics[width=8.5cm]{cyclohexane_g_and_dens.pdf}
+    \includegraphics[width=8.5cm]{cyclohexane_g_and_dens_with_legend.pdf}
     \caption{
         \label{fig:gr_cyclohexane}
         Comparison of the center-of-mass/water oxygen radial distribution function computed by molecular dynamics (red line) and MDFT
-        with and without atomic partial charges (black lines and blue circles, respectively) for a dissolved molecule of cyclohexane. The top figure display image of the molecule and the associated three-dimensional water density, obtained efficiently by functional minimization, the scale is the same than in fig.~\ref{fig:gr_neopentane}.
-        }
+        with and without atomic partial charges (black lines and blue circles, respectively) for a dissolved molecule of cyclohexane. The top figure display image of the molecule and the associated three-dimensional water density, obtained efficiently by functional minimization.        }
 \end{figure}
 
 %fig6

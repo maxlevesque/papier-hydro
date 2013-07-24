@@ -60,12 +60,12 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Tue Jul 23 11:32:02 2013"
+@timestamp def "Wed Jul 24 13:52:27 2013"
 @with line
 @    line on
 @    line loctype world
 @    line g0
-@    line 9, 0.173, 10, 0.173
+@    line 13, 0.173, 14.9, 0.173
 @    line linewidth 5.0
 @    line linestyle 1
 @    line color 1
@@ -143,7 +143,7 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 2.0
-@    xaxis  label "R (\cE\C)"
+@    xaxis  label "\1R\0 (\cE\C)"
 @    xaxis  label layout para
 @    xaxis  label place auto
 @    xaxis  label char size 1.750000
@@ -195,7 +195,7 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 2.0
-@    yaxis  label "\f{Symbol}b\0F/4\f{Symbol}p\0R\S2\0\N (\cE\C\S-2\N)"
+@    yaxis  label "\f{Symbol}b\0F/(4\f{Symbol}p\0R\S2\0\N) (\cE\C\S\x-\x2\N)"
 @    yaxis  label layout para
 @    yaxis  label place auto
 @    yaxis  label char size 1.750000
