@@ -19,6 +19,12 @@
 @map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
 @map font 12 to "Symbol", "Symbol"
 @map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 14 to "MyriadPro-Regular", "MyriadPro-Regular"
+@map font 15 to "MyriadPro-It", "MyriadPro-It"
+@map font 16 to "MyriadPro-Semibold", "MyriadPro-Semibold"
+@map font 17 to "MyriadPro-SemiboldIt", "MyriadPro-SemiboldIt"
+@map font 18 to "MyriadPro-Bold", "MyriadPro-Bold"
+@map font 19 to "MyriadPro-BoldIt", "MyriadPro-BoldIt"
 @map color 0 to (255, 255, 255), "white"
 @map color 1 to (0, 0, 0), "black"
 @map color 2 to (255, 0, 0), "red"
@@ -54,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Jul 11 17:34:59 2013"
+@timestamp def "Wed Jul 24 11:48:09 2013"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -127,7 +133,7 @@
 @    xaxis  label "\1n/n\s0"
 @    xaxis  label layout para
 @    xaxis  label place auto
-@    xaxis  label char size 1.480000
+@    xaxis  label char size 1.750000
 @    xaxis  label font 0
 @    xaxis  label color 1
 @    xaxis  label place normal
@@ -136,7 +142,8 @@
 @    xaxis  tick minor ticks 1
 @    xaxis  tick default 6
 @    xaxis  tick place rounded true
-@    xaxis  tick in
+@    xaxis  tick major in
+@    xaxis  tick minor in
 @    xaxis  tick major size 1.000000
 @    xaxis  tick major color 1
 @    xaxis  tick major linewidth 2.0
@@ -167,7 +174,22 @@
 @    xaxis  ticklabel font 0
 @    xaxis  ticklabel color 1
 @    xaxis  tick place both
-@    xaxis  tick spec type none
+@    xaxis  tick spec type both
+@    xaxis  tick spec 9
+@    xaxis  tick major 0, 0
+@    xaxis  ticklabel 0, "0"
+@    xaxis  tick minor 1, 0.25
+@    xaxis  tick major 2, 0.5
+@    xaxis  ticklabel 2, "0.5"
+@    xaxis  tick minor 3, 0.75
+@    xaxis  tick major 4, 1
+@    xaxis  ticklabel 4, "1"
+@    xaxis  tick minor 5, 1.25
+@    xaxis  tick major 6, 1.5
+@    xaxis  ticklabel 6, "1.5"
+@    xaxis  tick minor 7, 1.75
+@    xaxis  tick major 8, 2
+@    xaxis  ticklabel 8, "2"
 @    yaxis  on
 @    yaxis  type zero false
 @    yaxis  offset 0.000000 , 0.000000
@@ -175,10 +197,10 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 1.0
-@    yaxis  label "\1F\sVdW\N(n)/n\s0"
+@    yaxis  label "\1F\sVdW\N(n).n\s0\N\S\f{Symbol}-\f{}1\N"
 @    yaxis  label layout para
 @    yaxis  label place auto
-@    yaxis  label char size 1.480000
+@    yaxis  label char size 1.750000
 @    yaxis  label font 0
 @    yaxis  label color 1
 @    yaxis  label place normal
@@ -187,7 +209,8 @@
 @    yaxis  tick minor ticks 1
 @    yaxis  tick default 6
 @    yaxis  tick place rounded true
-@    yaxis  tick in
+@    yaxis  tick major in
+@    yaxis  tick minor in
 @    yaxis  tick major size 1.000000
 @    yaxis  tick major color 1
 @    yaxis  tick major linewidth 2.0
@@ -218,7 +241,28 @@
 @    yaxis  ticklabel font 0
 @    yaxis  ticklabel color 1
 @    yaxis  tick place both
-@    yaxis  tick spec type none
+@    yaxis  tick spec type both
+@    yaxis  tick spec 13
+@    yaxis  tick major 0, -0.1
+@    yaxis  ticklabel 0, "-0,1"
+@    yaxis  tick minor 1, -0.05
+@    yaxis  tick major 2, 0
+@    yaxis  ticklabel 2, "0"
+@    yaxis  tick minor 3, 0.05
+@    yaxis  tick major 4, 0.1
+@    yaxis  ticklabel 4, "0.1"
+@    yaxis  tick minor 5, 0.15
+@    yaxis  tick major 6, 0.2
+@    yaxis  ticklabel 6, "0.2"
+@    yaxis  tick minor 7, 0.25
+@    yaxis  tick major 8, 0.3
+@    yaxis  ticklabel 8, "0.3"
+@    yaxis  tick minor 9, 0.35
+@    yaxis  tick major 10, 0.4
+@    yaxis  ticklabel 10, "0.4"
+@    yaxis  tick minor 11, 0.45
+@    yaxis  tick major 12, 0.5
+@    yaxis  ticklabel 12, "0.5"
 @    altxaxis  off
 @    altyaxis  off
 @    legend on
@@ -503,7 +547,7 @@
 @    s5 symbol char font 0
 @    s5 symbol skip 0
 @    s5 line type 1
-@    s5 line linestyle 1
+@    s5 line linestyle 3
 @    s5 line linewidth 2.5
 @    s5 line color 4
 @    s5 line pattern 1
@@ -553,7 +597,7 @@
 @    s6 symbol skip 0
 @    s6 line type 0
 @    s6 line linestyle 1
-@    s6 line linewidth 1.0
+@    s6 line linewidth 2.0
 @    s6 line color 7
 @    s6 line pattern 1
 @    s6 baseline type 0
@@ -600,8 +644,8 @@
 @    s7 symbol char 65
 @    s7 symbol char font 0
 @    s7 symbol skip 0
-@    s7 line type 1
-@    s7 line linestyle 1
+@    s7 line type 0
+@    s7 line linestyle 2
 @    s7 line linewidth 2.0
 @    s7 line color 4
 @    s7 line pattern 1
