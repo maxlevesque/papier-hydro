@@ -60,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Thu Jun 27 16:29:38 2013"
+@timestamp def "Wed Jul 24 12:28:25 2013"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -130,7 +130,7 @@
 @    xaxis  bar color 1
 @    xaxis  bar linestyle 1
 @    xaxis  bar linewidth 2.0
-@    xaxis  label "\f{Symbol}D\f{}F\sSolv\N-MD (kJ.mol\S-1\N)"
+@    xaxis  label "\f{Symbol}D\f{}F\sSolv-ref\N (kJ.mol\S\x-\x1\N)"
 @    xaxis  label layout para
 @    xaxis  label place auto
 @    xaxis  label char size 1.500000
@@ -182,7 +182,7 @@
 @    yaxis  bar color 1
 @    yaxis  bar linestyle 1
 @    yaxis  bar linewidth 2.0
-@    yaxis  label "\f{Symbol}D\f{}F\sSolv\N(kJ.mol\S-1\N)"
+@    yaxis  label "\f{Symbol}D\f{}F\sSolv\N (kJ.mol\S\x-\x1\N)"
 @    yaxis  label layout para
 @    yaxis  label place auto
 @    yaxis  label char size 1.500000
@@ -315,7 +315,7 @@
 @    s1 symbol char font 0
 @    s1 symbol skip 0
 @    s1 line type 1
-@    s1 line linestyle 1
+@    s1 line linestyle 3
 @    s1 line linewidth 2.0
 @    s1 line color 2
 @    s1 line pattern 1
@@ -508,12 +508,14 @@
 &
 @target G0.S1
 @type xydy
-14.6858 14.6858 0.54
+9 9 0
 10.7529 10.7529 0.5
-16.4013 16.4013 0.63
 10.9621 10.9621 0.46
-15.439 15.439 0.59
 13.8072 13.8072 0.54
+14.6858 14.6858 0.54
+15.439 15.439 0.59
+16.4013 16.4013 0.63
+20 20 0
 &
 @target G0.S2
 @type xy
