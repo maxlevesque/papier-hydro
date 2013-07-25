@@ -60,7 +60,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Wed Jul 24 12:15:23 2013"
+@timestamp def "Wed Jul 24 18:48:47 2013"
 @r0 off
 @link r0 to g0
 @r0 type above
@@ -248,7 +248,7 @@
 @    legend loctype view
 @    legend 0.78, 0.83
 @    legend box color 1
-@    legend box pattern 1
+@    legend box pattern 0
 @    legend box linewidth 1.0
 @    legend box linestyle 1
 @    legend box fill color 0
