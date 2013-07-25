@@ -347,8 +347,9 @@ Finally, in the present functional approach, the coupling between the density an
     \includegraphics[width=8.5cm]{neopentane_g_and_dens.pdf}
     \caption{
         \label{fig:gr_neopentane}
-        Comparison of the solute center-of-mass/water oxygen radial distribution function computed by molecular dynamics (red line) and MDFT
-        with and without atomic partial charges (black lines and blue circles, respectively) for a dissolved molecule of neopentane. The top figure displays image of the molecule and the associated three-dimensional water density, obtained efficiently by functional minimization.
+        At the top, the neopentane molecule and the associated three-dimensional water density obtained by functional minimization. At the bottom, the radial distribution function between the neopentane center of mass and the oxygen of water as calculated by MDFT with hard-sphere bridge and Van-der-Waals correction with atomic partial charges (black line) and without (blue circle). The reference radial distribution function as calculated by MD is shown in red.
+%        Comparison of the solute center-of-mass/water oxygen radial distribution function computed by molecular dynamics (red line) and MDFT
+%        with and without atomic partial charges (black lines and blue circles, respectively) for a dissolved molecule of neopentane. The top figure displays image of the molecule and the associated three-dimensional water density, obtained efficiently by functional minimization.
         }
 \end{figure}
 
@@ -358,8 +359,10 @@ Finally, in the present functional approach, the coupling between the density an
     \includegraphics[width=8.5cm]{cyclohexane_g_and_dens_with_legend.pdf}
     \caption{
         \label{fig:gr_cyclohexane}
-        Comparison of the solute center-of-mass/water oxygen radial distribution function computed by molecular dynamics (red line) and MDFT
-        with and without atomic partial charges (black lines and blue circles, respectively) for a dissolved molecule of cyclohexane. The top figure display image of the molecule and the associated three-dimensional water density, obtained efficiently by functional minimization.        }
+                At the top, the cyclohexane molecule and the associated three-dimensional water density obtained by functional minimization. At the bottom, the radial distribution function between the cyclohexane center of mass and the oxygen of water as calculated by MDFT with hard-sphere bridge and Van-der-Waals correction with atomic partial charges (black line) and without (blue circle). The reference radial distribution function as calculated by MD is shown in red.
+%        Comparison of the solute center-of-mass/water oxygen radial distribution function computed by molecular dynamics (red line) and MDFT
+%        with and without atomic partial charges (black lines and blue circles, respectively) for a dissolved molecule of cyclohexane. The top figure display image of the molecule and the associated three-dimensional water density, obtained efficiently by functional minimization.      
+  }
 \end{figure}
 
 %fig6
@@ -368,7 +371,10 @@ Finally, in the present functional approach, the coupling between the density an
     %~ \includegraphics{FIGURES/fn.pdf}
     \caption{
         \label{fig:free_energies_alcanes}
-        Solvation free-energies of small alcane chains of length from $n=1$ to 6 (methane to hexane). The figure correlates the values obtained by MDFT minimization without and with the hard-sphere bridge term correction of  eqs~\ref{eq:Fn_exc}-\ref{eq:Fn_bridge} (green squares and black diamonds, respectively) to the the MD values computed by Ashbaugh {\em et al.}\cite{ashbaugh_hydration_1998} (red circle and red line for eyes guidance; the bars indicate the reported error bars).         }
+        The figure correlates the solvation free-energies values for the 6 first straight-chain alkanes (from methane on the left to hexane on the right).
+        MDFT results without corrections are shown in green squares and MDFT with hard-sphere bridge and Van-der-Waals correction results are shown in black. The reference MD results, computed by Ashbaugh {\em et al.}\cite{ashbaugh_hydration_1998} are shown in red, with the reported error bars. Note that the results of MDFT with HSB but without Van-der-Waals correction are also very satisfying\cite{levesque12_1}. 
+%        Solvation free-energies of small alcane chains of length from $n=1$ to 6 (methane to hexane). The figure correlates the values obtained by MDFT minimization without and with the hard-sphere bridge term correction of  eqs~\ref{eq:Fn_exc}-\ref{eq:Fn_bridge} (green squares and black diamonds, respectively) to the the MD values computed by Ashbaugh {\em et al.}\cite{ashbaugh_hydration_1998} (red circle and red line for eyes guidance; the bars indicate the reported error bars).  
+               }
 \end{figure}
 
 %fig7
@@ -377,7 +383,7 @@ Finally, in the present functional approach, the coupling between the density an
     \includegraphics[width=8.5cm]{comp_MD_MDFT_ChandlerSys_VdW_a12p3m0p9_SPC.pdf}
     \caption{
         \label{fig:gr_Chandler}
-        Solute-water radial distribution function for a growing hard sphere of radius $R$ obtained by MDFT minimization using simply a hard-sphere bridge term (eqs~\ref{eq:Fn_exc}-\ref{eq:Fn_bridge}) (blue dashed line, top figure) or hard-sphere bridge term plus long range Van-der-Waals correction (eq.~\ref{eq:Fn_exc_2}) (blue dashed line line, bottom figure), compared to the Monte-Carlo results of Huang and Chandler\cite{huang02} (red lines).       
+        Solute-water radial distribution function for a growing hard sphere of radius $R$ obtained by MDFT minimization using simply a hard-sphere bridge term (eqs~\ref{eq:Fn_exc}-\ref{eq:Fn_bridge}) (blue dashed line, top figure) or hard-sphere bridge term plus long range Van-der-Waals correction (eq.~\ref{eq:Fn_exc_2}) (blue dashed line line, bottom figure). The Monte-Carlo results of Huang and Chandler\cite{huang02} are shown in red lines.       
         }
 \end{figure}
 
@@ -387,7 +393,7 @@ Finally, in the present functional approach, the coupling between the density an
     \includegraphics[width=8.5cm]{gHANSEN_VdW_a12p3_m0p9_SPC.pdf}
     \caption{
         \label{fig:gr_Hansen}
-        Same than Figure~\ref{fig:gr_Chandler} for a growing soft sphere of radius $R$ and comparison to the MD results of Dzubiella and Hansen\cite{dzubiella04} in red.         }
+        Same as Figure~\ref{fig:gr_Chandler} for a growing soft-repulsive sphere (see text) of radius $R$ and comparison to the MD results of Dzubiella and Hansen\cite{dzubiella04} in red.         }
 \end{figure}
 
 %fig9
@@ -395,8 +401,8 @@ Finally, in the present functional approach, the coupling between the density an
     \includegraphics[width=8.5cm]{ener_systemChandler_VdW_MD_SPC.pdf}
     \caption{
         \label{fig:free_energy_Hansen}
-        Solvation free energy of a  growing soft sphere of radius $R$ obtained by MDFT minimization using simply the hard-sphere bridge term of eqs~\ref{eq:Fn_exc}-\ref{eq:Fn_bridge} (blue squares) or the hard-sphere bridge term plus long range Van-der-Waals correction of eq.~\ref{eq:Fn_exc_2} (black circles), compared to the MD results of Dzubiella and Hansen\cite{dzubiella04} (red line). The arrow
-        indicates the experimental value of the liquid-vapor surface tension of water at ambient conditions\cite{Lemmon}.        }
+        Solvation free energy of soft-repulsive spheres (see text) for different radius $R$ obtained by MDFT minimization using simply the hard-sphere bridge term of eqs~\ref{eq:Fn_exc}-\ref{eq:Fn_bridge} (blue squares) or the hard-sphere bridge term plus long range Van-der-Waals correction of eq.~\ref{eq:Fn_exc_2} (black circles). The reference MD results of Dzubiella and Hansen\cite{dzubiella04} are shown in red. The arrow
+        indicates the expected limit which is the experimental value of the liquid-vapor surface tension of water at ambient conditions\cite{Lemmon}.        }
 \end{figure}
 
 
