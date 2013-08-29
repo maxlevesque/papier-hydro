@@ -1,0 +1,261 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass letter
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 0
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout My Address
+Guillaume Jeanmairet
+\begin_inset Newline newline
+\end_inset
+
+Département de Chimie,
+\begin_inset Newline newline
+\end_inset
+
+Ecole Normale Supérieure
+\begin_inset Newline newline
+\end_inset
+
+24, rue Lhomond 75005 Paris
+\begin_inset Newline newline
+\end_inset
+
+guillaume.jeanmairet@ens.fr
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Send To Address
+Marsha I.
+ Lester
+\begin_inset Newline newline
+\end_inset
+
+Editor
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+The Journal of Chemical Physics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Red fields are mandatory, green ones optional.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Signature
+On behalf of the authors,
+\begin_inset Newline newline
+\end_inset
+
+Guillaume Jeanmairet
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename signature.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Opening
+Dear Editor,
+\end_layout
+
+\begin_layout Standard
+Please find here the answers to the questions and remarks of the two referees
+ concerning the manuscript called 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+Molecular Density Functional Theory of Water describing Hydrophobicity at
+ Short and Long Length Scales
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, written by Maximilien Levesque (maximilien.levesque@gmail.com), Daniel Borgis
+ (daniel.borgis@ens.fr) and myself.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Reviewer 1:
+\end_layout
+
+\begin_layout Standard
+-p8: 
+\begin_inset Quotes eld
+\end_inset
+
+clew
+\begin_inset Quotes erd
+\end_inset
+
+ as been changed to 
+\begin_inset Quotes eld
+\end_inset
+
+clue
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+-eq18:The left side of the equation has been corrected.
+\end_layout
+
+\begin_layout Standard
+-Remark 1, p7: We do not say that the scalar functional of Kierlik and Rosinberg
+ is equivalent to fundamental measure theory of Rosenfeld anymore, instead
+ we just mention that it gives the same results for inhomogeneous hard-sphere
+ fluid.
+\end_layout
+
+\begin_layout Standard
+-Remark 2, p12: Now we specify that in our approach the treatment of the
+ short-range and long-range components is not separated but that there is
+ a unique computation of the complete density by functional minimization
+ and that the short and long range components are just functions of this
+ complete density.
+ Moreover we mention that the Lum-Chandler-Weeks theory are modification
+ of the Van-der-Waals square gradient theory and therefore not included
+ in the minimization process, therefore or approach is more consistent in
+ the DFT formalism.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Reviewer 2:
+\end_layout
+
+\begin_layout Standard
+-p.2: The structure factor symbol is now 
+\begin_inset Formula $S(k)$
+\end_inset
+
+ instead of 
+\begin_inset Formula $\chi(k)$
+\end_inset
+
+, which avoid confusion with the dielectric susceptibility.
+\end_layout
+
+\begin_layout Standard
+-p9: FFTs to be handled at each step
+\end_layout
+
+\begin_layout Standard
+-Figures: We give an additional title of each figure which summarize the
+ informations that are contained in it.
+\end_layout
+
+\begin_layout Standard
+-For clarity reasons we prefer to do not use abbreviation for Lum-Chandler-Weeks
+ theory.
+\end_layout
+
+\begin_layout Standard
+-p13: We mention that the incorporation of the Van-der-Waals term do not
+ cause a huge increase of the computational time and therefore is not responsibl
+e for a limitation of the size of the studied systems, that is a why a the
+ study of biological systems with that method seems possible.
+\end_layout
+
+\begin_layout Standard
+-p13:We mention that even if the term in 
+\begin_inset Formula $\ensuremath{\left(\mathbf{\nabla}\bar{n}(\bm{r})\right)^{2}}$
+\end_inset
+
+ do not have a critical impact here it is meanly because the studied solutes
+ are spherical and we believe that this term will be crucial for the study
+ of solutes with a much more complex shapes, such as proteins.
+\end_layout
+
+\begin_layout Closing
+Sincerely,
+\end_layout
+
+\end_body
+\end_document
